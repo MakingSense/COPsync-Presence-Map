@@ -15,18 +15,12 @@
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
-        <StackPanel Grid.Row="1" HorizontalAlignment="Center" Grid.ColumnSpan="3" VerticalAlignment="Center">
-            <Image Source="/Images/COPSyncLogo.png" Stretch="None"></Image>
+        <StackPanel Grid.Row="1" HorizontalAlignment="Center" Grid.ColumnSpan="3" VerticalAlignment="Center" Margin="0">
+            <Image Source="/Images/COPSyncLogo.png" Stretch="None" Margin="0,20,0,0"></Image>
             <TextBlock Text="Presence Map generator" FontSize="35" TextAlignment="Center" Margin="0,25,0,0"></TextBlock>
-            <TextBlock Text="username" FontSize="13" Margin="0,15,0,0"></TextBlock>
-            <TextBox x:Name="Username" Width="400" Height="40" FontSize="25"></TextBox>
-            <DockPanel Margin="0,15,0,0">
-                <TextBlock Text="password" FontSize="13"></TextBlock>
-                <TextBlock Text="Password is case sensitive" FontSize="11" TextAlignment="Right"></TextBlock>
-            </DockPanel>
-            <PasswordBox x:Name="Password" Width="400" Height="40" FontSize="25" ></PasswordBox>
+            <DockPanel Margin="0,15,0,0"/>
 
-            <Button Width="400" Height="60" Content="Select Spreadsheet" Name="btnSelectSpreadsheet" Margin="0,25,0,0" Background="#333333" Foreground="White" FontWeight="Bold" FontSize="20">
+            <Button Width="400" Height="60" Content="Select Spreadsheet" Name="btnSelectSpreadsheet" Margin="0" Background="#333333" Foreground="White" FontWeight="Bold" FontSize="20">
                 <i:Interaction.Triggers>
                     <i:EventTrigger EventName="Click">
                         <cal:ActionMessage MethodName="SelectSpreadsheet" />
@@ -34,9 +28,9 @@
                 </i:Interaction.Triggers>
             </Button>
 
-            <TextBlock Text="{Binding SpreadsheetPath}" FontSize="13" Margin="0,15,0,0"></TextBlock>
+            <TextBlock Text="{Binding SpreadsheetPath}" FontSize="13" Margin="0,0,0,15"></TextBlock>
 
-            <Button Width="400" Height="60" Content="Select OutputFolder" Name="btnSelectOutputFolder" Margin="0,25,0,0" Background="#333333" Foreground="White" FontWeight="Bold" FontSize="20">
+            <Button Width="400" Height="60" Content="Select OutputFolder" Name="btnSelectOutputFolder" Margin="0" Background="#333333" Foreground="White" FontWeight="Bold" FontSize="20">
                 <i:Interaction.Triggers>
                     <i:EventTrigger EventName="Click">
                         <cal:ActionMessage MethodName="SelectOutputFolder" />
@@ -44,9 +38,9 @@
                 </i:Interaction.Triggers>
             </Button>
 
-            <TextBlock Text="{Binding OutputFolder}" FontSize="13" Margin="0,15,0,0"></TextBlock>
+            <TextBlock Text="{Binding OutputFolder}" FontSize="13" Margin="0,0,0,15" TextAlignment="Center"></TextBlock>
 
-            <Button Width="400" Height="60" Content="Process" Margin="0,25,0,0" Background="#333333" Foreground="White" FontWeight="Bold" FontSize="20">
+            <Button Width="400" Height="60" Content="Process" Margin="0" Background="#333333" Foreground="White" FontWeight="Bold" FontSize="20">
                 <i:Interaction.Triggers>
                     <i:EventTrigger EventName="Click">
                         <cal:ActionMessage MethodName="Process">
@@ -55,11 +49,10 @@
                     </i:EventTrigger>
                 </i:Interaction.Triggers>
             </Button>
-            <TextBlock Text="Can't access your account?" TextAlignment="Center" Margin="0,15,0,0"></TextBlock>
 
         </StackPanel>
 
-        <StackPanel Grid.Column="0" Grid.Row="2" VerticalAlignment="Bottom">
+        <StackPanel Grid.Column="0" Grid.Row="2" VerticalAlignment="Bottom" Margin="0,20,0,0">
             <TextBlock Text="Copyright © 2015 COPsync." Foreground="{DynamicResource FontColor}"></TextBlock>
             <TextBlock Text="All rights reserved." Foreground="{DynamicResource FontColor}"></TextBlock>
         </StackPanel>
