@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SpreadsheetUtilities;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -6,8 +7,8 @@ using System.Xml;
 
 namespace COPsyncPresenceMap.WPF.Services.Interfaces
 {
-    public interface IPainterService
+    public interface ISpreadsheetParsingService
     {
-        string Process(string inputSvgFilePath, string outputFolderPath, Color color, IEnumerable<string> ids);
+        Spreadsheet Process(string inputFilePath);
     }
 }

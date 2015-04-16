@@ -8,12 +8,45 @@ using WinForms = System.Windows.Forms;
 using System.Diagnostics;
 using System.IO;
 using System.Windows;
+using SpreadsheetUtilities;
+using System.Linq;
+using COPsyncPresenceMap.WPF.Helpers;
 
 namespace COPsyncPresenceMap.WPF.ViewModels
 {
     public class GeneralViewModel : Screen
     {
         private readonly IPainterService _painterService;
+        private readonly ISpreadsheetParsingService _spreadsheetParsingService;
+
+        private Spreadsheet _spreadsheet;
+        public Spreadsheet Spreadsheet
+        {
+            get { return _spreadsheet; }
+            set
+            {
+                if (_spreadsheet != value)
+                {
+                    _spreadsheet = value;
+                    ReadyToProcess = _spreadsheet != null;
+                    NotifyOfPropertyChange();
+                }
+            }
+        }
+
+        private bool _readyToProcess;
+        public bool ReadyToProcess
+        {
+            get { return _readyToProcess; }
+            private set
+            {
+                if (_readyToProcess != value)
+                {
+                    _readyToProcess = value;
+                    NotifyOfPropertyChange();
+                }
+            }
+        }
 
         private string _spreadsheetPath;
         public string SpreadsheetPath
@@ -57,28 +90,36 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             }
         }
 
-        public GeneralViewModel(IPainterService painterService)
+        public GeneralViewModel(IPainterService painterService, ISpreadsheetParsingService spreadsheetParsingService)
         {
             _painterService = painterService;
-
-            _painterService.Done += demoService_Done;
+            _spreadsheetParsingService = spreadsheetParsingService;
         }
 
-        void demoService_Done(object sender, PainterServiceEventArgs e)
+
+        public void Process()
+        {
+            var ids = Spreadsheet.GetIdsToFill(
+                PresenceSpreadsheetHelpers.CHECKCOLUMN_COPSYNC_ENTERPRISE,
+                PresenceSpreadsheetHelpers.CHECKCOLUMN_COPSYNC911,
+                PresenceSpreadsheetHelpers.CHECKCOLUMN_WARRANTSYNC);
+
+            var color = Color.FromArgb(SelectedFillColor.R, SelectedFillColor.G, SelectedFillColor.B);
+
+            var resultPath = _painterService.Process("base-map.svg", OutputFolder, color, ids);
+
+            OpenExplorerWindowAndSelectFile(resultPath);
+        }
+
+        private void OpenExplorerWindowAndSelectFile(string resultPath)
         {
             ProcessStartInfo l_psi = new ProcessStartInfo();
             l_psi.FileName = "explorer";
-            l_psi.Arguments = string.Format("{0},/select", e.ResultPath);
+            l_psi.Arguments = string.Format("{0},/select", resultPath);
             l_psi.UseShellExecute = true;
             Process l_newProcess = new Process();
             l_newProcess.StartInfo = l_psi;
             l_newProcess.Start();
-        }
-
-        public void Process()
-        {
-            var color = Color.FromArgb(SelectedFillColor.R, SelectedFillColor.G, SelectedFillColor.B);
-            _painterService.Process("base-map.svg", OutputFolder, color, new[] { "TX_Bailey" });
         }
 
         public void SelectSpreadsheet()
@@ -90,8 +131,20 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             {
                 try
                 {
-                    //TODO: parse spreadsheet
-                    SpreadsheetPath = openFileDialog.FileName;
+                    var fileName = openFileDialog.FileName;
+                    var spreadsheet = _spreadsheetParsingService.Process(fileName);
+
+                    if (!spreadsheet.HasAllRequiredColumns())
+                    {
+                        throw new ApplicationException("Excel file format is not valid");
+                    }
+
+                    SpreadsheetPath = fileName;
+                    Spreadsheet = spreadsheet;
+                }
+                catch (ApplicationException e)
+                {
+                    //TODO: show an error message
                 }
                 catch
                 {

@@ -100,9 +100,12 @@
     <Compile Include="CustomControls\PanelButton.cs" />
     <Compile Include="CustomControls\SwitchOnOffButton.cs" />
     <Compile Include="Helpers\IThemeManager.cs" />
+    <Compile Include="Helpers\PresenceSpreadsheetHelpers.cs" />
     <Compile Include="Helpers\RelayCommand.cs" />
     <Compile Include="IShell.cs" />
     <Compile Include="NinjectModules\ServicesModule.cs" />
+    <Compile Include="Services\Interfaces\ISpreadsheetParsingService.cs" />
+    <Compile Include="Services\SpreadsheetParsingService.cs" />
     <Compile Include="Services\PainterService.cs" />
     <Compile Include="Services\Interfaces\IPainterService.cs" />
     <Compile Include="Themes\ThemeManager.cs" />
@@ -175,6 +178,10 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\SpreadsheetUtilities\SpreadsheetUtilities.csproj">
+      <Project>{d2eed7e6-a3c6-4290-8dea-135a64c7899e}</Project>
+      <Name>SpreadsheetUtilities</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SvgUtilities\SvgUtilities.csproj">
       <Project>{33ff4b24-02fa-4847-82f3-9222596cc617}</Project>
       <Name>SvgUtilities</Name>

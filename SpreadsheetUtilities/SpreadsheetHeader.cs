@@ -16,7 +16,7 @@ namespace SpreadsheetUtilities
         {
             columnHeaders = columnHeaders.Where(x => x.Value != null);
             _byIndex = columnHeaders.ToDictionary(x => x.Key, x => x.Value);
-            _byName = columnHeaders.ToDictionary(x => x.Value, x => x.Key);
+            _byName = columnHeaders.ToDictionary(x => x.Value, x => x.Key, StringComparer.CurrentCultureIgnoreCase);
             ColumnCount = columCount;
         }
 
@@ -60,6 +60,11 @@ namespace SpreadsheetUtilities
         System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
         {
             return this.GetEnumerator();
+        }
+
+        public bool HasHeader(string name)
+        {
+            return _byName.ContainsKey(name);
         }
     }
 }

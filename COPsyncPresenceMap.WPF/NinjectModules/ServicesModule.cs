@@ -9,6 +9,7 @@ namespace COPsyncPresenceMap.WPF.NinjectModules
         public override void Load()
         {
             Bind<IPainterService>().To<PainterService>();
+            Bind<ISpreadsheetParsingService>().To<SpreadsheetParsingService>();
         }
     }
 }

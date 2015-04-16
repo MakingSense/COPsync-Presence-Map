@@ -10,12 +10,10 @@ namespace COPsyncPresenceMap.WPF.Services
 {
     public class PainterService : IPainterService
     {
-        public event EventHandler<PainterServiceEventArgs> Done = delegate { };
-
-        public void Process(string inputFilePath, string outputFolderPath, Color color, IEnumerable<string> ids)
+        public string Process(string inputSvgFilePath, string outputFolderPath, Color color, IEnumerable<string> ids)
         {
             //TODO: allow to select converter and track progress
-            var document = SvgTextReader.GetDocumentFromFile(inputFilePath);
+            var document = SvgTextReader.GetDocumentFromFile(inputSvgFilePath);
             var painter = new SvgPainter(document, color);
             painter.Fill(ids);
 
@@ -23,8 +21,7 @@ namespace COPsyncPresenceMap.WPF.Services
 
             var converter = new SvgToPngConverter();
             converter.Convert(document, resultPath);
-
-            Done(this, new PainterServiceEventArgs() { ResultPath = resultPath });
+            return resultPath;
         }
     }
 }
