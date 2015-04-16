@@ -2,7 +2,8 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
-        xmlns:cal="clr-namespace:Caliburn.Micro;assembly=Caliburn.Micro.Platform">
+        xmlns:cal="clr-namespace:Caliburn.Micro;assembly=Caliburn.Micro.Platform"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit">
 
     <Grid Margin="20,0,20,20">
         <Grid.RowDefinitions>
@@ -38,13 +39,17 @@
                 </i:Interaction.Triggers>
             </Button>
 
-            <TextBlock Text="{Binding OutputFolder}" FontSize="13" Margin="0,0,0,15" TextAlignment="Center"></TextBlock>
+            <TextBlock Text="{Binding OutputFolder}" FontSize="13" Margin="0,0,0,0" TextAlignment="Center"></TextBlock>
+
+            <WrapPanel Orientation="Horizontal" Margin="0,15,0,15">
+                <Label Content="Fill color"/>
+                <xctk:ColorPicker x:Name="ClrPcker_Background" DisplayColorAndName="True" SelectedColor="{Binding SelectedFillColor}" Width="120px"/>
+            </WrapPanel>
 
             <Button Width="400" Height="60" Content="Process" Margin="0" Background="#333333" Foreground="White" FontWeight="Bold" FontSize="20">
                 <i:Interaction.Triggers>
                     <i:EventTrigger EventName="Click">
                         <cal:ActionMessage MethodName="Process">
-                            <cal:Parameter Value="{Binding ElementName=Username, Path=Text}" />
                         </cal:ActionMessage>
                     </i:EventTrigger>
                 </i:Interaction.Triggers>

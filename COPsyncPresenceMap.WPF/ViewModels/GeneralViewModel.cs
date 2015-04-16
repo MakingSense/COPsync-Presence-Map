@@ -7,6 +7,7 @@ using Microsoft.Win32;
 using WinForms = System.Windows.Forms;
 using System.Diagnostics;
 using System.IO;
+using System.Windows;
 
 namespace COPsyncPresenceMap.WPF.ViewModels
 {
@@ -42,6 +43,19 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             }
         }
 
+        private System.Windows.Media.Color _selectedFillColor = System.Windows.Media.Color.FromRgb(0, 100, 0);
+        public System.Windows.Media.Color SelectedFillColor
+        {
+            get { return _selectedFillColor; }
+            set
+            {
+                if (_selectedFillColor != value)
+                {
+                    _selectedFillColor = value;
+                    NotifyOfPropertyChange();
+                }
+            }
+        }
 
         public GeneralViewModel(IPainterService painterService)
         {
@@ -61,9 +75,10 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             l_newProcess.Start();
         }
 
-        public void Process(string data)
+        public void Process()
         {
-            _painterService.Process("base-map.svg", OutputFolder, Color.Aqua, new[] { "TX_Bailey" });
+            var color = Color.FromArgb(SelectedFillColor.R, SelectedFillColor.G, SelectedFillColor.B);
+            _painterService.Process("base-map.svg", OutputFolder, color, new[] { "TX_Bailey" });
         }
 
         public void SelectSpreadsheet()
