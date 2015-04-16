@@ -1,0 +1,57 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:COPsyncPresenceMap.WPF.CustomControls"
+                    xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+                    xmlns:cal="http://www.caliburnproject.org">
+
+    <!-- Colors -->
+    <Color x:Key="LightBlue">#7BC8E4</Color>
+    <Color x:Key="Blue">#42B0D8</Color>
+    <Color x:Key="DarkBlue">#3575A9</Color>
+    <Color x:Key="DarkerBlue">#55606F</Color>
+    <Color x:Key="DarkGray">#333333</Color>
+
+    <Color x:Key="Red">#E75845</Color>
+
+    <SolidColorBrush x:Key="CSRDarkBlue" Color="{DynamicResource DarkBlue}"/>
+    <SolidColorBrush x:Key="CSRDarkerBlue" Color="{DynamicResource DarkerBlue}"/>
+
+    <SolidColorBrush x:Key="LoginErrorRed" Color="{DynamicResource Red}"/>
+
+    <SolidColorBrush x:Key="LogoutButtonBackground" Color="{DynamicResource LightBlue}" />
+
+    <SolidColorBrush x:Key="OnaButtonBackground" Color="{DynamicResource Red}" />
+
+    <SolidColorBrush x:Key="MainColor" Color="#333333" />
+    <SolidColorBrush x:Key="MainBackground" Color="#D6D6D6"/>
+    <SolidColorBrush x:Key="FontColor" Color="#444444" />
+
+    <SolidColorBrush x:Key="TextBoxBackground" Color="White"/>
+    <SolidColorBrush x:Key="PlaceholderText" Color="LightGray"/>
+
+    <!-- Text style -->
+    <!--Infobox Title -->
+    <Style x:Key="InfoboxTitle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+    </Style>
+
+    <!-- Infobox Subtitle -->
+    <Style x:Key="InfoboxSubtitle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="14"/>
+    </Style>
+
+    <!-- Layer List Item template-->
+    <DataTemplate x:Key="LayerListItemTemplate">
+        <DockPanel Margin="10,0">
+            <Label x:Name="lblLayerName" Content="{Binding DisplayName}"/>
+            <ToggleButton x:Name="tgBtnLayerIsActive" IsChecked="{Binding IsActive, Mode=TwoWay}" Content="       " HorizontalAlignment="Right"/>
+        </DockPanel>
+    </DataTemplate>
+
+    <!-- Area Selection Shapes -->
+    <Color x:Key="AreaSelectionFill">#FF5C26</Color>
+    <Color x:Key="AreaSelectionBorderColor">#3B3B3B</Color>
+    <SolidColorBrush x:Key="AreaSelectionBorderBrush" Color="{DynamicResource AreaSelectionBorderColor}"/>
+
+</ResourceDictionary>

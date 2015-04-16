@@ -28,10 +28,11 @@ namespace COPsyncPresenceMap.WPF.Themes
             ThemeDictionary.MergedDictionaries.Add(new ResourceDictionary() { Source = new Uri(AppThemes[CurrentTheme], UriKind.Relative) });
         }
 
-        private static readonly Dictionary<AppTheme, string> AppThemes = new Dictionary<AppTheme, string> 
+        private static readonly Dictionary<AppTheme, string> AppThemes = new Dictionary<AppTheme, string>
         {
             {AppTheme.Day, "/Themes/DayTheme.xaml"},
-            {AppTheme.Night, "/Themes/NightTheme.xaml"}
+            {AppTheme.Night, "/Themes/NightTheme.xaml"},
+            //{AppTheme.Theme3, "/Themes/Theme3.xaml"}
         };
 
         private ResourceDictionary ThemeDictionary
@@ -41,9 +42,9 @@ namespace COPsyncPresenceMap.WPF.Themes
 
         private AppTheme GetNextTheme()
         {
-            var themes =  Enum.GetValues(typeof(AppTheme)).Cast<AppTheme>().ToList();
+            var themes = Enum.GetValues(typeof(AppTheme)).Cast<AppTheme>().ToList();
             var currentThemeIndex = themes.IndexOf(CurrentTheme);
-            return themes[(currentThemeIndex + 1)%themes.Count];
+            return themes[(currentThemeIndex + 1) % themes.Count];
         }
     }
 }
