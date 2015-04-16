@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COPsyncPresenceMap", "COPsyncPresenceMap\COPsyncPresenceMap.csproj", "{3FC7A191-5996-4A84-8102-0FCD2B56C1FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COPsyncPresecenseMapTests", "COPsyncPresecenseMapTests\COPsyncPresecenseMapTests.csproj", "{FEB256F0-4FAA-4893-8595-D782389B9452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SvgUtilities", "SvgUtilities\SvgUtilities.csproj", "{33FF4B24-02FA-4847-82F3-9222596CC617}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COPsyncPresenceMap.WPF", "COPsyncPresenceMap.WPF\COPsyncPresenceMap.WPF.csproj", "{CCE5685D-2A1A-493F-AC76-CF693244C722}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonFiles", "CommonFiles", "{7FF7D4E1-4682-41D9-86A1-9272C7732237}"
+	ProjectSection(SolutionItems) = preProject
+		CommonFiles\base-map.svg = CommonFiles\base-map.svg
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpreadsheetUtilities", "SpreadsheetUtilities\SpreadsheetUtilities.csproj", "{D2EED7E6-A3C6-4290-8DEA-135A64C7899E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FC7A191-5996-4A84-8102-0FCD2B56C1FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC7A191-5996-4A84-8102-0FCD2B56C1FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC7A191-5996-4A84-8102-0FCD2B56C1FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC7A191-5996-4A84-8102-0FCD2B56C1FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEB256F0-4FAA-4893-8595-D782389B9452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB256F0-4FAA-4893-8595-D782389B9452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB256F0-4FAA-4893-8595-D782389B9452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB256F0-4FAA-4893-8595-D782389B9452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33FF4B24-02FA-4847-82F3-9222596CC617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33FF4B24-02FA-4847-82F3-9222596CC617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33FF4B24-02FA-4847-82F3-9222596CC617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33FF4B24-02FA-4847-82F3-9222596CC617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCE5685D-2A1A-493F-AC76-CF693244C722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE5685D-2A1A-493F-AC76-CF693244C722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE5685D-2A1A-493F-AC76-CF693244C722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE5685D-2A1A-493F-AC76-CF693244C722}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2EED7E6-A3C6-4290-8DEA-135A64C7899E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2EED7E6-A3C6-4290-8DEA-135A64C7899E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2EED7E6-A3C6-4290-8DEA-135A64C7899E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2EED7E6-A3C6-4290-8DEA-135A64C7899E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

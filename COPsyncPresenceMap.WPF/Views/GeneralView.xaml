@@ -1,0 +1,68 @@
+﻿<UserControl x:Class="COPsyncPresenceMap.WPF.Views.GeneralView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+        xmlns:cal="clr-namespace:Caliburn.Micro;assembly=Caliburn.Micro.Platform">
+
+    <Grid Margin="20,0,20,20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="1" HorizontalAlignment="Center" Grid.ColumnSpan="3" VerticalAlignment="Center">
+            <Image Source="/Images/COPSyncLogo.png" Stretch="None"></Image>
+            <TextBlock Text="Presence Map generator" FontSize="35" TextAlignment="Center" Margin="0,25,0,0"></TextBlock>
+            <TextBlock Text="username" FontSize="13" Margin="0,15,0,0"></TextBlock>
+            <TextBox x:Name="Username" Width="400" Height="40" FontSize="25"></TextBox>
+            <DockPanel Margin="0,15,0,0">
+                <TextBlock Text="password" FontSize="13"></TextBlock>
+                <TextBlock Text="Password is case sensitive" FontSize="11" TextAlignment="Right"></TextBlock>
+            </DockPanel>
+            <PasswordBox x:Name="Password" Width="400" Height="40" FontSize="25" ></PasswordBox>
+
+            <Button Width="400" Height="60" Content="Select Spreadsheet" Name="btnSelectSpreadsheet" Margin="0,25,0,0" Background="#333333" Foreground="White" FontWeight="Bold" FontSize="20">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <cal:ActionMessage MethodName="SelectSpreadsheet" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+
+            <TextBlock Text="{Binding SpreadsheetPath}" FontSize="13" Margin="0,15,0,0"></TextBlock>
+
+            <Button Width="400" Height="60" Content="Select OutputFolder" Name="btnSelectOutputFolder" Margin="0,25,0,0" Background="#333333" Foreground="White" FontWeight="Bold" FontSize="20">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <cal:ActionMessage MethodName="SelectOutputFolder" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+
+            <TextBlock Text="{Binding OutputFolder}" FontSize="13" Margin="0,15,0,0"></TextBlock>
+
+            <Button Width="400" Height="60" Content="Process" Margin="0,25,0,0" Background="#333333" Foreground="White" FontWeight="Bold" FontSize="20">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <cal:ActionMessage MethodName="Process">
+                            <cal:Parameter Value="{Binding ElementName=Username, Path=Text}" />
+                        </cal:ActionMessage>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+            <TextBlock Text="Can't access your account?" TextAlignment="Center" Margin="0,15,0,0"></TextBlock>
+
+        </StackPanel>
+
+        <StackPanel Grid.Column="0" Grid.Row="2" VerticalAlignment="Bottom">
+            <TextBlock Text="Copyright © 2015 COPsync." Foreground="{DynamicResource FontColor}"></TextBlock>
+            <TextBlock Text="All rights reserved." Foreground="{DynamicResource FontColor}"></TextBlock>
+        </StackPanel>
+    </Grid>
+
+</UserControl>
