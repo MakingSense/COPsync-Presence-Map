@@ -83,7 +83,8 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Deployment\COPsyncPresence.xlsx">
+    <Content Include="..\CommonFiles\COPsyncPresence.xlsx">
+      <Link>Deployment\COPsyncPresence.xlsx</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
