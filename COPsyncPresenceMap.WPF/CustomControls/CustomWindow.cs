@@ -12,6 +12,11 @@ namespace COPsyncPresenceMap.WPF.CustomControls
             DefaultStyleKeyProperty.OverrideMetadata(typeof(CustomWindow), new FrameworkPropertyMetadata(typeof(CustomWindow)));
         }
 
+        public CustomWindow()
+        {
+            WindowStartupLocation = WindowStartupLocation.CenterScreen;
+        }
+
         protected void MinimizeClick(object sender, RoutedEventArgs e)
         {
             WindowState = WindowState.Minimized;

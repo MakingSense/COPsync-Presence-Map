@@ -53,7 +53,7 @@
                 <xctk:ColorPicker DisplayColorAndName="True" SelectedColor="{Binding SelectedFillColor}" Width="120px"/>
             </WrapPanel>
 
-            <Button Width="400" Height="60" Content="Process" Margin="0" Background="#333333" Foreground="White" FontWeight="Bold" FontSize="20">
+            <Button IsEnabled="{Binding ReadyToProcess}" Width="400" Height="60" Content="Process" Margin="0" Background="#333333" Foreground="White" FontWeight="Bold" FontSize="20">
                 <i:Interaction.Triggers>
                     <i:EventTrigger EventName="Click">
                         <cal:ActionMessage MethodName="Process">
