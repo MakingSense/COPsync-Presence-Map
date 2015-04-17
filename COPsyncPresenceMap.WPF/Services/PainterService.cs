@@ -36,15 +36,18 @@ namespace COPsyncPresenceMap.WPF.Services
 
             try
             {
-                var resultPath = Path.Combine(outputFolderPath, string.Format("COPsync-presence-map-{0:yyyyMMddHHmmss}{1}", DateTime.Now, converter.DefaultExtension));
-                converter.Convert(document, resultPath);
-                return resultPath;
+                var baseFilename = Path.Combine(outputFolderPath, string.Format("COPsync-presence-map-{0:yyyyMMddHHmmss}", DateTime.Now));
+                var convertedFilename = Path.ChangeExtension(baseFilename, converter.DefaultExtension);
+                var svgFilename = Path.ChangeExtension(baseFilename, ".svg");
+
+                converter.Convert(document, convertedFilename);
+                document.Save(svgFilename);
+                return convertedFilename;
             }
             catch (Exception e)
             {
                 throw new ApplicationException("Error converting the file: \n" + e.Message);
             }
-
 
         }
     }
