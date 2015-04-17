@@ -49,6 +49,7 @@
     <Compile Include="ISvgConverter.cs" />
     <Compile Include="SvgDtdResolver.cs" />
     <Compile Include="SvgPainter.cs" />
+    <Compile Include="SvgInkscapeConverters.cs" />
     <Compile Include="SvgPngConverter.cs" />
     <Compile Include="SvgTextReader.cs" />
   </ItemGroup>

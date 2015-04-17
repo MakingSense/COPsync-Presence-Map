@@ -9,6 +9,10 @@ namespace SvgUtilities
 {
     public interface ISvgConverter
     {
+        string DefaultExtension { get; }
+
+        bool CheckAvailability();
+
         void Convert(XmlDocument xmlDocument, string outputFilename);
     }
 }

@@ -12,6 +12,7 @@ using SpreadsheetUtilities;
 using System.Linq;
 using COPsyncPresenceMap.WPF.Helpers;
 using System.Collections.Generic;
+using SvgUtilities;
 
 namespace COPsyncPresenceMap.WPF.ViewModels
 {
@@ -176,7 +177,10 @@ namespace COPsyncPresenceMap.WPF.ViewModels
 
             var color = GetSelectedColor();
 
-            var resultPath = _painterService.Process("base-map.svg", OutputFolder, color, ids);
+            var converter = new SvgToPngConverter();
+            //var converter = new SvgToWmfInkscapeConverter();
+
+            var resultPath = _painterService.Process("base-map.svg", converter, OutputFolder, color, ids);
 
             OpenExplorerWindowAndSelectFile(resultPath);
         }

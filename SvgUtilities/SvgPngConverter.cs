@@ -10,11 +10,17 @@ namespace SvgUtilities
 {
     public class SvgToPngConverter : ISvgConverter
     {
+        public string DefaultExtension { get { return ".svg"; } }
         public void Convert(XmlDocument xmlDocument, string outputFilename)
         {
             var svgDocument = SvgDocument.Open(xmlDocument);
             var image = svgDocument.Draw();
             image.Save(outputFilename);
+        }
+
+        public bool CheckAvailability()
+        {
+            return true;
         }
     }
 }
