@@ -6,7 +6,6 @@ using COPsyncPresenceMap.WPF.ViewModels;
 using COPsyncPresenceMap.WPF;
 using Ninject;
 using COPsyncPresenceMap.WPF.NinjectModules;
-using COPsyncPresenceMap.WPF.Themes;
 using System.Windows;
 using COPsyncPresenceMap.WPF.Helpers;
 
@@ -26,12 +25,11 @@ namespace COPsyncPresenceMap.WPF
             _container = new StandardKernel(new ServicesModule());
 
             _container.Bind<Application>().ToConstant(Application.Current);
-            _container.Bind<IThemeManager>().To<ThemeManager>().InSingletonScope();
             _container.Bind<IWindowManager>().To<WindowManager>().InSingletonScope();
             _container.Bind<IEventAggregator>().To<EventAggregator>().InSingletonScope();
 
             _container.Bind<IShell>().To<ShellViewModel>().InSingletonScope();
-           
+
             var config = new TypeMappingConfiguration
             {
                 DefaultSubNamespaceForViews = "COPsyncPresenceMap.WPF.Views",

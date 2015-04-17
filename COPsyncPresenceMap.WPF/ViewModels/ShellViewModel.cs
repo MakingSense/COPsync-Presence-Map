@@ -7,13 +7,10 @@ namespace COPsyncPresenceMap.WPF.ViewModels
     public class ShellViewModel : Conductor<object>, IShell
     {
         private readonly GeneralViewModel _generalViewModel;
-        private readonly IThemeManager _themeManager;
 
-        public ShellViewModel(GeneralViewModel generalViewModel, IThemeManager themeManager)
+        public ShellViewModel(GeneralViewModel generalViewModel)
         {
             _generalViewModel = generalViewModel;
-            _themeManager = themeManager;
-            _switchThemeCommand = new RelayCommand(param => { _themeManager.SwitchTheme(); });
             ShowGeneral();
         }
 
@@ -22,11 +19,5 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             ActivateItem(_generalViewModel);
         }
 
-        public ICommand SwitchTheme
-        {
-            get { return _switchThemeCommand; }
-        }
-
-        private readonly ICommand _switchThemeCommand;
     }
 }

@@ -16,48 +16,49 @@
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
-        <StackPanel Grid.Row="1" HorizontalAlignment="Center" Grid.ColumnSpan="3" VerticalAlignment="Center" Margin="0">
-            <Image Source="/Images/COPSyncLogo.png" Stretch="None" Margin="0,20,0,0"></Image>
-            <TextBlock Text="Presence Map generator" FontSize="35" TextAlignment="Center" Margin="0,25,0,0"></TextBlock>
-            <DockPanel Margin="0,15,0,0"/>
+        <StackPanel Grid.Row="1" HorizontalAlignment="Center" Grid.ColumnSpan="3" VerticalAlignment="Top" Margin="0">
+            <Image Source="/Images/COPSyncLogo.png" Width="260" Height="62" Stretch="Fill" Margin="0,30,0,20"></Image>
+            <TextBlock Text="Presence Map generator" FontSize="24" TextAlignment="Center" Margin="0,20,0,20"/>
 
-            <Button Width="400" Height="60" Content="Select Spreadsheet" Name="btnSelectSpreadsheet" Margin="0" Background="#333333" Foreground="White" FontWeight="Bold" FontSize="20">
-                <i:Interaction.Triggers>
-                    <i:EventTrigger EventName="Click">
-                        <cal:ActionMessage MethodName="SelectSpreadsheet" />
-                    </i:EventTrigger>
-                </i:Interaction.Triggers>
-            </Button>
-
-            <TextBlock Text="{Binding SpreadsheetPath}" FontSize="13" Margin="0,0,0,15"></TextBlock>
-
-            <WrapPanel Orientation="Horizontal" Margin="0,15,0,15">
-                <Label Content="Product:" VerticalAlignment="Center"/>
-                <CheckBox IsChecked="{Binding IncludeCOPsyncEnterprise}" VerticalAlignment="Center" Margin="0,0,10,0">COPsync Enterprise</CheckBox>
-                <CheckBox IsChecked="{Binding IncludeCOPsync911}" VerticalAlignment="Center" Margin="0,0,10,0">COPsync911</CheckBox>
-                <CheckBox IsChecked="{Binding IncludeWarrantsync}" VerticalAlignment="Center" Margin="0,0,10,0">Warrantsync</CheckBox>
+            <Label Padding="0,0,0,0" Margin="0,20,0,5" FontWeight="Bold">Choose your excel file:</Label>
+            <WrapPanel Orientation="Horizontal">
+                <TextBox IsReadOnly="True" Text="{Binding SpreadsheetPath}" Padding="8px" VerticalContentAlignment="Center" Foreground="Gray" Width="280px" Height="40px" Margin="0,0,10,0" />
+                <Button Background="#3575A9" Width="110px" Content="BROWSE FILE" Height="40px" Foreground="White" FontWeight="Bold">
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="Click">
+                            <cal:ActionMessage MethodName="SelectSpreadsheet" />
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </Button>
             </WrapPanel>
 
-            <Button Width="400" Height="60" Content="Select OutputFolder" Name="btnSelectOutputFolder" Margin="0" Background="#333333" Foreground="White" FontWeight="Bold" FontSize="20">
-                <i:Interaction.Triggers>
-                    <i:EventTrigger EventName="Click">
-                        <cal:ActionMessage MethodName="SelectOutputFolder" />
-                    </i:EventTrigger>
-                </i:Interaction.Triggers>
-            </Button>
-
-            <TextBlock Text="{Binding OutputFolder}" FontSize="13" Margin="0,0,0,0" TextAlignment="Center"></TextBlock>
-
-            <WrapPanel Orientation="Horizontal" Margin="0,15,0,15">
-                <Label Content="Fill color"/>
-                <xctk:ColorPicker DisplayColorAndName="True" SelectedColor="{Binding SelectedFillColor}" Width="120px"/>
+            <Label Padding="0,0,0,0" Margin="0,20,0,5" FontWeight="Bold">Select products:</Label>
+            <WrapPanel Orientation="Horizontal" Margin="0,0,0,0">
+                <CheckBox IsChecked="{Binding IncludeCOPsyncEnterprise}" VerticalAlignment="Center" Margin="0,0,40,0">COPsync Enterprise</CheckBox>
+                <CheckBox IsChecked="{Binding IncludeCOPsync911}" VerticalAlignment="Center" Margin="0,0,40,0">COPsync911</CheckBox>
+                <CheckBox IsChecked="{Binding IncludeWarrantsync}" VerticalAlignment="Center">Warrantsync</CheckBox>
             </WrapPanel>
 
-            <Button IsEnabled="{Binding ReadyToProcess}" Width="400" Height="60" Content="Process" Margin="0" Background="#333333" Foreground="White" FontWeight="Bold" FontSize="20">
+            <Label Padding="0,0,0,0" Margin="0,20,0,5" FontWeight="Bold">Choose destination folder:</Label>
+            <WrapPanel Orientation="Horizontal">
+                <TextBox IsReadOnly="True" Text="{Binding OutputFolder}" Padding="8px" VerticalContentAlignment="Center" Foreground="Gray" Width="280px" Height="40px" Margin="0,0,10,0" />
+                <Button Background="#3575A9" Width="110px" Height="40px" Content="SELECT" Foreground="White" FontWeight="Bold">
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="Click">
+                            <cal:ActionMessage MethodName="SelectOutputFolder" />
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </Button>
+            </WrapPanel>
+
+            <Label Padding="0,0,0,0" Margin="0,20,0,5" FontWeight="Bold">Choose fill color:</Label>
+            <xctk:ColorPicker DisplayColorAndName="False" Width="200px" HorizontalAlignment="Left" SelectedColor="{Binding SelectedFillColor}" />
+
+
+            <Button IsEnabled="{Binding ReadyToProcess}" Margin="0,40,0,0" Background="#3575A9" Height="80px" Width="400px" Content="PROCESS" Foreground="White" FontWeight="Bold" FontSize="24">
                 <i:Interaction.Triggers>
                     <i:EventTrigger EventName="Click">
-                        <cal:ActionMessage MethodName="Process">
-                        </cal:ActionMessage>
+                        <cal:ActionMessage MethodName="Process" />
                     </i:EventTrigger>
                 </i:Interaction.Triggers>
             </Button>
@@ -65,8 +66,8 @@
         </StackPanel>
 
         <StackPanel Grid.Column="0" Grid.Row="2" VerticalAlignment="Bottom" Margin="0,20,0,0">
-            <TextBlock Text="Copyright © 2015 COPsync." Foreground="{DynamicResource FontColor}"></TextBlock>
-            <TextBlock Text="All rights reserved." Foreground="{DynamicResource FontColor}"></TextBlock>
+            <TextBlock Text="Copyright © 2015 COPsync."></TextBlock>
+            <TextBlock Text="All rights reserved."></TextBlock>
         </StackPanel>
     </Grid>
 

@@ -5,11 +5,6 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary x:Name="ThemeDictionary">
-                    <ResourceDictionary.MergedDictionaries>
-                        <ResourceDictionary Source="/Themes/DayTheme.xaml"/>
-                    </ResourceDictionary.MergedDictionaries>
-                </ResourceDictionary>
                 <ResourceDictionary>
                     <local:AppBootstrapper x:Key="Bootstrapper" />
                 </ResourceDictionary>

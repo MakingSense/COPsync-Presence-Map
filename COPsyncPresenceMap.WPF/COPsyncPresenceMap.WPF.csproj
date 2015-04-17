@@ -93,13 +93,6 @@
     <Compile Include="Behavior\ClearOnFocusBehavior.cs" />
     <Compile Include="Behavior\FocusOnLoadBehavior.cs" />
     <Compile Include="Behavior\SelectAllTextOnFocusBehavior .cs" />
-    <Compile Include="CustomControls\BlinkTaskbarHelper.cs" />
-    <Compile Include="CustomControls\CustomToggleButton.cs" />
-    <Compile Include="CustomControls\ExpandableToggleButton.cs" />
-    <Compile Include="CustomControls\ListBehavior.cs" />
-    <Compile Include="CustomControls\PanelButton.cs" />
-    <Compile Include="CustomControls\SwitchOnOffButton.cs" />
-    <Compile Include="Helpers\IThemeManager.cs" />
     <Compile Include="Helpers\PresenceSpreadsheetHelpers.cs" />
     <Compile Include="Helpers\RelayCommand.cs" />
     <Compile Include="IShell.cs" />
@@ -108,13 +101,10 @@
     <Compile Include="Services\SpreadsheetParsingService.cs" />
     <Compile Include="Services\PainterService.cs" />
     <Compile Include="Services\Interfaces\IPainterService.cs" />
-    <Compile Include="Themes\ThemeManager.cs" />
     <Compile Include="ViewModels\GeneralViewModel.cs" />
     <Compile Include="ViewModels\ShellViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomControls\CustomWindow.cs" />
-    <Compile Include="CustomControls\ImageButton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -143,22 +133,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="Themes\NightTheme.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Themes\DayTheme.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Themes\Generic.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Themes\Theme3.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="Views\ShellView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
