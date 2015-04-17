@@ -165,22 +165,22 @@ namespace COPsyncPresenceMap.WPF.ViewModels
 
         public void Process()
         {
-            var selectedProducts = GetSelectedProducts();
-
-            if (selectedProducts.Length == 0)
-            {
-                throw new ApplicationException("Select a product before continue.");
-            }
-
-            var ids = Spreadsheet.GetIdsToFill(selectedProducts);
-
-            var color = GetSelectedColor();
-
-            var converter = new SvgToPngConverter();
-            //var converter = new SvgToWmfInkscapeConverter();
-
             try
             {
+                var selectedProducts = GetSelectedProducts();
+
+                if (selectedProducts.Length == 0)
+                {
+                    throw new ApplicationException("Select a product before continue.");
+                }
+
+                var ids = Spreadsheet.GetIdsToFill(selectedProducts);
+
+                var color = GetSelectedColor();
+
+                var converter = new SvgToPngConverter();
+                //var converter = new SvgToWmfInkscapeConverter();
+
                 var resultPath = _painterService.Process("base-map.svg", converter, OutputFolder, color, ids);
                 OpenExplorerWindowAndSelectFile(resultPath);
             }
