@@ -12,14 +12,40 @@ namespace COPsyncPresenceMap.WPF.Services
     {
         public string Process(string inputSvgFilePath, ISvgConverter converter, string outputFolderPath, Color color, IEnumerable<string> ids)
         {
-            var document = SvgTextReader.GetDocumentFromFile(inputSvgFilePath);
+            XmlDocument document;
+
+            try
+            {
+                document = SvgTextReader.GetDocumentFromFile(inputSvgFilePath);
+            }
+            catch
+            {
+                throw new ApplicationException("Error opening " + inputSvgFilePath + ".\nA valid SVG file is expected.");
+            }
+
             var painter = new SvgPainter(document, color);
-            painter.Fill(ids);
 
-            var resultPath = Path.Combine(outputFolderPath, string.Format("COPsync-presence-map-{0:yyyyMMddHHmmss}{1}", DateTime.Now, converter.DefaultExtension));
+            try
+            {
+                painter.Fill(ids);
+            }
+            catch
+            {
+                throw new ApplicationException("Error applying color to elements, verify elementIds and base-map.svg file.");
+            }
 
-            converter.Convert(document, resultPath);
-            return resultPath;
+            try
+            {
+                var resultPath = Path.Combine(outputFolderPath, string.Format("COPsync-presence-map-{0:yyyyMMddHHmmss}{1}", DateTime.Now, converter.DefaultExtension));
+                converter.Convert(document, resultPath);
+                return resultPath;
+            }
+            catch (Exception e)
+            {
+                throw new ApplicationException("Error converting the file: \n" + e.Message);
+            }
+
+
         }
     }
 }

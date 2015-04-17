@@ -10,7 +10,6 @@ using System.IO;
 using System.Windows;
 using SpreadsheetUtilities;
 using System.Linq;
-using COPsyncPresenceMap.WPF.Helpers;
 using System.Collections.Generic;
 using SvgUtilities;
 
@@ -170,7 +169,7 @@ namespace COPsyncPresenceMap.WPF.ViewModels
 
             if (selectedProducts.Length == 0)
             {
-                //TODO show error message
+                throw new ApplicationException("Select a product before continue.");
             }
 
             var ids = Spreadsheet.GetIdsToFill(selectedProducts);
@@ -180,9 +179,20 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             var converter = new SvgToPngConverter();
             //var converter = new SvgToWmfInkscapeConverter();
 
-            var resultPath = _painterService.Process("base-map.svg", converter, OutputFolder, color, ids);
+            try
+            {
+                var resultPath = _painterService.Process("base-map.svg", converter, OutputFolder, color, ids);
+                OpenExplorerWindowAndSelectFile(resultPath);
+            }
+            catch (ApplicationException e)
+            {
+                MessageBox.Show(e.Message, "Error");
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Exception message: " + e.Message, "Unexpected Error");
+            }
 
-            OpenExplorerWindowAndSelectFile(resultPath);
         }
 
         private void OpenExplorerWindowAndSelectFile(string resultPath)
@@ -206,11 +216,12 @@ namespace COPsyncPresenceMap.WPF.ViewModels
                 try
                 {
                     var fileName = openFileDialog.FileName;
+
                     var spreadsheet = _spreadsheetParsingService.Process(fileName);
 
                     if (!spreadsheet.HasAllRequiredColumns())
                     {
-                        throw new ApplicationException("Excel file format is not valid");
+                        throw new ApplicationException("Excel file format is not valid.\nIt requires the columns 'ElementId', 'COPsync Enterprise', 'COPsync911' and 'Warrantsync'.");
                     }
 
                     SpreadsheetPath = fileName;
@@ -218,11 +229,11 @@ namespace COPsyncPresenceMap.WPF.ViewModels
                 }
                 catch (ApplicationException e)
                 {
-                    //TODO: show an error message
+                    MessageBox.Show(e.Message, "Error");
                 }
-                catch
+                catch (Exception e)
                 {
-                    //TODO: show an error message
+                    MessageBox.Show("Exception message: " + e.Message, "Unexpected Error");
                 }
             }
         }

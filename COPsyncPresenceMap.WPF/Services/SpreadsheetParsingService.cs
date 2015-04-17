@@ -15,9 +15,16 @@ namespace COPsyncPresenceMap.WPF.Services
     {
         public Spreadsheet Process(string inputFilePath)
         {
-            var reader = new XlsxReader();
-            var spreadsheet = reader.Read(inputFilePath).CreateNewParsingHeaders();
-            return spreadsheet;
+            try
+            {
+                var reader = new XlsxReader();
+                var spreadsheet = reader.Read(inputFilePath).CreateNewParsingHeaders();
+                return spreadsheet;
+            }
+            catch
+            {
+                throw new ApplicationException("Error parsing the file " + inputFilePath + ".\nA valid Excel Workbook file (.xlsx) is expected.");
+            }
         }
     }
 }
