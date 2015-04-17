@@ -53,8 +53,10 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="TexasMapSvgDataTests.cs" />
+    <Compile Include="TexasXlsxDataTests.cs" />
     <Compile Include="XlsxTests.cs" />
-    <Compile Include="MapFillerTests.cs" />
+    <Compile Include="SvgPainterTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
