@@ -24,11 +24,16 @@ namespace SvgUtilities
             var temporalFilename = Path.ChangeExtension(Path.GetTempFileName(), ".svg");
             xmlDocument.Save(temporalFilename);
 
-            var arguments = string.Format("--file {0} {1} {2}", temporalFilename, ConvertOption, outputFilename);
-            Process p = Process.Start(inkscapeExe, arguments);
-            p.WaitForExit();
-
-            File.Delete(temporalFilename);
+            try
+            {
+                var arguments = string.Format("--file {0} {1} {2}", temporalFilename, ConvertOption, outputFilename);
+                Process p = Process.Start(inkscapeExe, arguments);
+                p.WaitForExit();
+            }
+            finally
+            {
+                File.Delete(temporalFilename);
+            }
         }
 
         public bool CheckAvailability()

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Caliburn.Micro;
 using COPsyncPresenceMap.WPF.Helpers;
 using COPsyncPresenceMap.WPF.Services.Interfaces;
@@ -180,6 +180,7 @@ namespace COPsyncPresenceMap.WPF.ViewModels
 
                 var converter = new SvgToPngConverter();
                 //var converter = new SvgToWmfInkscapeConverter();
+                //var converter = new SvgToPngCloudConverter("o02nOORk1DKhac5fxAgP8lMJ9IgOet6AF4ZdkYQFh3rWdUpm_kbUqNlTe8oejH6uI06-Ae19jstepEKvivbfoA");
 
                 var resultPath = _painterService.Process("base-map.svg", converter, OutputFolder, color, ids);
                 OpenExplorerWindowAndSelectFile(resultPath);
