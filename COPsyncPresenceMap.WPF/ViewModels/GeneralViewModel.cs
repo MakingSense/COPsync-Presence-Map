@@ -11,6 +11,7 @@ using System.Windows;
 using SpreadsheetUtilities;
 using System.Linq;
 using COPsyncPresenceMap.WPF.Helpers;
+using System.Collections.Generic;
 
 namespace COPsyncPresenceMap.WPF.ViewModels
 {
@@ -90,6 +91,71 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             }
         }
 
+        private bool _includeCOPsyncEnterprise = true;
+        public bool IncludeCOPsyncEnterprise
+        {
+            get { return _includeCOPsyncEnterprise;}
+            set
+            {
+                if (_includeCOPsyncEnterprise != value)
+                {
+                    _includeCOPsyncEnterprise = value;
+                    NotifyOfPropertyChange();
+                }
+            }
+        }
+
+        private bool _includeCOPsync911 = true;
+        public bool IncludeCOPsync911
+        {
+            get { return _includeCOPsync911;}
+            set
+            {
+                if (_includeCOPsync911 != value)
+                {
+                    _includeCOPsync911 = value;
+                    NotifyOfPropertyChange();
+                }
+            }
+        }
+
+        private bool _includeWarrantsync = true;
+        public bool IncludeWarrantsync
+        {
+            get { return _includeWarrantsync; }
+            set
+            {
+                if (_includeWarrantsync != value)
+                {
+                    _includeWarrantsync = value;
+                    NotifyOfPropertyChange();
+                }
+            }
+        }
+
+        private string[] GetSelectedProducts()
+        {
+            var list = new List<string>();
+            if (IncludeCOPsyncEnterprise)
+            {
+                list.Add(PresenceSpreadsheetHelpers.CHECKCOLUMN_COPSYNC_ENTERPRISE);
+            }
+            if (IncludeCOPsyncEnterprise)
+            {
+                list.Add(PresenceSpreadsheetHelpers.CHECKCOLUMN_COPSYNC911);
+            }
+            if (IncludeWarrantsync)
+            {
+                list.Add(PresenceSpreadsheetHelpers.CHECKCOLUMN_WARRANTSYNC);
+            }
+            return list.ToArray();
+        }
+
+        private Color GetSelectedColor()
+        {
+            return Color.FromArgb(SelectedFillColor.R, SelectedFillColor.G, SelectedFillColor.B);
+        }
+
         public GeneralViewModel(IPainterService painterService, ISpreadsheetParsingService spreadsheetParsingService)
         {
             _painterService = painterService;
@@ -99,12 +165,16 @@ namespace COPsyncPresenceMap.WPF.ViewModels
 
         public void Process()
         {
-            var ids = Spreadsheet.GetIdsToFill(
-                PresenceSpreadsheetHelpers.CHECKCOLUMN_COPSYNC_ENTERPRISE,
-                PresenceSpreadsheetHelpers.CHECKCOLUMN_COPSYNC911,
-                PresenceSpreadsheetHelpers.CHECKCOLUMN_WARRANTSYNC);
+            var selectedProducts = GetSelectedProducts();
 
-            var color = Color.FromArgb(SelectedFillColor.R, SelectedFillColor.G, SelectedFillColor.B);
+            if (selectedProducts.Length == 0)
+            {
+                //TODO show error message
+            }
+
+            var ids = Spreadsheet.GetIdsToFill(selectedProducts);
+
+            var color = GetSelectedColor();
 
             var resultPath = _painterService.Process("base-map.svg", OutputFolder, color, ids);
 

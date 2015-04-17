@@ -31,6 +31,13 @@
 
             <TextBlock Text="{Binding SpreadsheetPath}" FontSize="13" Margin="0,0,0,15"></TextBlock>
 
+            <WrapPanel Orientation="Horizontal" Margin="0,15,0,15">
+                <Label Content="Product:" VerticalAlignment="Center"/>
+                <CheckBox IsChecked="{Binding IncludeCOPsyncEnterprise}" VerticalAlignment="Center" Margin="0,0,10,0">COPsync Enterprise</CheckBox>
+                <CheckBox IsChecked="{Binding IncludeCOPsync911}" VerticalAlignment="Center" Margin="0,0,10,0">COPsync911</CheckBox>
+                <CheckBox IsChecked="{Binding IncludeWarrantsync}" VerticalAlignment="Center" Margin="0,0,10,0">Warrantsync</CheckBox>
+            </WrapPanel>
+
             <Button Width="400" Height="60" Content="Select OutputFolder" Name="btnSelectOutputFolder" Margin="0" Background="#333333" Foreground="White" FontWeight="Bold" FontSize="20">
                 <i:Interaction.Triggers>
                     <i:EventTrigger EventName="Click">
@@ -43,7 +50,7 @@
 
             <WrapPanel Orientation="Horizontal" Margin="0,15,0,15">
                 <Label Content="Fill color"/>
-                <xctk:ColorPicker x:Name="ClrPcker_Background" DisplayColorAndName="True" SelectedColor="{Binding SelectedFillColor}" Width="120px"/>
+                <xctk:ColorPicker DisplayColorAndName="True" SelectedColor="{Binding SelectedFillColor}" Width="120px"/>
             </WrapPanel>
 
             <Button Width="400" Height="60" Content="Process" Margin="0" Background="#333333" Foreground="White" FontWeight="Bold" FontSize="20">
