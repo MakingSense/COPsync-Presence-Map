@@ -5,10 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
         Width="500"
-        Height="700"
+        Height="630"
         ResizeMode="CanMinimize"
-        Title="COPsync Presence Map"
+        Title="{Binding Path=Title}"
         WindowStartupLocation="CenterScreen"
+        Icon="/Images/icon-64.png"
         >
     <Grid>
         <ContentControl x:Name="ActiveItem" />
