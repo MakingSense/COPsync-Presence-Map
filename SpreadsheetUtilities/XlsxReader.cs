@@ -22,10 +22,9 @@ namespace SpreadsheetUtilities
         /// </summary>
         public Spreadsheet Read(string fileName)
         {
-            Package xlsxPackage = Package.Open(fileName, FileMode.Open, FileAccess.Read);
-            List<Cell> parsedCells = new List<Cell>();
-            try
+            using (var xlsxPackage = Package.Open(fileName, FileMode.Open, FileAccess.Read))
             {
+                List<Cell> parsedCells = new List<Cell>();
                 PackagePartCollection allParts = xlsxPackage.GetParts();
                 PackagePart sharedStringsPart = allParts.Where(x => x.ContentType == "application/vnd.openxmlformats-officedocument.spreadsheetml.sharedStrings+xml").Single();
                 XElement sharedStringsElement = XElement.Load(XmlReader.Create(sharedStringsPart.GetStream()));
@@ -58,10 +57,6 @@ namespace SpreadsheetUtilities
                     }
                 }
                 return new Spreadsheet(parsedCells);
-            }
-            finally
-            {
-                xlsxPackage.Close();
             }
         }
 
