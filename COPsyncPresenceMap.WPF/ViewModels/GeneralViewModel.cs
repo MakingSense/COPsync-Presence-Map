@@ -222,7 +222,7 @@ namespace COPsyncPresenceMap.WPF.ViewModels
 
                     if (!spreadsheet.HasAllRequiredColumns())
                     {
-                        throw new ApplicationException("Excel file format is not valid.\nIt requires the columns 'ElementId', 'COPsync Enterprise', 'COPsync911' and 'Warrantsync'.");
+                        throw new ApplicationException("Excel file format is not valid.\nIt requires the columns 'ElementId', 'COPsync Enterprise', 'COPsync911' and 'WARRANTsync'.");
                     }
 
                     SpreadsheetPath = fileName;

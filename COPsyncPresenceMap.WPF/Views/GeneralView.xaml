@@ -35,7 +35,7 @@
             <WrapPanel Orientation="Horizontal" Margin="0,0,0,0">
                 <CheckBox IsChecked="{Binding IncludeCOPsyncEnterprise}" VerticalAlignment="Center" Margin="0,0,40,0">COPsync Enterprise</CheckBox>
                 <CheckBox IsChecked="{Binding IncludeCOPsync911}" VerticalAlignment="Center" Margin="0,0,40,0">COPsync911</CheckBox>
-                <CheckBox IsChecked="{Binding IncludeWarrantsync}" VerticalAlignment="Center">Warrantsync</CheckBox>
+                <CheckBox IsChecked="{Binding IncludeWarrantsync}" VerticalAlignment="Center">WARRANTsync</CheckBox>
             </WrapPanel>
 
             <Label Padding="0,0,0,0" Margin="0,20,0,5" FontWeight="Bold">Choose destination folder:</Label>

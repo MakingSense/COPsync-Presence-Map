@@ -380,7 +380,7 @@ namespace COPsyncPresecenseMapTests
             var spreadsheet = baseSpreadsheet.CreateNewParsingHeaders();
 
             var ids = spreadsheet
-                .Where(x => IsTruthy(x["COPsync Enterprise"]) || IsTruthy(x["COPsync911"]) || IsTruthy(x["Warrantsync"]))
+                .Where(x => IsTruthy(x["COPsync Enterprise"]) || IsTruthy(x["COPsync911"]) || IsTruthy(x["WARRANTsync"]))
                 .Select(x => x["ElementId"]).ToArray();
             var expectedCount = 219;
 
