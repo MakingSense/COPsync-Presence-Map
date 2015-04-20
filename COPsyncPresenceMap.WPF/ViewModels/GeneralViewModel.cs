@@ -147,7 +147,7 @@ namespace COPsyncPresenceMap.WPF.ViewModels
 
                 var color = SelectedFillColor.ToDrawingColor();
 
-                var converter = new SvgToPngConverter();
+                var converter = new SvgToPngConverter(scale: 10);
                 //var converter = new SvgToWmfInkscapeConverter();
                 //var converter = new SvgToPngCloudConverter("o02nOORk1DKhac5fxAgP8lMJ9IgOet6AF4ZdkYQFh3rWdUpm_kbUqNlTe8oejH6uI06-Ae19jstepEKvivbfoA");
 

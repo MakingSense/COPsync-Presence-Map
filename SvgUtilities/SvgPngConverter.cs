@@ -10,11 +10,19 @@ namespace SvgUtilities
 {
     public class SvgToPngConverter : ISvgConverter
     {
+        public float Scale { get; set; }
+
+        public SvgToPngConverter(int scale = 1)
+        {
+            Scale = scale;
+        }
+
         public string DefaultExtension { get { return ".png"; } }
         public void Convert(XmlDocument xmlDocument, string outputFilename)
         {
             var svgDocument = SvgDocument.Open(xmlDocument);
-            var image = svgDocument.Draw();
+            var image = new System.Drawing.Bitmap((int)(svgDocument.Width.Value * Scale), (int)(svgDocument.Height.Value * Scale));
+            svgDocument.Draw(image);
             image.Save(outputFilename);
         }
 
