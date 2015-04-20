@@ -21,33 +21,9 @@ namespace COPsyncPresenceMap.WPF.ViewModels
         private readonly IPainterService _painterService;
         private readonly ISpreadsheetParsingService _spreadsheetParsingService;
 
-        private Spreadsheet _spreadsheet;
-        public Spreadsheet Spreadsheet
-        {
-            get { return _spreadsheet; }
-            set
-            {
-                if (_spreadsheet != value)
-                {
-                    _spreadsheet = value;
-                    ReadyToProcess = _spreadsheet != null;
-                    NotifyOfPropertyChange();
-                }
-            }
-        }
-
-        private bool _readyToProcess;
         public bool ReadyToProcess
         {
-            get { return _readyToProcess; }
-            private set
-            {
-                if (_readyToProcess != value)
-                {
-                    _readyToProcess = value;
-                    NotifyOfPropertyChange();
-                }
-            }
+            get { return SpreadsheetPath != null; }
         }
 
         private string _spreadsheetPath;
@@ -60,6 +36,7 @@ namespace COPsyncPresenceMap.WPF.ViewModels
                 {
                     _spreadsheetPath = value;
                     NotifyOfPropertyChange();
+                    NotifyOfPropertyChange(() => this.ReadyToProcess);
                 }
             }
         }
@@ -169,7 +146,9 @@ namespace COPsyncPresenceMap.WPF.ViewModels
                     throw new ApplicationException("Select a product before continue.");
                 }
 
-                var ids = Spreadsheet.GetIdsToFill(selectedProducts);
+                var spreadsheet = OpenSpreadsheet(SpreadsheetPath);
+
+                var ids = spreadsheet.GetIdsToFill(selectedProducts);
 
                 var color = SelectedFillColor.ToDrawingColor();
 
@@ -213,15 +192,9 @@ namespace COPsyncPresenceMap.WPF.ViewModels
                 {
                     var fileName = openFileDialog.FileName;
 
-                    var spreadsheet = _spreadsheetParsingService.Process(fileName);
-
-                    if (!spreadsheet.HasAllRequiredColumns())
-                    {
-                        throw new ApplicationException("Excel file format is not valid.\nIt requires the columns 'ElementId', 'COPsync Enterprise', 'COPsync911' and 'WARRANTsync'.");
-                    }
+                    OpenSpreadsheet(fileName);
 
                     SpreadsheetPath = fileName;
-                    Spreadsheet = spreadsheet;
                 }
                 catch (ApplicationException e)
                 {
@@ -232,6 +205,18 @@ namespace COPsyncPresenceMap.WPF.ViewModels
                     MessageBox.Show("Exception message: " + e.Message, "Unexpected Error");
                 }
             }
+        }
+
+        private Spreadsheet OpenSpreadsheet(string fileName)
+        {
+            var spreadsheet = _spreadsheetParsingService.Process(fileName);
+
+            if (!spreadsheet.HasAllRequiredColumns())
+            {
+                throw new ApplicationException("Excel file format is not valid.\nIt requires the columns 'ElementId', 'COPsync Enterprise', 'COPsync911' and 'WARRANTsync'.");
+            }
+
+            return spreadsheet;
         }
 
         public void SelectOutputFolder()
