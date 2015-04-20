@@ -111,6 +111,7 @@
     <Compile Include="Behavior\ClearOnFocusBehavior.cs" />
     <Compile Include="Behavior\FocusOnLoadBehavior.cs" />
     <Compile Include="Behavior\SelectAllTextOnFocusBehavior .cs" />
+    <Compile Include="Helpers\ColorHelpers.cs" />
     <Compile Include="Helpers\PresenceSpreadsheetHelpers.cs" />
     <Compile Include="Helpers\RelayCommand.cs" />
     <Compile Include="IShell.cs" />

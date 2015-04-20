@@ -2,7 +2,8 @@ using System;
 using Caliburn.Micro;
 using COPsyncPresenceMap.WPF.Helpers;
 using COPsyncPresenceMap.WPF.Services.Interfaces;
-using System.Drawing;
+using MediaColor = System.Windows.Media.Color;
+using DrawingColor = System.Drawing.Color;
 using Microsoft.Win32;
 using WinForms = System.Windows.Forms;
 using System.Diagnostics;
@@ -77,8 +78,8 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             }
         }
 
-        private System.Windows.Media.Color _selectedFillColor = System.Windows.Media.Color.FromRgb(0, 100, 0);
-        public System.Windows.Media.Color SelectedFillColor
+        private MediaColor _selectedFillColor = DrawingColor.MediumSeaGreen.ToMediaColor();
+        public MediaColor SelectedFillColor
         {
             get { return _selectedFillColor; }
             set
@@ -151,17 +152,11 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             return list.ToArray();
         }
 
-        private Color GetSelectedColor()
-        {
-            return Color.FromArgb(SelectedFillColor.R, SelectedFillColor.G, SelectedFillColor.B);
-        }
-
         public GeneralViewModel(IPainterService painterService, ISpreadsheetParsingService spreadsheetParsingService)
         {
             _painterService = painterService;
             _spreadsheetParsingService = spreadsheetParsingService;
         }
-
 
         public void Process()
         {
@@ -176,7 +171,7 @@ namespace COPsyncPresenceMap.WPF.ViewModels
 
                 var ids = Spreadsheet.GetIdsToFill(selectedProducts);
 
-                var color = GetSelectedColor();
+                var color = SelectedFillColor.ToDrawingColor();
 
                 var converter = new SvgToPngConverter();
                 //var converter = new SvgToWmfInkscapeConverter();
