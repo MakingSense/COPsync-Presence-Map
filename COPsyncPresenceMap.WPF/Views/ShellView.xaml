@@ -9,7 +9,7 @@
         ResizeMode="CanMinimize"
         Title="{Binding Path=Title}"
         WindowStartupLocation="CenterScreen"
-        Icon="/Images/icon-64.png"
+        Icon="/COPsyncMap.ico"
         >
     <Grid>
         <ContentControl x:Name="ActiveItem" />
