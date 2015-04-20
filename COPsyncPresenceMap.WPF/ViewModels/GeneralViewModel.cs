@@ -141,7 +141,7 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             {
                 list.Add(PresenceSpreadsheetHelpers.CHECKCOLUMN_COPSYNC_ENTERPRISE);
             }
-            if (IncludeCOPsyncEnterprise)
+            if (IncludeCOPsync911)
             {
                 list.Add(PresenceSpreadsheetHelpers.CHECKCOLUMN_COPSYNC911);
             }
