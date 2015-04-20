@@ -141,11 +141,6 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             {
                 var selectedProducts = GetSelectedProducts();
 
-                if (selectedProducts.Length == 0)
-                {
-                    throw new ApplicationException("Select a product before continue.");
-                }
-
                 var spreadsheet = OpenSpreadsheet(SpreadsheetPath);
 
                 var ids = spreadsheet.GetIdsToFill(selectedProducts);
