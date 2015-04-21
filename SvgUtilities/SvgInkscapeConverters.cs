@@ -21,7 +21,7 @@ namespace SvgUtilities
             {
                 throw new ApplicationException("Inkscape is required to convert.");
             }
-            var temporalFilename = Path.ChangeExtension(Path.GetTempFileName(), ".svg");
+            var temporalFilename = Path.GetTempFileName();
             xmlDocument.Save(temporalFilename);
 
             try

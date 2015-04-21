@@ -15,22 +15,26 @@ namespace COPsyncPresenceMap.WPF.Services
     {
         public Spreadsheet Process(string inputFilePath)
         {
-            var temporalFilename = Path.ChangeExtension(Path.GetTempFileName(), ".xlsx");
-            try
+            // Ugly patch to allow to read opened XLSX files, FileShare.Read is not enough
+            using (var tfh = new TemporalFileHelper(inputFilePath))
             {
-                // Ugly patch to allow to read opened XLSX files, FileShare.Read is not enough
-                File.Copy(inputFilePath, temporalFilename);
-                var reader = new XlsxReader();
-                var spreadsheet = reader.Read(temporalFilename).CreateNewParsingHeaders();
+                Spreadsheet spreadsheet;
+                try
+                {
+                    var reader = new XlsxReader();
+                    spreadsheet = reader.Read(tfh.TemporalFileName).CreateNewParsingHeaders();
+                }
+                catch
+                {
+                    throw new ApplicationException("Error parsing the file " + inputFilePath + ".\nA valid Excel Workbook file (.xlsx) is expected.");
+                }
+
+                if (!spreadsheet.HasAllRequiredColumns())
+                {
+                    throw new ApplicationException("Excel file format is not valid.\nIt requires the columns 'ElementId', 'COPsync Enterprise', 'COPsync911' and 'WARRANTsync'.");
+                }
+
                 return spreadsheet;
-            }
-            catch
-            {
-                throw new ApplicationException("Error parsing the file " + inputFilePath + ".\nA valid Excel Workbook file (.xlsx) is expected.");
-            }
-            finally
-            {
-                File.Delete(temporalFilename);
             }
         }
     }

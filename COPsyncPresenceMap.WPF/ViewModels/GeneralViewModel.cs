@@ -141,7 +141,7 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             {
                 var selectedProducts = GetSelectedProducts();
 
-                var spreadsheet = OpenSpreadsheet(SpreadsheetPath);
+                var spreadsheet = _spreadsheetParsingService.Process(SpreadsheetPath);
 
                 var ids = spreadsheet.GetIdsToFill(selectedProducts);
 
@@ -187,7 +187,7 @@ namespace COPsyncPresenceMap.WPF.ViewModels
                 {
                     var fileName = openFileDialog.FileName;
 
-                    OpenSpreadsheet(fileName);
+                    var spreadsheet = _spreadsheetParsingService.Process(fileName);
 
                     SpreadsheetPath = fileName;
                 }
@@ -200,18 +200,6 @@ namespace COPsyncPresenceMap.WPF.ViewModels
                     MessageBox.Show("Exception message: " + e.Message, "Unexpected Error");
                 }
             }
-        }
-
-        private Spreadsheet OpenSpreadsheet(string fileName)
-        {
-            var spreadsheet = _spreadsheetParsingService.Process(fileName);
-
-            if (!spreadsheet.HasAllRequiredColumns())
-            {
-                throw new ApplicationException("Excel file format is not valid.\nIt requires the columns 'ElementId', 'COPsync Enterprise', 'COPsync911' and 'WARRANTsync'.");
-            }
-
-            return spreadsheet;
         }
 
         public void SelectOutputFolder()

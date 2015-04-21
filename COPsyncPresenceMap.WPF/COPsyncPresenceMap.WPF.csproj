@@ -114,6 +114,7 @@
     <Compile Include="Helpers\ColorHelpers.cs" />
     <Compile Include="Helpers\PresenceSpreadsheetHelpers.cs" />
     <Compile Include="Helpers\RelayCommand.cs" />
+    <Compile Include="Helpers\TemporalFileHelper.cs" />
     <Compile Include="IShell.cs" />
     <Compile Include="NinjectModules\ServicesModule.cs" />
     <Compile Include="Services\Interfaces\ISpreadsheetParsingService.cs" />

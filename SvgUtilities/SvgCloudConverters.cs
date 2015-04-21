@@ -23,7 +23,7 @@ namespace SvgUtilities
 
         public void Convert(XmlDocument xmlDocument, string outputFilename)
         {
-            var temporalFilename = Path.ChangeExtension(Path.GetTempFileName(), ".svg");
+            var temporalFilename = Path.GetTempFileName();
             xmlDocument.Save(temporalFilename);
 
             try
