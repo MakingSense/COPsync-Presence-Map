@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COPsyncPresenceMap", "COPsyncPresenceMap\COPsyncPresenceMap.csproj", "{3FC7A191-5996-4A84-8102-0FCD2B56C1FC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COPsyncPresecenseMapTests", "COPsyncPresecenseMapTests\COPsyncPresecenseMapTests.csproj", "{FEB256F0-4FAA-4893-8595-D782389B9452}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SvgUtilities", "SvgUtilities\SvgUtilities.csproj", "{33FF4B24-02FA-4847-82F3-9222596CC617}"
@@ -33,16 +31,6 @@ Global
 		SingleImage|Any CPU = SingleImage|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3FC7A191-5996-4A84-8102-0FCD2B56C1FC}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
-		{3FC7A191-5996-4A84-8102-0FCD2B56C1FC}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
-		{3FC7A191-5996-4A84-8102-0FCD2B56C1FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3FC7A191-5996-4A84-8102-0FCD2B56C1FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3FC7A191-5996-4A84-8102-0FCD2B56C1FC}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
-		{3FC7A191-5996-4A84-8102-0FCD2B56C1FC}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
-		{3FC7A191-5996-4A84-8102-0FCD2B56C1FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3FC7A191-5996-4A84-8102-0FCD2B56C1FC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3FC7A191-5996-4A84-8102-0FCD2B56C1FC}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
-		{3FC7A191-5996-4A84-8102-0FCD2B56C1FC}.SingleImage|Any CPU.Build.0 = Release|Any CPU
 		{FEB256F0-4FAA-4893-8595-D782389B9452}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
 		{FEB256F0-4FAA-4893-8595-D782389B9452}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
 		{FEB256F0-4FAA-4893-8595-D782389B9452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

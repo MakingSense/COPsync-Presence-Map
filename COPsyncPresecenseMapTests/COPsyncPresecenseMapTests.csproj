@@ -60,10 +60,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\COPsyncPresenceMap\COPsyncPresenceMap.csproj">
-      <Project>{3fc7a191-5996-4a84-8102-0fcd2b56c1fc}</Project>
-      <Name>COPsyncPresenceMap</Name>
-    </ProjectReference>
     <ProjectReference Include="..\SpreadsheetUtilities\SpreadsheetUtilities.csproj">
       <Project>{d2eed7e6-a3c6-4290-8dea-135a64c7899e}</Project>
       <Name>SpreadsheetUtilities</Name>
