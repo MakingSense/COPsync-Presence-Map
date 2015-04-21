@@ -70,7 +70,7 @@ namespace COPsyncPresenceMap
             }
         }
 
-        public IList<string> FullProcess(string spreadsheetFileName, IEnumerable<ISvgConverter> converters, string outputFolderPath, Color color, Products products)
+        public IList<string> FullProcess(string spreadsheetFileName, IEnumerable<ISvgConverter> converters, string outputFolderPath, ColorSet colors, Products products)
         {
             var spreadsheet = ParseSpreadsheet(spreadsheetFileName);
 
@@ -89,12 +89,16 @@ namespace COPsyncPresenceMap
                 throw new ApplicationException("Error opening " + BASE_MAP_PATH + ".\nA valid SVG file is expected.");
             }
 
-            var painter = _svgPainterFactory.Create(document, color);
+            var painter = _svgPainterFactory.Create(document);
 
             try
             {
-                painter.Fill(countyIds);
-                painter.Fill(ELEMENTID_REF_PRESENCE_BOX);
+                painter.FillByTagName(colors.DefaultColor, "path");
+                painter.StrokeByTagName(colors.LineColor, "path");
+                painter.FillByTagName(colors.DefaultColor, "rect");
+                painter.StrokeByTagName(colors.LineColor, "rect");
+                painter.Fill(colors.PresenceColor, countyIds);
+                painter.Fill(colors.PresenceColor, ELEMENTID_REF_PRESENCE_BOX);
                 painter.SetText(ELEMENTID_REF_PRESENCE_TEXT, products.GetWithPresenceText());
                 painter.SetText(ELEMENTID_REF_NO_PRESENCE_TEXT, products.GetWithoutPresenceText());
             }

@@ -10,6 +10,6 @@ namespace COPsyncPresenceMap
 {
     public interface ISvgPainterFactory
     {
-        ISvgPainter Create(XmlDocument document, Color defaultColor);
+        ISvgPainter Create(XmlDocument document);
     }
 }

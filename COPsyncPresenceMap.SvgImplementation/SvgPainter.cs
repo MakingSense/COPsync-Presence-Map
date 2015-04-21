@@ -11,27 +11,15 @@ namespace COPsyncPresenceMap.SvgImplementation
     public class SvgPainter : ISvgPainter
     {
         public XmlDocument Document { get; private set; }
-        public Color DefaultColor { get; set; }
 
-        public SvgPainter(XmlDocument document, Color defaultColor)
+        public SvgPainter(XmlDocument document)
         {
             Document = document;
-            DefaultColor = defaultColor;
-        }
-
-        public void Fill(params string[] ids)
-        {
-            Fill(DefaultColor, ids);
         }
 
         public void Fill(Color color, params string[] ids)
         {
             Fill(color, ids.AsEnumerable());
-        }
-
-        public void Fill(IEnumerable<string> ids)
-        {
-            Fill(DefaultColor, ids.AsEnumerable());
         }
 
         public void Fill(Color color, IEnumerable<string> ids)
@@ -41,6 +29,26 @@ namespace COPsyncPresenceMap.SvgImplementation
             {
                 var mapElement = Document.GetElementById(id);
                 mapElement.SetAttribute("fill", htmlColor);
+            }
+        }
+
+        public void FillByTagName(Color color, string name)
+        {
+            var htmlColor = ColorTranslator.ToHtml(color);
+            var list = Document.GetElementsByTagName(name);
+            foreach (XmlElement mapElement in list)
+            {
+                mapElement.SetAttribute("fill", htmlColor);
+            }
+        }
+
+        public void StrokeByTagName(Color color, string name)
+        {
+            var htmlColor = ColorTranslator.ToHtml(color);
+            var list = Document.GetElementsByTagName(name);
+            foreach (XmlElement mapElement in list)
+            {
+                mapElement.SetAttribute("stroke", htmlColor);
             }
         }
 

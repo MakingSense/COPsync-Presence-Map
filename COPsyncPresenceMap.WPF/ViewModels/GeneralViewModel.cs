@@ -12,6 +12,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Xml;
 using COPsyncPresenceMap.SvgImplementation;
+using System.Drawing;
 
 namespace COPsyncPresenceMap.WPF.ViewModels
 {
@@ -137,8 +138,10 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             try
             {
                 var color = SelectedFillColor.ToDrawingColor();
+                //TODO: allow user to select the other colors
+                var colors = new ColorSet(Color.White, Color.Black, color);
                 var selectedProducts = GetSelectedProducts();
-                var resultFileNames = _applicationServices.FullProcess(SpreadsheetPath, _converters, OutputFolder, color, selectedProducts);
+                var resultFileNames = _applicationServices.FullProcess(SpreadsheetPath, _converters, OutputFolder, colors, selectedProducts);
                 var firstFileName = resultFileNames.FirstOrDefault();
                 if (firstFileName != null)
                 {

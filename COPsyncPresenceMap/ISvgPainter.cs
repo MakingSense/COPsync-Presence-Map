@@ -11,11 +11,10 @@ namespace COPsyncPresenceMap
     public interface ISvgPainter
     {
         XmlDocument Document { get; }
-        Color DefaultColor { get; }
-        void Fill(params string[] ids);
         void Fill(Color color, params string[] ids);
-        void Fill(IEnumerable<string> ids);
         void Fill(Color color, IEnumerable<string> ids);
+        void FillByTagName(Color color, string name);
+        void StrokeByTagName(Color color, string name);
         void SetText(string elementId, string text);
     }
 }

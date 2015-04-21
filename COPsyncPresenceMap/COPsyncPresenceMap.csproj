@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ColorSet.cs" />
     <Compile Include="ISvgPainterFactory.cs" />
     <Compile Include="Helpers\PresenceSpreadsheetHelpers.cs" />
     <Compile Include="ProductList.cs" />
