@@ -1,7 +1,6 @@
 using System;
 using Caliburn.Micro;
 using COPsyncPresenceMap.WPF.Helpers;
-using COPsyncPresenceMap.WPF.Services.Interfaces;
 using MediaColor = System.Windows.Media.Color;
 using DrawingColor = System.Drawing.Color;
 using Microsoft.Win32;
@@ -9,18 +8,17 @@ using WinForms = System.Windows.Forms;
 using System.Diagnostics;
 using System.IO;
 using System.Windows;
-using SpreadsheetUtilities;
 using System.Linq;
 using System.Collections.Generic;
-using SvgUtilities;
+using System.Xml;
+using COPsyncPresenceMap.SvgImplementation;
 
 namespace COPsyncPresenceMap.WPF.ViewModels
 {
     public class GeneralViewModel : Screen
     {
-        private readonly IPainterService _painterService;
-        private readonly ISpreadsheetParsingService _spreadsheetParsingService;
-
+        readonly ISvgConverter[] _converters = new ISvgConverter[] { new SvgToPngConverter(10), new SvgToSvgConverter() };
+        public readonly COPsyncPresenceMapApplication _applicationServices;
         public bool ReadyToProcess
         {
             get { return SpreadsheetPath != null; }
@@ -111,48 +109,41 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             }
         }
 
-        private string[] GetSelectedProducts()
+        private Products GetSelectedProducts()
         {
-            var list = new List<string>();
+            var list = new HashSet<string>();
             if (IncludeCOPsyncEnterprise)
             {
-                list.Add(PresenceSpreadsheetHelpers.CHECKCOLUMN_COPSYNC_ENTERPRISE);
+                list.Add(Products.COPSYNC_ENTERPRISE);
             }
             if (IncludeCOPsync911)
             {
-                list.Add(PresenceSpreadsheetHelpers.CHECKCOLUMN_COPSYNC911);
+                list.Add(Products.COPSYNC911);
             }
             if (IncludeWarrantsync)
             {
-                list.Add(PresenceSpreadsheetHelpers.CHECKCOLUMN_WARRANTSYNC);
+                list.Add(Products.WARRANTSYNC);
             }
-            return list.ToArray();
+            return Products.AllProducts.FilterByProductName(list);
         }
 
-        public GeneralViewModel(IPainterService painterService, ISpreadsheetParsingService spreadsheetParsingService)
+        public GeneralViewModel(COPsyncPresenceMapApplication applicationServices)
         {
-            _painterService = painterService;
-            _spreadsheetParsingService = spreadsheetParsingService;
+            _applicationServices = applicationServices;
         }
 
         public void Process()
         {
             try
             {
-                var selectedProducts = GetSelectedProducts();
-
-                var spreadsheet = _spreadsheetParsingService.Process(SpreadsheetPath);
-
-                var ids = spreadsheet.GetIdsToFill(selectedProducts);
-
                 var color = SelectedFillColor.ToDrawingColor();
-
-                var converter = new SvgToPngConverter(scale: 10);
-                //var converter = new SvgToWmfInkscapeConverter();
-                //var converter = new SvgToPngCloudConverter("o02nOORk1DKhac5fxAgP8lMJ9IgOet6AF4ZdkYQFh3rWdUpm_kbUqNlTe8oejH6uI06-Ae19jstepEKvivbfoA");
-
-                var resultPath = _painterService.Process("base-map.svg", converter, OutputFolder, color, ids);
-                OpenExplorerWindowAndSelectFile(resultPath);
+                var selectedProducts = GetSelectedProducts();
+                var resultFileNames = _applicationServices.FullProcess(SpreadsheetPath, _converters, OutputFolder, color, selectedProducts);
+                var firstFileName = resultFileNames.FirstOrDefault();
+                if (firstFileName != null)
+                {
+                    OpenExplorerWindowAndSelectFile(firstFileName);
+                }
             }
             catch (ApplicationException e)
             {
@@ -185,11 +176,8 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             {
                 try
                 {
-                    var fileName = openFileDialog.FileName;
-
-                    var spreadsheet = _spreadsheetParsingService.Process(fileName);
-
-                    SpreadsheetPath = fileName;
+                    _applicationServices.ParseSpreadsheet(openFileDialog.FileName);
+                    SpreadsheetPath = openFileDialog.FileName;
                 }
                 catch (ApplicationException e)
                 {

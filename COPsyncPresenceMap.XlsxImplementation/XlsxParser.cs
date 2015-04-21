@@ -1,4 +1,5 @@
-﻿using System;
+﻿using COPsyncPresenceMap.Spreadsheet;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.IO.Packaging;
@@ -7,9 +8,9 @@ using System.Text;
 using System.Xml;
 using System.Xml.Linq;
 
-namespace SpreadsheetUtilities
+namespace COPsyncPresenceMap.XlsxImplementation
 {
-    public class XlsxReader
+    public class XlsxParser : ISpreadsheetParser
     {
         private static class ExcelNamespaces
         {
@@ -20,7 +21,7 @@ namespace SpreadsheetUtilities
         /// <summary>
         /// Run to read file from Open File Dialog as an XLSX file
         /// </summary>
-        public ISpreadsheet Read(string fileName)
+        public ISpreadsheet Parse(string fileName)
         {
             using (var xlsxPackage = Package.Open(fileName, FileMode.Open, FileAccess.Read))
             {

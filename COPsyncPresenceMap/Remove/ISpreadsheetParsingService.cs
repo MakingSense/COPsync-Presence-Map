@@ -1,14 +1,14 @@
-﻿using SpreadsheetUtilities;
+﻿using COPsyncPresenceMap.Spreadsheet;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Xml;
 
-namespace COPsyncPresenceMap.WPF.Services.Interfaces
+namespace COPsyncPresenceMap
 {
     public interface ISpreadsheetParsingService
     {
-        Spreadsheet Process(string inputFilePath);
+        ISpreadsheet Process(string inputFilePath);
     }
 }

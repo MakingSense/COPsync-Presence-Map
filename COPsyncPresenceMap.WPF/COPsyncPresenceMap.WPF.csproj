@@ -112,15 +112,10 @@
     <Compile Include="Behavior\FocusOnLoadBehavior.cs" />
     <Compile Include="Behavior\SelectAllTextOnFocusBehavior .cs" />
     <Compile Include="Helpers\ColorHelpers.cs" />
-    <Compile Include="Helpers\PresenceSpreadsheetHelpers.cs" />
     <Compile Include="Helpers\RelayCommand.cs" />
     <Compile Include="Helpers\TemporalFileHelper.cs" />
     <Compile Include="IShell.cs" />
     <Compile Include="NinjectModules\ServicesModule.cs" />
-    <Compile Include="Services\Interfaces\ISpreadsheetParsingService.cs" />
-    <Compile Include="Services\SpreadsheetParsingService.cs" />
-    <Compile Include="Services\PainterService.cs" />
-    <Compile Include="Services\Interfaces\IPainterService.cs" />
     <Compile Include="ViewModels\GeneralViewModel.cs" />
     <Compile Include="ViewModels\ShellViewModel.cs" />
   </ItemGroup>
@@ -172,16 +167,6 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SpreadsheetUtilities\SpreadsheetUtilities.csproj">
-      <Project>{d2eed7e6-a3c6-4290-8dea-135a64c7899e}</Project>
-      <Name>SpreadsheetUtilities</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SvgUtilities\SvgUtilities.csproj">
-      <Project>{33ff4b24-02fa-4847-82f3-9222596cc617}</Project>
-      <Name>SvgUtilities</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="..\CommonFiles\base-map.svg">
       <Link>base-map.svg</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -205,6 +190,20 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\COPsyncPresenceMap.SvgImplementation\COPsyncPresenceMap.SvgImplementation.csproj">
+      <Project>{782ba1bf-a25c-4cad-bef9-8ae3e78f6149}</Project>
+      <Name>COPsyncPresenceMap.SvgImplementation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\COPsyncPresenceMap.XlsxImplementation\COPsyncPresenceMap.XlsxImplementation.csproj">
+      <Project>{c581e4e8-5471-4a90-bdda-557db5f88ed9}</Project>
+      <Name>COPsyncPresenceMap.XlsxImplementation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\COPsyncPresenceMap\COPsyncPresenceMap.csproj">
+      <Project>{695c776b-04f9-44d7-9168-b3b5f20f1312}</Project>
+      <Name>COPsyncPresenceMap</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,6 +1,7 @@
-﻿using Ninject.Modules;
-using COPsyncPresenceMap.WPF.Services;
-using COPsyncPresenceMap.WPF.Services.Interfaces;
+﻿using COPsyncPresenceMap.SvgImplementation;
+using COPsyncPresenceMap.XlsxImplementation;
+using Ninject.Modules;
+using System;
 
 namespace COPsyncPresenceMap.WPF.NinjectModules
 {
@@ -8,8 +9,10 @@ namespace COPsyncPresenceMap.WPF.NinjectModules
     {
         public override void Load()
         {
-            Bind<IPainterService>().To<PainterService>();
-            Bind<ISpreadsheetParsingService>().To<SpreadsheetParsingService>();
+            Bind<COPsyncPresenceMapApplication>().To<COPsyncPresenceMapApplication>();
+            Bind<ISvgPainterFactory>().To<SvgPainterFactory>();
+            Bind<ISpreadsheetParser>().To<XlsxParser>();
+            Bind<ISvgReaderFactory>().To<SvgReaderFactory>();
         }
     }
 }
