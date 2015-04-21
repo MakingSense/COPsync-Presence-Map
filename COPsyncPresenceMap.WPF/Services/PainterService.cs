@@ -5,12 +5,13 @@ using System.Drawing;
 using System.Collections.Generic;
 using SvgUtilities;
 using System.IO;
+using COPsyncPresenceMap.WPF.Helpers;
 
 namespace COPsyncPresenceMap.WPF.Services
 {
     public class PainterService : IPainterService
     {
-        public string Process(string inputSvgFilePath, ISvgConverter converter, string outputFolderPath, Color color, IEnumerable<string> ids)
+        public string Process(string inputSvgFilePath, ISvgConverter converter, string outputFolderPath, Color color, IEnumerable<string> ids, string textWithPresence, string textWithoutPresence)
         {
             XmlDocument document;
 
@@ -28,6 +29,9 @@ namespace COPsyncPresenceMap.WPF.Services
             try
             {
                 painter.Fill(ids);
+                painter.Fill(PresenceSpreadsheetHelpers.ELEMENTID_REF_PRESENCE_BOX);
+                painter.SetText(PresenceSpreadsheetHelpers.ELEMENTID_REF_PRESENCE_TEXT, textWithPresence);
+                painter.SetText(PresenceSpreadsheetHelpers.ELEMENTID_REF_NO_PRESENCE_TEXT, textWithoutPresence);
             }
             catch
             {

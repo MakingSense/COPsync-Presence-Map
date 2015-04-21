@@ -9,6 +9,6 @@ namespace COPsyncPresenceMap.WPF.Services.Interfaces
 {
     public interface IPainterService
     {
-        string Process(string inputSvgFilePath, ISvgConverter converter, string outputFolderPath, Color color, IEnumerable<string> ids);
+        string Process(string inputSvgFilePath, ISvgConverter converter, string outputFolderPath, Color color, IEnumerable<string> ids, string textWithPresence, string textWithoutPresence);
     }
 }

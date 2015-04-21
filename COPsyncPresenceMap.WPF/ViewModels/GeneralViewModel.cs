@@ -129,6 +129,19 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             return list.ToArray();
         }
 
+        const string DEFAULT_PRODUCT_NAME = "COPsync";
+        private string GetWithPresenceText(string[] selectedProducts)
+        {
+            var productName = selectedProducts.Length == 1 ? selectedProducts[0] : DEFAULT_PRODUCT_NAME;
+            return string.Format("County with {0} Presence", productName);
+        }
+
+        private string GetWithoutPresenceText(string[] selectedProducts)
+        {
+            var productName = selectedProducts.Length == 1 ? selectedProducts[0] : DEFAULT_PRODUCT_NAME;
+            return string.Format("County without {0} Presence", productName);
+        }
+
         public GeneralViewModel(IPainterService painterService, ISpreadsheetParsingService spreadsheetParsingService)
         {
             _painterService = painterService;
@@ -144,6 +157,8 @@ namespace COPsyncPresenceMap.WPF.ViewModels
                 var spreadsheet = _spreadsheetParsingService.Process(SpreadsheetPath);
 
                 var ids = spreadsheet.GetIdsToFill(selectedProducts);
+                var textWithPresence = GetWithPresenceText(selectedProducts);
+                var textWithoutPresence = GetWithoutPresenceText(selectedProducts);
 
                 var color = SelectedFillColor.ToDrawingColor();
 
@@ -151,7 +166,7 @@ namespace COPsyncPresenceMap.WPF.ViewModels
                 //var converter = new SvgToWmfInkscapeConverter();
                 //var converter = new SvgToPngCloudConverter("o02nOORk1DKhac5fxAgP8lMJ9IgOet6AF4ZdkYQFh3rWdUpm_kbUqNlTe8oejH6uI06-Ae19jstepEKvivbfoA");
 
-                var resultPath = _painterService.Process("base-map.svg", converter, OutputFolder, color, ids);
+                var resultPath = _painterService.Process("base-map.svg", converter, OutputFolder, color, ids, textWithPresence, textWithoutPresence);
                 OpenExplorerWindowAndSelectFile(resultPath);
             }
             catch (ApplicationException e)

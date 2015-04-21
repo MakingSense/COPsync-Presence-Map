@@ -13,7 +13,10 @@ namespace COPsyncPresenceMap.WPF.Helpers
         public const string CHECKCOLUMN_COPSYNC_ENTERPRISE = "COPsync Enterprise";
         public const string CHECKCOLUMN_COPSYNC911 = "COPsync911";
         public const string CHECKCOLUMN_WARRANTSYNC = "Warrantsync";
-        private const string ELEMENTID_REF_PRESENCE = "Ref_WithPresence";
+        public const string ELEMENTID_REF_PRESENCE_TEXT = "Ref_WithPresence_text";
+        public const string ELEMENTID_REF_NO_PRESENCE_TEXT = "Ref_WithoutPresence_text";
+        public const string ELEMENTID_REF_PRESENCE_BOX = "Ref_WithPresence_box";
+        public const string ELEMENTID_REF_NO_PRESENCE_BOX = "Ref_WithoutPresence_box";
 
         public static bool HasAllRequiredColumns(this Spreadsheet spreadsheet)
         {
@@ -25,8 +28,7 @@ namespace COPsyncPresenceMap.WPF.Helpers
         {
             return spreadsheet
                 .Where(x => x.HasTruthyValue(columns))
-                .Select(x => x[ID_COLUMN])
-                .Union(new[] { PresenceSpreadsheetHelpers.ELEMENTID_REF_PRESENCE });
+                .Select(x => x[ID_COLUMN]);
         }
 
         public static bool IsTruthy(string str)

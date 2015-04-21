@@ -44,5 +44,10 @@ namespace SvgUtilities
             }
         }
 
+        public void SetText(string id, string text)
+        {
+            var mapElement = Document.GetElementById(id);
+            mapElement.InnerText = text;
+        }
     }
 }
