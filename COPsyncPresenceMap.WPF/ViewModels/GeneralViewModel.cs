@@ -68,6 +68,34 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             }
         }
 
+        private MediaColor _defaultFillColor = DrawingColor.White.ToMediaColor();
+        public MediaColor DefaultFillColor
+        {
+            get { return _defaultFillColor; }
+            set
+            {
+                if (_defaultFillColor != value)
+                {
+                    _defaultFillColor = value;
+                    NotifyOfPropertyChange();
+                }
+            }
+        }
+
+        private MediaColor _lineColor = DrawingColor.Black.ToMediaColor();
+        public MediaColor LineColor
+        {
+            get { return _lineColor; }
+            set
+            {
+                if (_lineColor != value)
+                {
+                    _lineColor = value;
+                    NotifyOfPropertyChange();
+                }
+            }
+        }
+
         private bool _includeCOPsyncEnterprise = true;
         public bool IncludeCOPsyncEnterprise
         {
@@ -110,6 +138,11 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             }
         }
 
+        private ColorSet GetColors()
+        {
+            return new ColorSet(DefaultFillColor.ToDrawingColor(), LineColor.ToDrawingColor(), SelectedFillColor.ToDrawingColor());
+        }
+
         private Products GetSelectedProducts()
         {
             var list = new HashSet<string>();
@@ -137,9 +170,7 @@ namespace COPsyncPresenceMap.WPF.ViewModels
         {
             try
             {
-                var color = SelectedFillColor.ToDrawingColor();
-                //TODO: allow user to select the other colors
-                var colors = new ColorSet(Color.White, Color.Black, color);
+                var colors = GetColors();
                 var selectedProducts = GetSelectedProducts();
                 var resultFileNames = _applicationServices.FullProcess(SpreadsheetPath, _converters, OutputFolder, colors, selectedProducts);
                 var firstFileName = resultFileNames.FirstOrDefault();
