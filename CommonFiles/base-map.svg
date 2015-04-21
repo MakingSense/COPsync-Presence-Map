@@ -708,11 +708,11 @@
 			L652.712,841.865 M681.146,839.167h0.773l1.254,5.261l0.392,1.979l0.528,3.725l0.794,6.285l-0.211-0.041l-0.126-0.016
 			l-0.367-0.513l-0.405-3.403l0.049-1.555l-0.211-1.854l-0.443-2.855l-0.882-4.111l-0.527-1.604L681.146,839.167"/>
 	</g>
-	<text transform="matrix(1 0 0 1 47.1904 616.7529)" font-family="'ArialMT'" font-size="13">City or County with COPsync Presence</text>
-	
-		<rect id="Ref_WithPresence" x="29.441" y="608.285" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" width="10" height="10"/>
-	<text transform="matrix(1 0 0 1 47.1904 646.7529)" font-family="'ArialMT'" font-size="13">City or County without COPsync Presence</text>
-	
-		<rect id="Ref_WithoutPresence" x="29.441" y="638.285" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" width="10" height="10"/>
+    <text id="Ref_WithPresence_text" transform="matrix(1 0 0 1 47.1904 616.7529)" font-family="'ArialMT'" font-size="13">City or County with COPsync Presence</text>
+
+    <rect id="Ref_WithPresence_box" x="29.441" y="608.285" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" width="10" height="10" />
+    <text id="Ref_WithoutPresence_text" transform="matrix(1 0 0 1 47.1904 646.7529)" font-family="'ArialMT'" font-size="13">City or County without COPsync Presence</text>
+
+    <rect id="Ref_WithoutPresence_box" x="29.441" y="638.285" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" width="10" height="10" />
 </g>
 </svg>

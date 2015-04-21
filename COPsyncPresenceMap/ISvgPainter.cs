@@ -16,5 +16,6 @@ namespace COPsyncPresenceMap
         void Fill(Color color, params string[] ids);
         void Fill(IEnumerable<string> ids);
         void Fill(Color color, IEnumerable<string> ids);
+        void SetText(string elementId, string text);
     }
 }

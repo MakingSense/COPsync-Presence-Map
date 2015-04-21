@@ -94,6 +94,9 @@ namespace COPsyncPresenceMap
             try
             {
                 painter.Fill(countyIds);
+                painter.Fill(ELEMENTID_REF_PRESENCE_BOX);
+                painter.SetText(ELEMENTID_REF_PRESENCE_TEXT, products.GetWithPresenceText());
+                painter.SetText(ELEMENTID_REF_NO_PRESENCE_TEXT, products.GetWithoutPresenceText());
             }
             catch
             {
