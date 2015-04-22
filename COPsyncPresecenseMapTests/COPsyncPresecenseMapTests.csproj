@@ -60,16 +60,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SpreadsheetUtilities\SpreadsheetUtilities.csproj">
-      <Project>{d2eed7e6-a3c6-4290-8dea-135a64c7899e}</Project>
-      <Name>SpreadsheetUtilities</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SvgUtilities\SvgUtilities.csproj">
-      <Project>{33ff4b24-02fa-4847-82f3-9222596cc617}</Project>
-      <Name>SvgUtilities</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="..\CommonFiles\base-map.svg">
       <Link>Deployment\base-map.svg</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
