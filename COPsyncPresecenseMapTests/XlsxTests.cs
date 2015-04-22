@@ -15,8 +15,8 @@ namespace COPsyncPresecenseMapTests
         [DeploymentItem(@"Deployment\Book1.xlsx")]
         public void GeneralTest()
         {
-            var xlsxParser = new XlsxParser();
-            var spreadsheet = xlsxParser.Parse("Book1.xlsx");
+            var xlsxParser = new XlsxSpreadsheetParser();
+            var spreadsheet = xlsxParser.ParseFromFile("Book1.xlsx");
 
             Assert.AreEqual(10, spreadsheet.ColumnCount);
             Assert.AreEqual(10, spreadsheet.RowCount);
@@ -34,8 +34,8 @@ namespace COPsyncPresecenseMapTests
         [DeploymentItem(@"Deployment\Book1.xlsx")]
         public void WithHeadersTest()
         {
-            var xlsxParser = new XlsxParser();
-            var baseSpreadsheet = xlsxParser.Parse("Book1.xlsx");
+            var xlsxParser = new XlsxSpreadsheetParser();
+            var baseSpreadsheet = xlsxParser.ParseFromFile("Book1.xlsx");
             var spreadsheet = baseSpreadsheet.CreateNewParsingHeaders();
 
             Assert.AreEqual(10, spreadsheet.ColumnCount);

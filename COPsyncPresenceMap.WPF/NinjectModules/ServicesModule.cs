@@ -10,7 +10,7 @@ namespace COPsyncPresenceMap.WPF.NinjectModules
         public override void Load()
         {
             Bind<ICOPsyncPresenceMapGenerator>().To<COPsyncPresenceMapGenerator>();
-            Bind<ISpreadsheetParser>().To<XlsxParser>();
+            Bind<ISpreadsheetParser>().To<XlsxSpreadsheetParser>();
             Bind<IMapGraphicParser>().To<SvgMapGraphicParser>();
         }
     }

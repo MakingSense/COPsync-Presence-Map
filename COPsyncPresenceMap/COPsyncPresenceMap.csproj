@@ -70,7 +70,7 @@
     <Compile Include="Spreadsheet\Spreadsheet.cs" />
     <Compile Include="Spreadsheet\SpreadsheetHeader.cs" />
     <Compile Include="Spreadsheet\SpreadsheetRow.cs" />
-    <Compile Include="Spreadsheet\XlsxParser.cs" />
+    <Compile Include="Spreadsheet\XlsxSpreadsheetParser.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\svg11.dtd" />

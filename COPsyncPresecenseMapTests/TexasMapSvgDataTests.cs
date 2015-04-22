@@ -16,7 +16,7 @@ namespace COPsyncPresecenseMapTests
         public void CountiesElements()
         {
             var reader = new SvgMapGraphicParser();
-            var map = reader.ParseMapFromFile(@"base-map.svg");
+            var map = reader.ParseFromFile(@"base-map.svg");
             var document = map.GetSvgXmlDocument();
             var idList = new List<string>();
             ExtractIds(document, idList);

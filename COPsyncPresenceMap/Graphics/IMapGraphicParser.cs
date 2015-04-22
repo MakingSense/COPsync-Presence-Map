@@ -11,7 +11,7 @@ namespace COPsyncPresenceMap.Graphics
 {
     public interface IMapGraphicParser
     {
-        IMapGraphic ParseMapFromFile(string path);
-        IMapGraphic ParseMapFromString(string source);
+        IMapGraphic ParseFromFile(string path);
+        IMapGraphic ParseFromString(string source);
     }
 }

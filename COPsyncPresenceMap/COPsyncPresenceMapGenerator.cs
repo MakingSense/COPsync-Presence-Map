@@ -38,7 +38,7 @@ namespace COPsyncPresenceMap
                 try
                 {
                     File.Copy(spreadsheetFileName, tfh.TemporalFileName, true);
-                    spreadsheet = _spreadsheetParser.Parse(tfh.TemporalFileName);
+                    spreadsheet = _spreadsheetParser.ParseFromFile(tfh.TemporalFileName);
                 }
                 catch
                 {
@@ -77,7 +77,7 @@ namespace COPsyncPresenceMap
 
             try
             {
-                mapGraphic = _svgReaderFactory.ParseMapFromFile(BASE_MAP_PATH);
+                mapGraphic = _svgReaderFactory.ParseFromFile(BASE_MAP_PATH);
             }
             catch
             {

@@ -36,7 +36,7 @@ namespace COPsyncPresenceMap.Graphics
             return svgReader;
         }
 
-        public IMapGraphic ParseMapFromFile(string path)
+        public IMapGraphic ParseFromFile(string path)
         {
             using (var textReader = new StreamReader(path))
             using (var xmlReader = CreateXmlReader(textReader))
@@ -47,7 +47,7 @@ namespace COPsyncPresenceMap.Graphics
             }
         }
 
-        public IMapGraphic ParseMapFromString(string source)
+        public IMapGraphic ParseFromString(string source)
         {
             using (var textReader = new StringReader(source))
             using (var xmlReader = CreateXmlReader(textReader))

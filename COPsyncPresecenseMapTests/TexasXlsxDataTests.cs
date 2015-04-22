@@ -15,8 +15,8 @@ namespace COPsyncPresecenseMapTests
         [DeploymentItem(@"Deployment\COPsyncPresence.xlsx")]
         public void COPsyncPresenceAllIds()
         {
-            var xlsxParser = new XlsxParser();
-            var baseSpreadsheet = xlsxParser.Parse("COPsyncPresence.xlsx");
+            var xlsxParser = new XlsxSpreadsheetParser();
+            var baseSpreadsheet = xlsxParser.ParseFromFile("COPsyncPresence.xlsx");
             var spreadsheet = baseSpreadsheet.CreateNewParsingHeaders();
 
             var allIdsByColumnName = spreadsheet.Select(x => x["ElementId"]).Where(x => x.StartsWith("TX_")).OrderBy(x => x).ToArray();
@@ -287,8 +287,8 @@ namespace COPsyncPresecenseMapTests
         [DeploymentItem(@"Deployment\COPsyncPresence.xlsx")]
         public void COPsyncPresenceCOPsyncEnterpriseIds()
         {
-            var xlsxParser = new XlsxParser();
-            var baseSpreadsheet = xlsxParser.Parse("COPsyncPresence.xlsx");
+            var xlsxParser = new XlsxSpreadsheetParser();
+            var baseSpreadsheet = xlsxParser.ParseFromFile("COPsyncPresence.xlsx");
             var spreadsheet = baseSpreadsheet.CreateNewParsingHeaders();
 
             var ids = spreadsheet
@@ -375,8 +375,8 @@ namespace COPsyncPresecenseMapTests
         [DeploymentItem(@"Deployment\COPsyncPresence.xlsx")]
         public void COPsyncPresenceAnyMark()
         {
-            var xlsxParser = new XlsxParser();
-            var baseSpreadsheet = xlsxParser.Parse("COPsyncPresence.xlsx");
+            var xlsxParser = new XlsxSpreadsheetParser();
+            var baseSpreadsheet = xlsxParser.ParseFromFile("COPsyncPresence.xlsx");
             var spreadsheet = baseSpreadsheet.CreateNewParsingHeaders();
 
             var ids = spreadsheet

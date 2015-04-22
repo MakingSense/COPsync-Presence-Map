@@ -10,6 +10,6 @@ namespace COPsyncPresenceMap.Spreadsheet
 {
     public interface ISpreadsheetParser
     {
-        ISpreadsheet Parse(string fileName);
+        ISpreadsheet ParseFromFile(string fileName);
     }
 }

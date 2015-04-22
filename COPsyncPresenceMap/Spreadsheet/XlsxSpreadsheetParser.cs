@@ -10,7 +10,7 @@ using System.Xml.Linq;
 
 namespace COPsyncPresenceMap.Spreadsheet
 {
-    public class XlsxParser : ISpreadsheetParser
+    public class XlsxSpreadsheetParser : ISpreadsheetParser
     {
         private static class ExcelNamespaces
         {
@@ -21,7 +21,7 @@ namespace COPsyncPresenceMap.Spreadsheet
         /// <summary>
         /// Run to read file from Open File Dialog as an XLSX file
         /// </summary>
-        public ISpreadsheet Parse(string fileName)
+        public ISpreadsheet ParseFromFile(string fileName)
         {
             using (var xlsxPackage = Package.Open(fileName, FileMode.Open, FileAccess.Read))
             {
