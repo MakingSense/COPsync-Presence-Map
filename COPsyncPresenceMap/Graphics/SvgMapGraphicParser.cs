@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace COPsyncPresenceMap.SvgImplementation
+namespace COPsyncPresenceMap.Graphics
 {
     public class SvgMapGraphicParser : IMapGraphicParser
     {
@@ -18,7 +18,7 @@ namespace COPsyncPresenceMap.SvgImplementation
             {
                 if (absoluteUri.ToString().IndexOf("svg", StringComparison.InvariantCultureIgnoreCase) > -1)
                 {
-                    return Assembly.GetExecutingAssembly().GetManifestResourceStream("COPsyncPresenceMap.SvgImplementation.Resources.svg11.dtd");
+                    return Assembly.GetExecutingAssembly().GetManifestResourceStream("COPsyncPresenceMap.Resources.svg11.dtd");
                 }
                 else
                 {

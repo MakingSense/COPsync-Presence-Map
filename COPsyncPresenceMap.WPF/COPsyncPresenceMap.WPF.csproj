@@ -192,14 +192,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\COPsyncPresenceMap.SvgImplementation\COPsyncPresenceMap.SvgImplementation.csproj">
-      <Project>{782ba1bf-a25c-4cad-bef9-8ae3e78f6149}</Project>
-      <Name>COPsyncPresenceMap.SvgImplementation</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\COPsyncPresenceMap.XlsxImplementation\COPsyncPresenceMap.XlsxImplementation.csproj">
-      <Project>{c581e4e8-5471-4a90-bdda-557db5f88ed9}</Project>
-      <Name>COPsyncPresenceMap.XlsxImplementation</Name>
-    </ProjectReference>
     <ProjectReference Include="..\COPsyncPresenceMap\COPsyncPresenceMap.csproj">
       <Project>{695c776b-04f9-44d7-9168-b3b5f20f1312}</Project>
       <Name>COPsyncPresenceMap</Name>

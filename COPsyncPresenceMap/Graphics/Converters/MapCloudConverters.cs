@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace COPsyncPresenceMap.SvgImplementation
+namespace COPsyncPresenceMap.Graphics.Converters.Cloud
 {
     public abstract class MapCloudConverterBase : IMapGraphicConverter
     {

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace COPsyncPresenceMap.XlsxImplementation
+namespace COPsyncPresenceMap.Spreadsheet
 {
     public class SpreadsheetRow : ISpreadsheetRow
     {

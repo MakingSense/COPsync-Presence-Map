@@ -11,15 +11,15 @@ using System.Windows;
 using System.Linq;
 using System.Collections.Generic;
 using System.Xml;
-using COPsyncPresenceMap.SvgImplementation;
 using System.Drawing;
 using COPsyncPresenceMap.Graphics;
+using COPsyncPresenceMap.Graphics.Converters;
 
 namespace COPsyncPresenceMap.WPF.ViewModels
 {
     public class GeneralViewModel : Screen
     {
-        readonly IMapGraphicConverter[] _converters = new IMapGraphicConverter[] { new MapPngConverter(10), new MapSvgConverter() };
+        readonly IMapGraphicConverter[] _converters = new IMapGraphicConverter[] { new MapPngConverter(scale: 10), new MapSvgConverter() };
         public readonly ICOPsyncPresenceMapGenerator _presenceMapGenerator;
         public bool ReadyToProcess
         {

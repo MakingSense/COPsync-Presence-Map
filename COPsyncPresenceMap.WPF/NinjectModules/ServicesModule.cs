@@ -1,7 +1,5 @@
 ﻿using COPsyncPresenceMap.Graphics;
 using COPsyncPresenceMap.Spreadsheet;
-using COPsyncPresenceMap.SvgImplementation;
-using COPsyncPresenceMap.XlsxImplementation;
 using Ninject.Modules;
 using System;
 

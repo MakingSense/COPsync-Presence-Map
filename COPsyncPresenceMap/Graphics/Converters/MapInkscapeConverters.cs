@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace COPsyncPresenceMap.SvgImplementation
+namespace COPsyncPresenceMap.Graphics.Converters.Inkscape
 {
     public abstract class MapInkscapeConverterBase : IMapGraphicConverter
     {

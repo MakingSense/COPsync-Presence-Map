@@ -8,7 +8,7 @@ using System.Text;
 using System.Xml;
 using System.Xml.Linq;
 
-namespace COPsyncPresenceMap.XlsxImplementation
+namespace COPsyncPresenceMap.Spreadsheet
 {
     public class XlsxParser : ISpreadsheetParser
     {

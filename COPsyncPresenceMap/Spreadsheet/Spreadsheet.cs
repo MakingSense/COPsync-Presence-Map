@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace COPsyncPresenceMap.XlsxImplementation
+namespace COPsyncPresenceMap.Spreadsheet
 {
     public class Spreadsheet : ISpreadsheet
     {
