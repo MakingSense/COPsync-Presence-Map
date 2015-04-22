@@ -1051,6 +1051,7 @@
 		<col key="yes" def="s72">Directory_</col>
 		<col key="yes" def="s72">Component_</col>
 		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT</td></row>
+		<row><td>PersonalFolder</td><td>ISX_DEFAULTCOMPONENT1</td></row>
 	</table>
 
 	<table name="CustomAction">
@@ -1885,7 +1886,6 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
-		<row><td>copsyncpresence.xlsx2</td><td>ISX_DEFAULTCOMPONENT1</td><td>COPSYN~1.XLS|COPsyncPresence.xlsx</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Projects\dataonix\presence-map-new\CommonFiles\COPsyncPresence.xlsx</td><td>1</td><td/></row>
 		<row><td>copsyncpresencemap.wpf.conte</td><td>COPsyncPresenceMap.WPF.Content_Files</td><td>COPsyncPresenceMap.WPF.Content Files</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;COPsyncPresenceMap.WPF&gt;|ContentFiles</td><td>3</td><td/></row>
 		<row><td>copsyncpresencemap.wpf.prima</td><td>COPsyncPresenceMap.WPF.Primary_output</td><td>COPsyncPresenceMap.WPF.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;COPsyncPresenceMap.WPF&gt;|Built</td><td>3</td><td/></row>
 	</table>
@@ -3997,7 +3997,7 @@ RABWAEQALQA1AAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{F5649D2F-9B78-4188-9DD7-237D2E806D88}</td></row>
 		<row><td>ISUSSignature</td><td>{8FCFE9AE-278E-4C60-A2E7-B01ADF43A119}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant,viewRealSetupDesign,viewUpgradePaths,viewSetupDesign,viewISToday,viewAppV,viewProject,viewSetupTypes,viewUpdateService,viewAppFiles,viewFeatureFiles,viewObjects,viewDependencies,viewShortcuts,viewRegistry,viewIniFiles,viewTextFiles,viewXMLConfig,viewFileExtensions,viewEnvironmentVariables,viewVRoots,viewSQLServer,viewComponentServices,viewServices,viewUI,viewBillboards,viewTextMessages,viewSystemSearch,viewInstallScriptStd,viewCustomActions,viewSupportFiles,viewRelease</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewRealSetupDesign,viewUpgradePaths,viewSetupDesign,viewISToday,viewAppV,viewProject,viewSetupTypes,viewUpdateService,viewAppFiles,viewFeatureFiles,viewObjects,viewDependencies,viewShortcuts,viewRegistry,viewIniFiles,viewTextFiles,viewXMLConfig,viewFileExtensions,viewEnvironmentVariables,viewVRoots,viewSQLServer,viewComponentServices,viewServices,viewUI,viewBillboards,viewTextMessages,viewSystemSearch,viewInstallScriptStd,viewCustomActions,viewSupportFiles,viewRelease,viewDesignPatches</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>

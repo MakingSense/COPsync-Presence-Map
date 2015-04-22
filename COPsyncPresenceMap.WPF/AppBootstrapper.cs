@@ -8,6 +8,7 @@ using Ninject;
 using COPsyncPresenceMap.WPF.NinjectModules;
 using System.Windows;
 using COPsyncPresenceMap.WPF.Helpers;
+using System.IO;
 
 namespace COPsyncPresenceMap.WPF
 {
@@ -17,7 +18,26 @@ namespace COPsyncPresenceMap.WPF
 
         public AppBootstrapper()
         {
+            PrepareDefaultSpreadsheet();
             Initialize();
+        }
+
+        private void PrepareDefaultSpreadsheet()
+        {
+            try
+            {
+                var folder = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+                var filename = "COPsyncPresence.xlsx";
+                var outputFilename = Path.Combine(folder, filename);
+                if (File.Exists(filename) && !File.Exists(outputFilename))
+                {
+                    File.Copy(filename, outputFilename, false);
+                }
+            }
+            catch
+            {
+                //Do not break the system on unexpected error
+            }
         }
 
         protected override void Configure()
