@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace COPsyncPresenceMap
+namespace COPsyncPresenceMap.Graphics
 {
     public interface IMapGraphicConverter
     {

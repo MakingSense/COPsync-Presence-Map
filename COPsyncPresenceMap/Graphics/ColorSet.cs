@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace COPsyncPresenceMap
+namespace COPsyncPresenceMap.Graphics
 {
     public struct ColorSet
     {

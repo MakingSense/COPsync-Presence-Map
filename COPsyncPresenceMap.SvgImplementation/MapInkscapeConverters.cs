@@ -1,4 +1,5 @@
-﻿using COPsyncPresenceMap.Helpers;
+﻿using COPsyncPresenceMap.Graphics;
+using COPsyncPresenceMap.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;

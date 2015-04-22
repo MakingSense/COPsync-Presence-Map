@@ -6,6 +6,7 @@ using System.IO;
 using COPsyncPresenceMap.Helpers;
 using System.Linq;
 using COPsyncPresenceMap.Spreadsheet;
+using COPsyncPresenceMap.Graphics;
 
 namespace COPsyncPresenceMap
 {

@@ -13,6 +13,7 @@ using System.Collections.Generic;
 using System.Xml;
 using COPsyncPresenceMap.SvgImplementation;
 using System.Drawing;
+using COPsyncPresenceMap.Graphics;
 
 namespace COPsyncPresenceMap.WPF.ViewModels
 {
