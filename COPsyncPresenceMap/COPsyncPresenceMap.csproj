@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="ColorSet.cs" />
     <Compile Include="Helpers\PresenceSpreadsheetHelpers.cs" />
+    <Compile Include="ICOPsyncPresenceMapGenerator.cs" />
     <Compile Include="ProductList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <None Include="Remove\ISpreadsheetParsingService.cs" />

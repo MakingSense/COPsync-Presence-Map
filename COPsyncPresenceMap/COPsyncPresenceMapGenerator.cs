@@ -9,12 +9,8 @@ using COPsyncPresenceMap.Spreadsheet;
 
 namespace COPsyncPresenceMap
 {
-    public class COPsyncPresenceMapGenerator
+    public class COPsyncPresenceMapGenerator : ICOPsyncPresenceMapGenerator
     {
-        //TODO:
-        // * Implement different interfaces
-        // * Provide a default constructor with default dependencies ready
-
         private readonly IMapGraphicParser _svgReaderFactory;
         private readonly ISpreadsheetParser _spreadsheetParser;
 

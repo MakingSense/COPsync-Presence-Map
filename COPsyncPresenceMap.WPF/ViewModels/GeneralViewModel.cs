@@ -19,7 +19,7 @@ namespace COPsyncPresenceMap.WPF.ViewModels
     public class GeneralViewModel : Screen
     {
         readonly IMapGraphicConverter[] _converters = new IMapGraphicConverter[] { new MapPngConverter(10), new MapSvgConverter() };
-        public readonly COPsyncPresenceMapGenerator _presenceMapGenerator;
+        public readonly ICOPsyncPresenceMapGenerator _presenceMapGenerator;
         public bool ReadyToProcess
         {
             get { return SpreadsheetPath != null; }
@@ -161,7 +161,7 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             return Products.AllProducts.FilterByProductName(list);
         }
 
-        public GeneralViewModel(COPsyncPresenceMapGenerator presenceMapGenerator)
+        public GeneralViewModel(ICOPsyncPresenceMapGenerator presenceMapGenerator)
         {
             _presenceMapGenerator = presenceMapGenerator;
         }
