@@ -9,12 +9,12 @@ using System.Xml;
 
 namespace COPsyncPresenceMap.SvgImplementation
 {
-    public abstract class SvgInkscapeConverterBase : ISvgConverter
+    public abstract class MapInkscapeConverterBase : IMapGraphicConverter
     {
         public abstract string DefaultExtension { get; }
         public abstract string ConvertOption { get; }
 
-        public void Convert(XmlDocument xmlDocument, string outputFilename)
+        public void Convert(IMapGraphic mapGraphic, string outputFilename)
         {
             var inkscapeExe = GetInkscapePath();
             if (inkscapeExe == null)
@@ -22,6 +22,7 @@ namespace COPsyncPresenceMap.SvgImplementation
                 throw new ApplicationException("Inkscape is required to convert.");
             }
             var temporalFilename = Path.GetTempFileName();
+            var xmlDocument = mapGraphic.GetSvgXmlDocument();
             xmlDocument.Save(temporalFilename);
 
             try
@@ -62,43 +63,43 @@ namespace COPsyncPresenceMap.SvgImplementation
         }
     }
 
-    public class SvgToWmfInkscapeConverter : SvgInkscapeConverterBase, ISvgConverter
+    public class MapWmfInkscapeConverter : MapInkscapeConverterBase, IMapGraphicConverter
     {
         public override string DefaultExtension { get { return ".wmf"; } }
         public override string ConvertOption { get { return "--export-wmf"; } }
     }
 
-    public class SvgToEmfInkscapeConverter : SvgInkscapeConverterBase, ISvgConverter
+    public class MapEmfInkscapeConverter : MapInkscapeConverterBase, IMapGraphicConverter
     {
         public override string DefaultExtension { get { return ".emf"; } }
         public override string ConvertOption { get { return "--export-emf"; } }
     }
 
-    public class SvgToEpsInkscapeConverter : SvgInkscapeConverterBase, ISvgConverter
+    public class MapEpsInkscapeConverter : MapInkscapeConverterBase, IMapGraphicConverter
     {
         public override string DefaultExtension { get { return ".eps"; } }
         public override string ConvertOption { get { return "--export-eps"; } }
     }
 
-    public class SvgToPsInkscapeConverter : SvgInkscapeConverterBase, ISvgConverter
+    public class MapPsInkscapeConverter : MapInkscapeConverterBase, IMapGraphicConverter
     {
         public override string DefaultExtension { get { return ".ps"; } }
         public override string ConvertOption { get { return "--export-ps"; } }
     }
 
-    public class SvgToPdfInkscapeConverter : SvgInkscapeConverterBase, ISvgConverter
+    public class MapPdfInkscapeConverter : MapInkscapeConverterBase, IMapGraphicConverter
     {
         public override string DefaultExtension { get { return ".pdf"; } }
         public override string ConvertOption { get { return "--export-pdf"; } }
     }
 
-    public class SvgToPlainSvgInkscapeConverter : SvgInkscapeConverterBase, ISvgConverter
+    public class MapPlainSvgInkscapeConverter : MapInkscapeConverterBase, IMapGraphicConverter
     {
         public override string DefaultExtension { get { return ".svg"; } }
         public override string ConvertOption { get { return "--export-plain-svg"; } }
     }
 
-    public class SvgToPngInkscapeConverter : SvgInkscapeConverterBase, ISvgConverter
+    public class MapPngInkscapeConverter : MapInkscapeConverterBase, IMapGraphicConverter
     {
         public override string DefaultExtension { get { return ".png"; } }
         public override string ConvertOption { get { return "--export-png"; } }

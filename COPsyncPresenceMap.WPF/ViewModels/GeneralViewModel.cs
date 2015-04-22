@@ -18,7 +18,7 @@ namespace COPsyncPresenceMap.WPF.ViewModels
 {
     public class GeneralViewModel : Screen
     {
-        readonly ISvgConverter[] _converters = new ISvgConverter[] { new SvgToPngConverter(10), new SvgToSvgConverter() };
+        readonly IMapGraphicConverter[] _converters = new IMapGraphicConverter[] { new MapPngConverter(10), new MapSvgConverter() };
         public readonly COPsyncPresenceMapGenerator _presenceMapGenerator;
         public bool ReadyToProcess
         {

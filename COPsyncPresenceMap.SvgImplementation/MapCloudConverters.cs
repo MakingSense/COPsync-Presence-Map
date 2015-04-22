@@ -11,20 +11,21 @@ using System.Xml;
 
 namespace COPsyncPresenceMap.SvgImplementation
 {
-    public abstract class SvgCloudConverterBase : ISvgConverter
+    public abstract class MapCloudConverterBase : IMapGraphicConverter
     {
         public abstract string DefaultExtension { get; }
         public abstract string OutputFormat { get; }
 
         private readonly string _apikey;
-        public SvgCloudConverterBase(string apikey)
+        public MapCloudConverterBase(string apikey)
         {
             _apikey = apikey;
         }
 
-        public void Convert(XmlDocument xmlDocument, string outputFilename)
+        public void Convert(IMapGraphic mapGraphic, string outputFilename)
         {
             var temporalFilename = Path.GetTempFileName();
+            var xmlDocument = mapGraphic.GetSvgXmlDocument();
             xmlDocument.Save(temporalFilename);
 
             try
@@ -57,45 +58,45 @@ namespace COPsyncPresenceMap.SvgImplementation
 
     }
 
-    public class SvgToWmfCloudConverter : SvgCloudConverterBase, ISvgConverter
+    public class MapWmfCloudConverter : MapCloudConverterBase, IMapGraphicConverter
     {
         public override string DefaultExtension { get { return ".wmf"; } }
         public override string OutputFormat { get { return "wmf"; } }
-        public SvgToWmfCloudConverter(string apikey) : base(apikey) { }
+        public MapWmfCloudConverter(string apikey) : base(apikey) { }
     }
 
-    public class SvgToEmfCloudConverter : SvgCloudConverterBase, ISvgConverter
+    public class MapEmfCloudConverter : MapCloudConverterBase, IMapGraphicConverter
     {
         public override string DefaultExtension { get { return ".emf"; } }
         public override string OutputFormat { get { return "emf"; } }
-        public SvgToEmfCloudConverter(string apikey) : base(apikey) { }
+        public MapEmfCloudConverter(string apikey) : base(apikey) { }
     }
 
-    public class SvgToEpsCloudConverter : SvgCloudConverterBase, ISvgConverter
+    public class MapEpsCloudConverter : MapCloudConverterBase, IMapGraphicConverter
     {
         public override string DefaultExtension { get { return ".eps"; } }
         public override string OutputFormat { get { return "eps"; } }
-        public SvgToEpsCloudConverter(string apikey) : base(apikey) { }
+        public MapEpsCloudConverter(string apikey) : base(apikey) { }
     }
 
-    public class SvgToPsCloudConverter : SvgCloudConverterBase, ISvgConverter
+    public class MapPsCloudConverter : MapCloudConverterBase, IMapGraphicConverter
     {
         public override string DefaultExtension { get { return ".ps"; } }
         public override string OutputFormat { get { return "ps"; } }
-        public SvgToPsCloudConverter(string apikey) : base(apikey) { }
+        public MapPsCloudConverter(string apikey) : base(apikey) { }
     }
 
-    public class SvgToPdfCloudConverter : SvgCloudConverterBase, ISvgConverter
+    public class MapPdfCloudConverter : MapCloudConverterBase, IMapGraphicConverter
     {
         public override string DefaultExtension { get { return ".pdf"; } }
         public override string OutputFormat { get { return "pdf"; } }
-        public SvgToPdfCloudConverter(string apikey) : base(apikey) { }
+        public MapPdfCloudConverter(string apikey) : base(apikey) { }
     }
 
-    public class SvgToPngCloudConverter : SvgCloudConverterBase, ISvgConverter
+    public class MapPngCloudConverter : MapCloudConverterBase, IMapGraphicConverter
     {
         public override string DefaultExtension { get { return ".png"; } }
         public override string OutputFormat { get { return "png"; } }
-        public SvgToPngCloudConverter(string apikey) : base(apikey) { }
+        public MapPngCloudConverter(string apikey) : base(apikey) { }
     }
 }

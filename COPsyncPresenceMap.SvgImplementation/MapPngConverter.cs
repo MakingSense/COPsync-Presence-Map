@@ -8,18 +8,19 @@ using System.Xml;
 
 namespace COPsyncPresenceMap.SvgImplementation
 {
-    public class SvgToPngConverter : ISvgConverter
+    public class MapPngConverter : IMapGraphicConverter
     {
         public float Scale { get; set; }
 
-        public SvgToPngConverter(int scale = 1)
+        public MapPngConverter(int scale = 1)
         {
             Scale = scale;
         }
 
         public string DefaultExtension { get { return ".png"; } }
-        public void Convert(XmlDocument xmlDocument, string outputFilename)
+        public void Convert(IMapGraphic mapGraphic, string outputFilename)
         {
+            var xmlDocument = mapGraphic.GetSvgXmlDocument();
             var svgDocument = SvgDocument.Open(xmlDocument);
             var image = new System.Drawing.Bitmap((int)(svgDocument.Width.Value * Scale), (int)(svgDocument.Height.Value * Scale));
             svgDocument.Draw(image);

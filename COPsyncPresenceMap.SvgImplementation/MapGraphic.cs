@@ -8,13 +8,18 @@ using System.Xml;
 
 namespace COPsyncPresenceMap.SvgImplementation
 {
-    public class SvgPainter : ISvgPainter
+    public class MapGraphic : IMapGraphic
     {
-        public XmlDocument Document { get; private set; }
+        private XmlDocument _svgXmlDocument;
 
-        public SvgPainter(XmlDocument document)
+        public MapGraphic(XmlDocument document)
         {
-            Document = document;
+            _svgXmlDocument = document;
+        }
+
+        public XmlDocument GetSvgXmlDocument()
+        {
+            return _svgXmlDocument;
         }
 
         public void Fill(Color color, params string[] ids)
@@ -27,7 +32,7 @@ namespace COPsyncPresenceMap.SvgImplementation
             var htmlColor = ColorTranslator.ToHtml(color);
             foreach (var id in ids)
             {
-                var mapElement = Document.GetElementById(id);
+                var mapElement = _svgXmlDocument.GetElementById(id);
                 mapElement.SetAttribute("fill", htmlColor);
             }
         }
@@ -35,7 +40,7 @@ namespace COPsyncPresenceMap.SvgImplementation
         public void FillByTagName(Color color, string name)
         {
             var htmlColor = ColorTranslator.ToHtml(color);
-            var list = Document.GetElementsByTagName(name);
+            var list = _svgXmlDocument.GetElementsByTagName(name);
             foreach (XmlElement mapElement in list)
             {
                 mapElement.SetAttribute("fill", htmlColor);
@@ -45,7 +50,7 @@ namespace COPsyncPresenceMap.SvgImplementation
         public void StrokeByTagName(Color color, string name)
         {
             var htmlColor = ColorTranslator.ToHtml(color);
-            var list = Document.GetElementsByTagName(name);
+            var list = _svgXmlDocument.GetElementsByTagName(name);
             foreach (XmlElement mapElement in list)
             {
                 mapElement.SetAttribute("stroke", htmlColor);
@@ -54,7 +59,7 @@ namespace COPsyncPresenceMap.SvgImplementation
 
         public void SetText(string id, string text)
         {
-            var mapElement = Document.GetElementById(id);
+            var mapElement = _svgXmlDocument.GetElementById(id);
             mapElement.InnerText = text;
         }
 

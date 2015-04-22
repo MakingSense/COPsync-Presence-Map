@@ -42,7 +42,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ColorSet.cs" />
-    <Compile Include="ISvgPainterFactory.cs" />
     <Compile Include="Helpers\PresenceSpreadsheetHelpers.cs" />
     <Compile Include="ProductList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -53,9 +52,9 @@
     <Compile Include="Spreadsheet\ISpreadsheetHeader.cs" />
     <Compile Include="Spreadsheet\ISpreadsheetRow.cs" />
     <Compile Include="ISpreadsheetParser.cs" />
-    <Compile Include="ISvgConverter.cs" />
-    <Compile Include="ISvgPainter.cs" />
-    <Compile Include="ISvgReaderFactory.cs" />
+    <Compile Include="IMapGraphicConverter.cs" />
+    <Compile Include="IMapGraphic.cs" />
+    <Compile Include="IMapGraphicParser.cs" />
     <Compile Include="Helpers\TemporalFileHelper.cs" />
   </ItemGroup>
   <ItemGroup />

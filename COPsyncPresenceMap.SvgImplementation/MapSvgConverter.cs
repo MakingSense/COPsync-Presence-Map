@@ -8,15 +8,16 @@ using System.Xml;
 
 namespace COPsyncPresenceMap.SvgImplementation
 {
-    public class SvgToSvgConverter : ISvgConverter
+    public class MapSvgConverter : IMapGraphicConverter
     {
-        public SvgToSvgConverter()
+        public MapSvgConverter()
         {
         }
 
         public string DefaultExtension { get { return ".svg"; } }
-        public void Convert(XmlDocument xmlDocument, string outputFilename)
+        public void Convert(IMapGraphic mapGraphic, string outputFilename)
         {
+            var xmlDocument = mapGraphic.GetSvgXmlDocument();
             xmlDocument.Save(outputFilename);
         }
 

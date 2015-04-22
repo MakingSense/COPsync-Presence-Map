@@ -8,9 +8,9 @@ using System.Xml;
 
 namespace COPsyncPresenceMap
 {
-    public interface ISvgPainter
+    public interface IMapGraphic
     {
-        XmlDocument Document { get; }
+        XmlDocument GetSvgXmlDocument();
         void Fill(Color color, params string[] ids);
         void Fill(Color color, IEnumerable<string> ids);
         void FillByTagName(Color color, string name);

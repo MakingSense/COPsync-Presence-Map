@@ -45,16 +45,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MapGraphic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SvgCloudConverters.cs" />
-    <Compile Include="SvgDtdResolver.cs" />
-    <Compile Include="SvgInkscapeConverters.cs" />
-    <Compile Include="SvgPainter.cs" />
-    <Compile Include="SvgPainterFactory.cs" />
-    <Compile Include="SvgToSvgConverter.cs" />
-    <Compile Include="SvgToPngConverter.cs" />
-    <Compile Include="SvgReaderFactory.cs" />
-    <Compile Include="SvgTextReader.cs" />
+    <Compile Include="MapCloudConverters.cs" />
+    <Compile Include="MapInkscapeConverters.cs" />
+    <Compile Include="MapSvgConverter.cs" />
+    <Compile Include="MapPngConverter.cs" />
+    <Compile Include="SvgMapGraphicParser.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\svg11.dtd" />
