@@ -1,4 +1,5 @@
-﻿using System;
+﻿using COPsyncPresenceMap.Helpers;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -21,19 +22,14 @@ namespace COPsyncPresenceMap.SvgImplementation
             {
                 throw new ApplicationException("Inkscape is required to convert.");
             }
-            var temporalFilename = Path.GetTempFileName();
-            var xmlDocument = mapGraphic.GetSvgXmlDocument();
-            xmlDocument.Save(temporalFilename);
-
-            try
+            using (var tfh = new TemporalFileHelper())
             {
-                var arguments = string.Format("--file {0} {1} {2}", temporalFilename, ConvertOption, outputFilename);
+                var xmlDocument = mapGraphic.GetSvgXmlDocument();
+                xmlDocument.Save(tfh.TemporalFileName);
+
+                var arguments = string.Format("--file {0} {1} {2}", tfh.TemporalFileName, ConvertOption, outputFilename);
                 Process p = Process.Start(inkscapeExe, arguments);
                 p.WaitForExit();
-            }
-            finally
-            {
-                File.Delete(temporalFilename);
             }
         }
 

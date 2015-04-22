@@ -1,4 +1,5 @@
 ﻿using COPsyncPresenceMap;
+using COPsyncPresenceMap.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -24,12 +25,10 @@ namespace COPsyncPresenceMap.SvgImplementation
 
         public void Convert(IMapGraphic mapGraphic, string outputFilename)
         {
-            var temporalFilename = Path.GetTempFileName();
-            var xmlDocument = mapGraphic.GetSvgXmlDocument();
-            xmlDocument.Save(temporalFilename);
-
-            try
+            using (var tfh = new TemporalFileHelper())
             {
+                var xmlDocument = mapGraphic.GetSvgXmlDocument();
+                xmlDocument.Save(tfh.TemporalFileName);
                 using (WebClient client = new WebClient())
                 {
                     client.Headers["Content-Type"] = "binary/octet-stream";
@@ -40,13 +39,9 @@ namespace COPsyncPresenceMap.SvgImplementation
                             "&input=upload" +
                             "&inputformat=svg" +
                             "&outputformat=" + OutputFormat,
-                        temporalFilename);
+                        tfh.TemporalFileName);
                     File.WriteAllBytes(outputFilename, result);
                 }
-            }
-            finally
-            {
-                File.Delete(temporalFilename);
             }
         }
 
