@@ -75,6 +75,16 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\COPsyncPresenceMap.WPF\COPsyncPresenceMap.WPF.csproj">
+      <Project>{cce5685d-2a1a-493f-ac76-cf693244c722}</Project>
+      <Name>COPsyncPresenceMap.WPF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\COPsyncPresenceMap\COPsyncPresenceMap.csproj">
+      <Project>{695c776b-04f9-44d7-9168-b3b5f20f1312}</Project>
+      <Name>COPsyncPresenceMap</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

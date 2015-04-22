@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Xml;
 using System.Drawing;
-using SpreadsheetUtilities;
+using COPsyncPresenceMap.Spreadsheet;
 using System.Linq;
 
 
@@ -15,8 +15,8 @@ namespace COPsyncPresecenseMapTests
         [DeploymentItem(@"Deployment\Book1.xlsx")]
         public void GeneralTest()
         {
-            var xlsxReader = new XlsxReader();
-            var spreadsheet = xlsxReader.Read("Book1.xlsx");
+            var xlsxParser = new XlsxParser();
+            var spreadsheet = xlsxParser.Parse("Book1.xlsx");
 
             Assert.AreEqual(10, spreadsheet.ColumnCount);
             Assert.AreEqual(10, spreadsheet.RowCount);
@@ -34,8 +34,8 @@ namespace COPsyncPresecenseMapTests
         [DeploymentItem(@"Deployment\Book1.xlsx")]
         public void WithHeadersTest()
         {
-            var xlsxReader = new XlsxReader();
-            var baseSpreadsheet = xlsxReader.Read("Book1.xlsx");
+            var xlsxParser = new XlsxParser();
+            var baseSpreadsheet = xlsxParser.Parse("Book1.xlsx");
             var spreadsheet = baseSpreadsheet.CreateNewParsingHeaders();
 
             Assert.AreEqual(10, spreadsheet.ColumnCount);

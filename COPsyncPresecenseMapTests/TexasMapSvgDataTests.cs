@@ -1,12 +1,12 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using SvgUtilities;
+using COPsyncPresenceMap.Graphics;
 using System.Xml;
 using System.Drawing;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace TexasMapSvgTests
+namespace COPsyncPresecenseMapTests
 {
     [TestClass]
     public class TexasMapSvgDataTests
@@ -15,7 +15,9 @@ namespace TexasMapSvgTests
         [DeploymentItem(@"Deployment\base-map.svg")]
         public void CountiesElements()
         {
-            var document = SvgTextReader.GetDocumentFromFile(@"base-map.svg");
+            var reader = new SvgMapGraphicParser();
+            var map = reader.ParseMapFromFile(@"base-map.svg");
+            var document = map.GetSvgXmlDocument();
             var idList = new List<string>();
             ExtractIds(document, idList);
             var countyIds = idList.Where(x => x.StartsWith("TX_")).OrderBy(x => x).ToArray();

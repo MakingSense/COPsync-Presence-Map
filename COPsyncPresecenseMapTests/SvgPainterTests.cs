@@ -1,34 +1,34 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using SvgUtilities;
 using System.Xml;
 using System.Drawing;
+using COPsyncPresenceMap.Graphics;
 
 namespace COPsyncPresecenseMapTests
 {
     [TestClass]
-    public class SvgPainterTests
+    public class MapGraphicTests
     {
         [TestMethod]
         [DeploymentItem(@"Deployment\base-map.svg")]
-        public void SvgPainter_JustCreated_ShouldHavePropertiesSet()
+        public void MapGraphic_GetSvgXmlDocument_ShouldNotBeNull()
         {
-            var document = SvgTextReader.GetDocumentFromFile(@"base-map.svg");
-            var svgPainter = new SvgPainter(document, Color.Gainsboro);
-
-            Assert.AreSame(document, svgPainter.Document);
-            Assert.AreEqual(Color.Gainsboro, svgPainter.DefaultColor);
+            var parser = new SvgMapGraphicParser();
+            var map = parser.ParseMapFromFile(@"base-map.svg");
+            var document = map.GetSvgXmlDocument();
+            Assert.IsNotNull(document);
         }
 
         [TestMethod]
         [DeploymentItem(@"Deployment\base-map.svg")]
         public void Fill_ShouldFillTheRightElements()
         {
-            var document = SvgTextReader.GetDocumentFromFile(@"base-map.svg");
-            var svgPainter = new SvgPainter(document, Color.Gainsboro);
+            var parser = new SvgMapGraphicParser();
+            var map = parser.ParseMapFromFile(@"base-map.svg");
 
-            svgPainter.Fill(Color.Beige, "TX_Crosby", "TX_Lubbock", "TX_Floyd");
-            svgPainter.Fill("TX_Bailey", "TX_Lubbock", "TX_Briscoe");
+            map.Fill(Color.Beige, "TX_Crosby", "TX_Lubbock", "TX_Floyd");
+            map.Fill(Color.Gainsboro, "TX_Bailey", "TX_Lubbock", "TX_Briscoe");
+            var document = map.GetSvgXmlDocument();
 
             var colorDefault = ColorTranslator.FromHtml("#D0D0D0");
             var color_TX_Crosby = ColorTranslator.FromHtml(document.GetElementById("TX_Crosby").GetAttribute("fill"));
