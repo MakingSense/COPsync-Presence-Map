@@ -108,12 +108,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="AppBootstrapper.cs" />
-    <Compile Include="Behavior\ClearOnFocusBehavior.cs" />
-    <Compile Include="Behavior\FocusOnLoadBehavior.cs" />
-    <Compile Include="Behavior\SelectAllTextOnFocusBehavior .cs" />
     <Compile Include="Helpers\ColorHelpers.cs" />
-    <Compile Include="Helpers\RelayCommand.cs" />
-    <Compile Include="Helpers\TemporalFileHelper.cs" />
     <Compile Include="IShell.cs" />
     <Compile Include="NinjectModules\ServicesModule.cs" />
     <Compile Include="ViewModels\GeneralViewModel.cs" />
@@ -158,21 +153,15 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\background.dark.png" />
-    <Resource Include="Images\background.light.png" />
     <Resource Include="Images\COPSyncLogo.png" />
-    <Resource Include="Images\questionIcon.light.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="..\CommonFiles\base-map.svg">
       <Link>base-map.svg</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Resource Include="COPsyncMap.ico" />
-    <Resource Include="Images\expandableListIcon.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">

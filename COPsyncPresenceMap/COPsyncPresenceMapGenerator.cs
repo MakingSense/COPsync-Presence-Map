@@ -20,7 +20,7 @@ namespace COPsyncPresenceMap
         public const string ELEMENTID_REF_PRESENCE_BOX = "Ref_WithPresence_box";
         public const string ELEMENTID_REF_NO_PRESENCE_BOX = "Ref_WithoutPresence_box";
         private const string ID_COLUMN = "ElementId";
-        private const string BASE_MAP_PATH = "base-map.svg";
+        private const string BASE_MAP_PATH = "base-map.svg"; //TODO: set it in the constructor
 
         public COPsyncPresenceMapGenerator(ISpreadsheetParser spreadsheetParser, IMapGraphicParser svgReaderFactory)
         {
