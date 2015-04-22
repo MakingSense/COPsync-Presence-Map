@@ -9,7 +9,7 @@ using COPsyncPresenceMap.Spreadsheet;
 
 namespace COPsyncPresenceMap
 {
-    public class COPsyncPresenceMapApplication
+    public class COPsyncPresenceMapGenerator
     {
         //TODO:
         // * Implement different interfaces
@@ -26,7 +26,7 @@ namespace COPsyncPresenceMap
         private const string ID_COLUMN = "ElementId";
         private const string BASE_MAP_PATH = "base-map.svg";
 
-        public COPsyncPresenceMapApplication(ISvgPainterFactory svgPainterFactory, ISpreadsheetParser spreadsheetParser, ISvgReaderFactory svgReaderFactory)
+        public COPsyncPresenceMapGenerator(ISvgPainterFactory svgPainterFactory, ISpreadsheetParser spreadsheetParser, ISvgReaderFactory svgReaderFactory)
         {
             _svgPainterFactory = svgPainterFactory;
             _spreadsheetParser = spreadsheetParser;

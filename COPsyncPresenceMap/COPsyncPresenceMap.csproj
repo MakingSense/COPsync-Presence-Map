@@ -47,7 +47,7 @@
     <Compile Include="ProductList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <None Include="Remove\ISpreadsheetParsingService.cs" />
-    <Compile Include="COPsyncPresenceMapApplication.cs" />
+    <Compile Include="COPsyncPresenceMapGenerator.cs" />
     <None Include="Remove\SpreadsheetParsingService.cs" />
     <Compile Include="Spreadsheet\ISpreadsheet.cs" />
     <Compile Include="Spreadsheet\ISpreadsheetHeader.cs" />

@@ -19,7 +19,7 @@ namespace COPsyncPresenceMap.WPF.ViewModels
     public class GeneralViewModel : Screen
     {
         readonly ISvgConverter[] _converters = new ISvgConverter[] { new SvgToPngConverter(10), new SvgToSvgConverter() };
-        public readonly COPsyncPresenceMapApplication _applicationServices;
+        public readonly COPsyncPresenceMapGenerator _presenceMapGenerator;
         public bool ReadyToProcess
         {
             get { return SpreadsheetPath != null; }
@@ -161,9 +161,9 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             return Products.AllProducts.FilterByProductName(list);
         }
 
-        public GeneralViewModel(COPsyncPresenceMapApplication applicationServices)
+        public GeneralViewModel(COPsyncPresenceMapGenerator presenceMapGenerator)
         {
-            _applicationServices = applicationServices;
+            _presenceMapGenerator = presenceMapGenerator;
         }
 
         public void Process()
@@ -172,7 +172,7 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             {
                 var colors = GetColors();
                 var selectedProducts = GetSelectedProducts();
-                var resultFileNames = _applicationServices.FullProcess(SpreadsheetPath, _converters, OutputFolder, colors, selectedProducts);
+                var resultFileNames = _presenceMapGenerator.FullProcess(SpreadsheetPath, _converters, OutputFolder, colors, selectedProducts);
                 var firstFileName = resultFileNames.FirstOrDefault();
                 if (firstFileName != null)
                 {
@@ -210,7 +210,7 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             {
                 try
                 {
-                    _applicationServices.ParseSpreadsheet(openFileDialog.FileName);
+                    _presenceMapGenerator.ParseSpreadsheet(openFileDialog.FileName);
                     SpreadsheetPath = openFileDialog.FileName;
                 }
                 catch (ApplicationException e)
