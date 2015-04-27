@@ -139,9 +139,42 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             }
         }
 
+        private bool _showCountyLines = true;
+        public bool ShowCountyLines
+        {
+            get { return _showCountyLines; }
+            set
+            {
+                if (_showCountyLines != value)
+                {
+                    _showCountyLines = value;
+                    NotifyOfPropertyChange();
+                }
+            }
+        }
+
+        private bool _showCountyNames = false;
+        public bool ShowCountyNames
+        {
+            get { return _showCountyNames; }
+            set
+            {
+                if (_showCountyNames != value)
+                {
+                    _showCountyNames = value;
+                    NotifyOfPropertyChange();
+                }
+            }
+        }
+
         private RenderPreferences GetPreferences()
         {
-            return new RenderPreferences(DefaultFillColor.ToDrawingColor(), LineColor.ToDrawingColor(), SelectedFillColor.ToDrawingColor());
+            return new RenderPreferences(
+                DefaultFillColor.ToDrawingColor(),
+                LineColor.ToDrawingColor(),
+                SelectedFillColor.ToDrawingColor(),
+                ShowCountyLines,
+                ShowCountyNames);
         }
 
         private Products GetSelectedProducts()

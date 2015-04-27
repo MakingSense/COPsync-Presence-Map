@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
         Width="500"
-        Height="630"
+        Height="680"
         ResizeMode="CanMinimize"
         Title="{Binding Path=Title}"
         WindowStartupLocation="CenterScreen"
