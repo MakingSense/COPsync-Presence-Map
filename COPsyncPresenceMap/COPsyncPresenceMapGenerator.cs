@@ -92,6 +92,10 @@ namespace COPsyncPresenceMap
                 mapGraphic.StrokeOuterBorder(preferences.LineColor);
                 mapGraphic.Fill(preferences.PresenceColor, countyIds);
                 mapGraphic.Fill(preferences.PresenceColor, ELEMENTID_REF_PRESENCE_BOX);
+                if (!preferences.ShowCountyNames)
+                {
+                    mapGraphic.HideCountyNames();
+                }
                 if (preferences.ShowCountyLines)
                 {
                     mapGraphic.StrokeCounties(preferences.LineColor);

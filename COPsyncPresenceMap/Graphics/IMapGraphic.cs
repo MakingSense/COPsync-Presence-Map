@@ -21,5 +21,7 @@ namespace COPsyncPresenceMap.Graphics
         void StrokeReferenceBoxes(Color color);
         void StrokeOuterBorder(Color color);
         void SetText(string elementId, string text);
+        void ShowCountyNames(bool show = true);
+        void HideCountyNames();
     }
 }

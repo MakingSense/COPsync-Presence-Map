@@ -109,6 +109,17 @@ namespace COPsyncPresenceMap.Graphics
             mapElement.InnerText = text;
         }
 
+        public void ShowCountyNames(bool show = true)
+        {
+            var mapElement = _svgXmlDocument.GetElementById("CountyNames");
+            mapElement.SetAttribute("display", show ? "inherit" : "none");
+        }
+
+        public void HideCountyNames()
+        {
+            ShowCountyNames(false);
+        }
+
         private string ToHtmlColor(Color color)
         {
             return color.A == 0 ? "TRANSPARENT" : ColorTranslator.ToHtml(color);
