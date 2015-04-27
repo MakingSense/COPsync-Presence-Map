@@ -794,6 +794,266 @@
         404.298,165.017 404.187,164.754 403.595,162.053 	" />
 <polygon fill="none" stroke="#FF0000" stroke-miterlimit="10" points="564.905,346.076 564.905,346.08 564.905,346.08 	" />
 </g>
+<g id="CountyNames">
+<text id="TX_Dallam_Name" transform="matrix(1 0 0 1 182.0774 39.7988)" font-family="'Arial'" font-size="4">Dallam</text>
+<text id="TX_Hartley_Name" transform="matrix(1 0 0 1 179.7146 60.0996)" font-family="'Arial'" font-size="4">Hartley</text>
+<text id="TX_Oldham_Name" transform="matrix(1 0 0 1 179.7146 82.6909)" font-family="'Arial'" font-size="4">Oldham</text>
+<text id="TX_Deaf Smith_Name" transform="matrix(1 0 0 1 176.7146 103.8501)" font-family="'Arial'" font-size="4">Deaf Smith</text>
+<text id="TX_Parmer_Name" transform="matrix(1 0 0 1 171.4514 126.5977)" font-family="'Arial'" font-size="4">Parmer</text>
+<text id="TX_Bailey_Name" transform="matrix(1 0 0 1 169.7634 149.5137)" font-family="'Arial'" font-size="4">Bailey</text>
+<text id="TX_Lamb_Name" transform="matrix(1 0 0 1 189.5051 149.5137)" font-family="'Arial'" font-size="4">Lamb</text>
+<text id="TX_Hale_Name" transform="matrix(1 0 0 1 212.1941 149.5137)" font-family="'Arial'" font-size="4">Hale</text>
+<text id="TX_Floyd_Name" transform="matrix(1 0 0 1 233.2141 149.5137)" font-family="'Arial'" font-size="4">Floyd</text>
+<text id="TX_Motley_Name" transform="matrix(1 0 0 1 253.8606 149.5137)" font-family="'Arial'" font-size="4">Motley</text>
+<text id="TX_Cottle_Name" transform="matrix(1 0 0 1 275.2571 149.5137)" font-family="'Arial'" font-size="4">Cottle</text>
+<text id="TX_Hardeman_Name" transform="matrix(1 0 0 1 293.5764 141.2197)" font-family="'Arial'" font-size="4">Hardeman</text>
+<text id="TX_Wilbarger_Name" transform="matrix(1 0 0 1 316.8372 154.3921)" font-family="'Arial'" font-size="4">Wilbarger</text>
+<text id="TX_Wichita_Name" transform="matrix(1 0 0 1 339.3538 154.3921)" font-family="'Arial'" font-size="4">Wichita</text>
+<text id="TX_Clay_Name" transform="matrix(1 0 0 1 363.0696 171.3145)" font-family="'Arial'" font-size="4">Clay</text>
+<text id="TX_Archer_Name" transform="matrix(1 0 0 1 341.7961 173.3145)" font-family="'Arial'" font-size="4">Archer</text>
+<text id="TX_Baylor_Name" transform="matrix(1 0 0 1 320.6428 173.3145)" font-family="'Arial'" font-size="4">Baylor</text>
+<text id="TX_Knox_Name" transform="matrix(1 0 0 1 299.3557 173.3145)" font-family="'Arial'" font-size="4">Knox</text>
+<text id="TX_King_Name" transform="matrix(1 0 0 1 277.8665 173.3145)" font-family="'Arial'" font-size="4">King</text>
+<text id="TX_Dickens_Name" transform="matrix(1 0 0 1 252.8845 173.3145)" font-family="'Arial'" font-size="4">Dickens</text>
+<text id="TX_Crosby_Name" transform="matrix(1 0 0 1 232.3953 173.3145)" font-family="'Arial'" font-size="4">Crosby</text>
+<text id="TX_Lubbock_Name" transform="matrix(1 0 0 1 208.9011 173.3145)" font-family="'Arial'" font-size="4">Lubbock</text>
+<text id="TX_Hockley_Name" transform="matrix(1 0 0 1 187.3948 173.3145)" font-family="'Arial'" font-size="4">Hockley</text>
+<text id="TX_Cochran_Name" transform="matrix(1 0 0 1 166.3752 173.3145)" font-family="'Arial'" font-size="4">Cochran</text>
+<text id="TX_Yoakum_Name" transform="matrix(1 0 0 1 166.7815 195.0981)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">Y</tspan><tspan x="2.3" y="0" font-family="'Arial'" font-size="4">oakum</tspan></text>
+<text id="TX_Gaines_Name" transform="matrix(1 0 0 1 175.7405 217.4292)" font-family="'Arial'" font-size="4">Gaines</text>
+<text id="TX_Dawson_Name" transform="matrix(1 0 0 1 203.4397 217.4292)" font-family="'Arial'" font-size="4">Dawson</text>
+<text id="TX_Borden_Name" transform="matrix(1 0 0 1 225.1375 217.4292)" font-family="'Arial'" font-size="4">Borden</text>
+<text id="TX_Scurry_Name" transform="matrix(1 0 0 1 248.0764 217.4292)" font-family="'Arial'" font-size="4">Scurry</text>
+<text id="TX_Fisher_Name" transform="matrix(1 0 0 1 269.8113 217.4292)" font-family="'Arial'" font-size="4">Fisher</text>
+<text id="TX_Jones_Name" transform="matrix(1 0 0 1 291.406 217.4292)" font-family="'Arial'" font-size="4">Jones</text>
+<text id="TX_Shackelford_Name" transform="matrix(1 0 0 1 311.5608 217.4292)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">Shackel-</tspan><tspan x="4.3" y="4" font-family="'Arial'" font-size="4">ford</tspan></text>
+<text id="TX_Callahan_Name" transform="matrix(1 0 0 1 311.4475 239.228)" font-family="'Arial'" font-size="4">Callahan</text>
+<text id="TX_Taylor_Name" transform="matrix(1 0 0 1 291.9905 239.228)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">T</tspan><tspan x="2" y="0" font-family="'Arial'" font-size="4">aylor</tspan></text>
+<text id="TX_Nolan_Name" transform="matrix(1 0 0 1 269.8323 239.228)" font-family="'Arial'" font-size="4">Nolan</text>
+<text id="TX_Mitchell_Name" transform="matrix(1 0 0 1 246.6091 239.228)" font-family="'Arial'" font-size="4">Mitchell</text>
+<text id="TX_Howard_Name" transform="matrix(1 0 0 1 224.6956 239.228)" font-family="'Arial'" font-size="4">Howard</text>
+<text id="TX_Martin_Name" transform="matrix(1 0 0 1 204.1086 239.228)" font-family="'Arial'" font-size="4">Martin</text>
+<text id="TX_Andrews_Name" transform="matrix(1 0 0 1 174.2961 239.228)" font-family="'Arial'" font-size="4">Andrews</text>
+<text id="TX_Winkler_Name" transform="matrix(1 0 0 1 154.9773 261.2139)" font-family="'Arial'" font-size="4">Winkler</text>
+<text id="TX_Loving_Name" transform="matrix(1 0 0 1 133.532 261.2139)" font-family="'Arial'" font-size="4">Loving</text>
+<text id="TX_Reeves_Name" transform="matrix(1 0 0 1 127.0588 289.4805)" font-family="'Arial'" font-size="4">Reeves</text>
+<text id="TX_Pecos_Name" transform="matrix(1 0 0 1 164.3718 314.9526)" font-family="'Arial'" font-size="4">Pecos</text>
+<text id="TX_Terrell_Name" transform="matrix(1 0 0 1 195.5339 343.5234)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">T</tspan><tspan x="2" y="0" font-family="'Arial'" font-size="4">errell</tspan></text>
+<text id="TX_Crockett_Name" transform="matrix(1 0 0 1 225.7566 320.6304)" font-family="'Arial'" font-size="4">Crockett</text>
+<text id="TX_Schleicher_Name" transform="matrix(1 0 0 1 260.6741 311.3931)" font-family="'Arial'" font-size="4">Schleicher</text>
+<text id="TX_Menard_Name" transform="matrix(1 0 0 1 294.4612 311.3931)" font-family="'Arial'" font-size="4">Menard</text>
+<text id="TX_Mason_Name" transform="matrix(1 0 0 1 320.5452 320.6304)" font-family="'Arial'" font-size="4">Mason</text>
+<text id="TX_Llano_Name" transform="matrix(1 0 0 1 344.9338 320.6304)" font-family="'Arial'" font-size="4">Llano</text>
+<text id="TX_Burnet_Name" transform="matrix(1 0 0 1 365.8479 316.0039)" font-family="'Arial'" font-size="4">Burnet</text>
+<text id="TX_Williamson_Name" transform="matrix(1 0 0 1 386.5608 322.019)" font-family="'Arial'" font-size="4">Williamson</text>
+<text id="TX_Travis_Name" transform="matrix(1 0 0 1 385.9182 339.5049)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">T</tspan><tspan x="2.3" y="0" font-family="'Arial'" font-size="4">ravis</tspan></text>
+<text id="TX_Bastrop_Name" transform="matrix(1 0 0 1 402.7893 350.0313)" font-family="'Arial'" font-size="4">Bastrop</text>
+<text id="TX_Fayette_Name" transform="matrix(1 0 0 1 420.7971 359.5439)" font-family="'Arial'" font-size="4">Fayette</text>
+<text id="TX_Colorado_Name" transform="matrix(1 0 0 1 436.6643 371.9766)" font-family="'Arial'" font-size="4">Colorado</text>
+<text id="TX_Wharton_Name" transform="matrix(1 0 0 1 451.8303 390.0156)" font-family="'Arial'" font-size="4">Wharton</text>
+<text id="TX_Jackson_Name" transform="matrix(1 0 0 1 437.9807 406.7715)" font-family="'Arial'" font-size="4">Jackson</text>
+<text id="TX_Victoria_Name" transform="matrix(1 0 0 1 420.8342 413.4805)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">V</tspan><tspan x="2.6" y="0" font-family="'Arial'" font-size="4">ictoria</tspan></text>
+<text id="TX_Matagorda_Name" transform="matrix(1 0 0 1 461.2952 409.8564)" font-family="'Arial'" font-size="4">Matagorda</text>
+<text id="TX_Fort Bend_Name" transform="matrix(1 0 0 1 470.8596 375.335)" font-family="'Arial'" font-size="4">Fort Bend</text>
+<text id="TX_Hays_Name" transform="matrix(1 0 0 1 374.0569 353.2061)" font-family="'Arial'" font-size="4">Hays</text>
+<text id="TX_Caldwell_Name" transform="matrix(1 0 0 1 388.6702 363.3145)" font-family="'Arial'" font-size="4">Caldwell</text>
+<text id="TX_Blanco_Name" transform="matrix(1 0 0 1 357.2346 342.8945)" font-family="'Arial'" font-size="4">Blanco</text>
+<text id="TX_Gillespie_Name" transform="matrix(1 0 0 1 331.8342 339.9951)" font-family="'Arial'" font-size="4">Gillespie</text>
+<text id="TX_Kerr_Name" transform="matrix(1 0 0 1 318.2483 354.2803)" font-family="'Arial'" font-size="4">Kerr</text>
+<text id="TX_Kendall_Name" transform="matrix(1 0 0 1 342.0999 358.582)" font-family="'Arial'" font-size="4">Kendall</text>
+<text id="TX_Comal_Name" transform="matrix(1 0 0 1 362.2678 365.5439)" font-family="'Arial'" font-size="4">Comal</text>
+<text id="TX_Guadalupe_Name" transform="matrix(1 0 0 1 371.803 376.3926)" font-family="'Arial'" font-size="4">Guadalupe</text>
+<text id="TX_Gonzales_Name" transform="matrix(1 0 0 1 394.2991 382.9775)" font-family="'Arial'" font-size="4">Gonzales</text>
+<text id="TX_Lavaca_Name" transform="matrix(1 0 0 1 421.5745 382.9775)" font-family="'Arial'" font-size="4">Lavaca</text>
+<text id="TX_DeWitt_Name" transform="matrix(1 0 0 1 406.2346 398.5654)" font-family="'Arial'" font-size="4">DeWitt</text>
+<text id="TX_Karnes_Name" transform="matrix(1 0 0 1 380.7385 411.1914)" font-family="'Arial'" font-size="4">Karnes</text>
+<text id="TX_Wilson_Name" transform="matrix(1 0 0 1 371.5784 396.2617)" font-family="'Arial'" font-size="4">Wilson</text>
+<text id="TX_Edwards_Name" transform="matrix(1 0 0 1 270.2058 359.5439)" font-family="'Arial'" font-size="4">Edwards</text>
+<text id="TX_Kinney_Name" transform="matrix(1 0 0 1 268.1609 388.9746)" font-family="'Arial'" font-size="4">Kinney</text>
+<text id="TX_Uvalade_Name" transform="matrix(1 0 0 1 296.0432 388.9746)" font-family="'Arial'" font-size="4">Uvalade</text>
+<text id="TX_Val Verde_Name" transform="matrix(1 0 0 1 230.3723 359.5439)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">V</tspan><tspan x="2.4" y="0" font-family="'Arial'" font-size="4">al </tspan><tspan x="6.6" y="0" font-family="'Arial'" font-size="4">V</tspan><tspan x="9" y="0" font-family="'Arial'" font-size="4">erde</tspan></text>
+<text id="TX_Real_Name" transform="matrix(1 0 0 1 297.1292 366.5049)" font-family="'Arial'" font-size="4">Real</text>
+<text id="TX_Bandera_Name" transform="matrix(1 0 0 1 315.6272 368.7598)" font-family="'Arial'" font-size="4">Bandera</text>
+<text id="TX_Medina_Name" transform="matrix(1 0 0 1 324.7913 388.9746)" font-family="'Arial'" font-size="4">Medina</text>
+<text id="TX_Bexar_Name" transform="matrix(1 0 0 1 352.6565 384.248)" font-family="'Arial'" font-size="4">Bexar</text>
+<text id="TX_Atascosa_Name" transform="matrix(1 0 0 1 349.6545 411.957)" font-family="'Arial'" font-size="4">Atascosa</text>
+<text id="TX_Frio_Name" transform="matrix(1 0 0 1 328.9709 411.957)" font-family="'Arial'" font-size="4">Frio</text>
+<text id="TX_Zavala_Name" transform="matrix(1 0 0 1 296.9104 411.957)" font-family="'Arial'" font-size="4">Zavala</text>
+<text id="TX_Dimmit_Name" transform="matrix(1 0 0 1 296.6936 435.2393)" font-family="'Arial'" font-size="4">Dimmit</text>
+<text id="TX_La Salle_Name" transform="matrix(1 0 0 1 325.5159 438.8799)" font-family="'Arial'" font-size="4">La Salle</text>
+<text id="TX_McMullen_Name" transform="matrix(1 0 0 1 348.8167 438.8799)" font-family="'Arial'" font-size="4">McMullen</text>
+<text id="TX_Live Oak_Name" transform="matrix(1 0 0 1 368.9241 438.8799)" font-family="'Arial'" font-size="4">Live Oak</text>
+<text id="TX_Bee_Name" transform="matrix(1 0 0 1 392.6702 438.8799)" font-family="'Arial'" font-size="4">Bee</text>
+<text id="TX_San Patricio_Name" transform="matrix(1 0 0 1 391.8655 454.7813)" font-family="'Arial'" font-size="4">San Patricio</text>
+<text id="TX_Jim Wells_Name" transform="matrix(1 0 0 1 376.1096 464.0186)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">Jim</tspan><tspan x="-1.7" y="4" font-family="'Arial'" font-size="4">W</tspan><tspan x="2" y="4" font-family="'Arial'" font-size="4">ells</tspan></text>
+<text id="TX_Nueces_Name" transform="matrix(1 0 0 1 391.1292 469.6162)" font-family="'Arial'" font-size="4">Nueces</text>
+<text id="TX_Kleberg_Name" transform="matrix(1 0 0 1 391.0159 484.2002)" font-family="'Arial'" font-size="4">Kleberg</text>
+<text id="TX_Kenedy_Name" transform="matrix(1 0 0 1 389.4456 508.583)" font-family="'Arial'" font-size="4">Kenedy</text>
+<text id="TX_Brooks_Name" transform="matrix(1 0 0 1 368.5549 504.9307)" font-family="'Arial'" font-size="4">Brooks</text>
+<text id="TX_Hidalgo_Name" transform="matrix(1 0 0 1 368.0002 537.3691)" font-family="'Arial'" font-size="4">Hidalgo</text>
+<text id="TX_Cameron_Name" transform="matrix(1 0 0 1 396.2014 547.7705)" font-family="'Arial'" font-size="4">Cameron</text>
+<text id="TX_Willacy_Name" transform="matrix(1 0 0 1 392.5081 532.1475)" font-family="'Arial'" font-size="4">Willacy</text>
+<text id="TX_Jim Hogg_Name" transform="matrix(1 0 0 1 342.8225 504.9307)" font-family="'Arial'" font-size="4"> Jim Hogg</text>
+<text id="TX_Starr_Name" transform="matrix(1 0 0 1 345.4944 528.668)" font-family="'Arial'" font-size="4">Starr</text>
+<text id="TX_Zapata_Name" transform="matrix(1 0 0 1 324.217 504.9307)" font-family="'Arial'" font-size="4">Zapata</text>
+<text id="TX_Goliad_Name" transform="matrix(1 0 0 1 401.7249 422.7686)" font-family="'Arial'" font-size="4">Goliad</text>
+<text id="TX_Refugio_Name" transform="matrix(1 0 0 1 413.3323 437.2695)" font-family="'Arial'" font-size="4">Refugio</text>
+<text id="TX_Calhoun_Name" transform="matrix(1 0 0 1 433.9905 429.5352)" font-family="'Arial'" font-size="4">Calhoun</text>
+<text id="TX_Arkansas_Name" transform="matrix(1 0 0 1 423.6702 448.1396)" font-family="'Arial'" font-size="4">Aransas</text>
+<text id="TX_Duval_Name" transform="matrix(1 0 0 1 356.0217 470.792)" font-family="'Arial'" font-size="4">Duval</text>
+<text id="TX_Webb_Name" transform="matrix(1 0 0 1 320.2053 470.792)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">W</tspan><tspan x="3.7" y="0" font-family="'Arial'" font-size="4">ebb</tspan></text>
+<text id="TX_Maverick_Name" transform="matrix(1 0 0 1 269.3494 411.957)" font-family="'Arial'" font-size="4">Maverick</text>
+<text id="TX_Kimble_Name" transform="matrix(1 0 0 1 295.1292 332.1396)" font-family="'Arial'" font-size="4">Kimble</text>
+<text id="TX_Sutton_Name" transform="matrix(1 0 0 1 264.2297 331.3716)" font-family="'Arial'" font-size="4">Sutton</text>
+<text id="TX_Jeff Davis_Name" transform="matrix(1 0 0 1 104.7952 316.0107)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">Je</tspan><tspan x="4.2" y="0" font-family="'Arial'" font-size="4">f</tspan><tspan x="5.3" y="0" font-family="'Arial'" font-size="4">f Davis</tspan></text>
+<text id="TX_Presidio_Name" transform="matrix(1 0 0 1 99.5471 353.8203)" font-family="'Arial'" font-size="4">Presidio</text>
+<text id="TX_Brewster_Name" transform="matrix(1 0 0 1 141.8464 353.8203)" font-family="'Arial'" font-size="4">Brewster</text>
+<text id="TX_Culberson_Name" transform="matrix(1 0 0 1 91.0125 277.2354)" font-family="'Arial'" font-size="4">Culberson</text>
+<text id="TX_Hudspeth_Name" transform="matrix(1 0 0 1 49.3547 277.2354)" font-family="'Arial'" font-size="4">Hudspeth</text>
+<text id="TX_El Paso_Name" transform="matrix(1 0 0 1 18.718 256.8271)" font-family="'Arial'" font-size="4">El Paso</text>
+<text id="TX_Ector_Name" transform="matrix(1 0 0 1 178.4119 261.2139)" font-family="'Arial'" font-size="4">Ector</text>
+<text id="TX_Midland_Name" transform="matrix(1 0 0 1 198.7644 261.2139)" font-family="'Arial'" font-size="4">Midland</text>
+<text id="TX_Glasscock_Name" transform="matrix(1 0 0 1 218.4353 261.2139)" font-family="'Arial'" font-size="4">Glasscock</text>
+<text id="TX_Sterling_Name" transform="matrix(1 0 0 1 240.9714 261.2139)" font-family="'Arial'" font-size="4">Sterling</text>
+<text id="TX_Coke_Name" transform="matrix(1 0 0 1 265.343 261.2139)" font-family="'Arial'" font-size="4">Coke</text>
+<text id="TX_Runnels_Name" transform="matrix(1 0 0 1 286.427 261.2139)" font-family="'Arial'" font-size="4">Runnels</text>
+<text id="TX_Coleman_Name" transform="matrix(1 0 0 1 308.1272 261.2139)" font-family="'Arial'" font-size="4">Coleman</text>
+<text id="TX_Brown_Name" transform="matrix(1 0 0 1 330.0852 267.1597)" font-family="'Arial'" font-size="4">Brown</text>
+<text id="TX_Comanche_Name" transform="matrix(1 0 0 1 343.6819 258.6094)" font-family="'Arial'" font-size="4">Comanche</text>
+<text id="TX_Hamilton_Name" transform="matrix(1 0 0 1 366.7278 270.4097)" font-family="'Arial'" font-size="4">Hamilton</text>
+<text id="TX_Coryell_Name" transform="matrix(1 0 0 1 381.0071 285.9492)" font-family="'Arial'" font-size="4">Coryell</text>
+<text id="TX_Lampasas_Name" transform="matrix(1 0 0 1 358.217 296.1519)" font-family="'Arial'" font-size="4">Lampasas</text>
+<text id="TX_Mills_Name" transform="matrix(1 0 0 1 349.3547 280.4897)" font-family="'Arial'" font-size="4">Mills</text>
+<text id="TX_San Saba_Name" transform="matrix(1 0 0 1 335.0081 298.6421)" font-family="'Arial'" font-size="4">San Saba</text>
+<text id="TX_McCulloch_Name" transform="matrix(1 0 0 1 312.4377 295.144)" font-family="'Arial'" font-size="4">McCulloch</text>
+<text id="TX_Concho_Name" transform="matrix(1 0 0 1 292.009 290.1255)" font-family="'Arial'" font-size="4">Concho</text>
+<text id="TX_Tom Green_Name" transform="matrix(1 0 0 1 265.1653 290.125)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">T</tspan><tspan x="2" y="0" font-family="'Arial'" font-size="4">om Green</tspan></text>
+<text id="TX_Irion_Name" transform="matrix(1 0 0 1 246.5125 290.125)" font-family="'Arial'" font-size="4">Irion</text>
+<text id="TX_Reagan_Name" transform="matrix(1 0 0 1 220.2224 290.125)" font-family="'Arial'" font-size="4">Reagan</text>
+<text id="TX_Upton_Name" transform="matrix(1 0 0 1 199.4309 290.125)" font-family="'Arial'" font-size="4">Upton</text>
+<text id="TX_Crane_Name" transform="matrix(1 0 0 1 178.0344 283.1646)" font-family="'Arial'" font-size="4">Crane</text>
+<text id="TX_Ward_Name" transform="matrix(1 0 0 1 155.6843 278.9756)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">W</tspan><tspan x="3.6" y="0" font-family="'Arial'" font-size="4">ard</tspan></text>
+<text id="TX_Bosque_Name" transform="matrix(1 0 0 1 385.344 258.6094)" font-family="'Arial'" font-size="4">Bosque</text>
+<text id="TX_McLennan_Name" transform="matrix(1 0 0 1 403.6448 276.3784)" font-family="'Arial'" font-size="4">McLennan</text>
+<text id="TX_Hill_Name" transform="matrix(1 0 0 1 411.2073 253.313)" font-family="'Arial'" font-size="4">Hill</text>
+<text id="TX_Navarro_Name" transform="matrix(1 0 0 1 436.0129 250.313)" font-family="'Arial'" font-size="4">Navarro</text>
+<text id="TX_Freestone_Name" transform="matrix(1 0 0 1 449.0979 267.1597)" font-family="'Arial'" font-size="4">Freestone</text>
+<text id="TX_Limestone_Name" transform="matrix(1 0 0 1 430.2463 274.8931)" font-family="'Arial'" font-size="4">Limestone</text>
+<text id="TX_Leon_Name" transform="matrix(1 0 0 1 460.3127 287.02)" font-family="'Arial'" font-size="4">Leon</text>
+<text id="TX_Robertson_Name" transform="matrix(1 0 0 1 433.8987 300.8384)" font-family="'Arial'" font-size="4">Robertson</text>
+<text id="TX_Falls_Name" transform="matrix(1 0 0 1 419.9915 290.125)" font-family="'Arial'" font-size="4">Falls</text>
+<text id="TX_Bell_Name" transform="matrix(1 0 0 1 398.8596 301.7412)" font-family="'Arial'" font-size="4">Bell</text>
+<text id="TX_Milam_Name" transform="matrix(1 0 0 1 418.8811 314.9526)" font-family="'Arial'" font-size="4">Milam</text>
+<text id="TX_Burleson_Name" transform="matrix(1 0 0 1 431.6555 328.7017)" font-family="'Arial'" font-size="4">Burleson</text>
+<text id="TX_Brazos_Name" transform="matrix(1 0 0 1 444.3967 319.8345)" font-family="'Arial'" font-size="4">Brazos</text>
+<text id="TX_Grimes_Name" transform="matrix(1 0 0 1 460.1809 325.3628)" font-family="'Arial'" font-size="4">Grimes</text>
+<text id="TX_Waller_Name" transform="matrix(-4.371139e-008 -1 1 -4.371139e-008 470.0442 358.834)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">W</tspan><tspan x="3.6" y="0" font-family="'Arial'" font-size="4">aller</tspan></text>
+<text id="TX_Montgomery_Name" transform="matrix(1 0 0 1 478.4211 335.4199)" font-family="'Arial'" font-size="4">Montgomery</text>
+<text id="TX_Lee_Name" transform="matrix(1 0 0 1 421.5491 337.5098)" font-family="'Arial'" font-size="4">Lee</text>
+<text id="TX_Madison_Name" transform="matrix(1 0 0 1 460.425 303.8711)" font-family="'Arial'" font-size="4">Madison</text>
+<text id="TX_Stephens_Name" transform="matrix(1 0 0 1 333.4495 217.4292)" font-family="'Arial'" font-size="4">Stephens</text>
+<text id="TX_Palo Pinto_Name" transform="matrix(1 0 0 1 354.2327 217.4478)" font-family="'Arial'" font-size="4">Palo Pinto</text>
+<text id="TX_Erath_Name" transform="matrix(1 0 0 1 363.2678 241.9023)" font-family="'Arial'" font-size="4">Erath</text>
+<text id="TX_Eastland_Name" transform="matrix(1 0 0 1 334.592 239.228)" font-family="'Arial'" font-size="4">Eastland</text>
+<text id="TX_Parker_Name" transform="matrix(1 0 0 1 379.6565 215.6172)" font-family="'Arial'" font-size="4">Parker</text>
+<text id="TX_Hood_Name" transform="matrix(1 0 0 1 380.7659 233.9844)" font-family="'Arial'" font-size="4">Hood</text>
+<text id="TX_Somervell_Name" transform="matrix(1 0 0 1 380.6995 243.7119)" font-family="'Arial'" font-size="3">Somervell</text>
+<text id="TX_Tarrant_Name" transform="matrix(1 0 0 1 399.9963 215.6172)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">T</tspan><tspan x="2" y="0" font-family="'Arial'" font-size="4">arrant</tspan></text>
+<text id="TX_Johnson_Name" transform="matrix(1 0 0 1 397.6389 234.6235)" font-family="'Arial'" font-size="4">Johnson</text>
+<text id="TX_Dallas_Name" transform="matrix(1 0 0 1 422.467 215.6172)" font-family="'Arial'" font-size="4">Dallas</text>
+<text id="TX_Ellis_Name" transform="matrix(1 0 0 1 426.5217 234.9321)" font-family="'Arial'" font-size="4">Ellis</text>
+<text id="TX_Kaufman_Name" transform="matrix(1 0 0 1 441.6155 221.0508)" font-family="'Arial'" font-size="4">Kaufman</text>
+<text id="TX_Van Zandt_Name" transform="matrix(1 0 0 1 458.7815 221.0508)"><tspan x="0" y="0" font-family="'Arial'" font-size="4"> </tspan><tspan x="1.1" y="0" font-family="'Arial'" font-size="4">V</tspan><tspan x="3.5" y="0" font-family="'Arial'" font-size="4">an Zandt</tspan></text>
+<text id="TX_Wood_Name" transform="matrix(1 0 0 1 481.1995 211.0615)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">W</tspan><tspan x="3.7" y="0" font-family="'Arial'" font-size="4">ood</tspan></text>
+<text id="TX_Upshur_Name" transform="matrix(1 0 0 1 500.6487 211.0615)" font-family="'Arial'" font-size="4">Upshur</text>
+<g>
+<text id="TX_Camp_Name" transform="matrix(1 0 0 1 499.7395 200.7476)" font-family="'Arial'" font-size="3">Camp</text>
+        </g>
+<g>
+<text id="TX_Rains_Name" transform="matrix(1 0 0 1 467.0198 207.3647)" font-family="'Arial'" font-size="3">Rains</text>
+        </g>
+<text id="TX_Rock-wall_Name" transform="matrix(1 0 0 1 440.3186 205.2168)"><tspan x="0" y="0" font-family="'Arial'" font-size="3">Rock-</tspan><tspan x="1.3" y="3" font-family="'Arial'" font-size="3">wall</tspan></text>
+<text id="TX_Terry_Name" transform="matrix(1 0 0 1 189.7937 195.0981)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">T</tspan><tspan x="2" y="0" font-family="'Arial'" font-size="4">erry</tspan></text>
+<text id="TX_Lynn_Name" transform="matrix(1 0 0 1 211.1355 195.0981)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">L</tspan><tspan x="2.1" y="0" font-family="'Arial'" font-size="4">ynn</tspan></text>
+<text id="TX_Garza_Name" transform="matrix(1 0 0 1 232.7693 195.0981)" font-family="'Arial'" font-size="4">Garza</text>
+<text id="TX_Kent_Name" transform="matrix(1 0 0 1 254.6736 195.0981)" font-family="'Arial'" font-size="4">Kent</text>
+<text id="TX_Stonewall_Name" transform="matrix(1 0 0 1 273.1975 195.0981)" font-family="'Arial'" font-size="4">Stonewall</text>
+<text id="TX_Haskell_Name" transform="matrix(1 0 0 1 296.8245 195.0981)" font-family="'Arial'" font-size="4">Haskell</text>
+<text id="TX_Throckmorton_Name" transform="matrix(1 0 0 1 318.6155 192.9448)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">Throck-</tspan><tspan x="0.6" y="4" font-family="'Arial'" font-size="4">morton</tspan></text>
+<text id="TX_Young_Name" transform="matrix(1 0 0 1 341.5129 194.8555)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">Y</tspan><tspan x="2.3" y="0" font-family="'Arial'" font-size="4">oung</tspan></text>
+<text id="TX_Montague_Name" transform="matrix(1 0 0 1 378.4719 171.3145)" font-family="'Arial'" font-size="4">Montague</text>
+<text id="TX_Cooke_Name" transform="matrix(1 0 0 1 403.0686 171.3145)" font-family="'Arial'" font-size="4">Cooke</text>
+<text id="TX_Denton_Name" transform="matrix(1 0 0 1 407.5354 192.4746)" font-family="'Arial'" font-size="4">Denton</text>
+<text id="TX_Wise_Name" transform="matrix(1 0 0 1 386.843 192.4746)" font-family="'Arial'" font-size="4">Wise</text>
+<text id="TX_Jack_Name" transform="matrix(1 0 0 1 364.9573 192.4746)" font-family="'Arial'" font-size="4">Jack</text>
+<text id="TX_Grayson_Name" transform="matrix(1 0 0 1 424.4475 171.3145)" font-family="'Arial'" font-size="4">Grayson</text>
+<text id="TX_Collin_Name" transform="matrix(1 0 0 1 431.0647 192.4746)" font-family="'Arial'" font-size="4">Collin</text>
+<text id="TX_Fannin_Name" transform="matrix(1 0 0 1 448.8967 171.3145)" font-family="'Arial'" font-size="4">Fannin</text>
+<text id="TX_Hunt_Name" transform="matrix(1 0 0 1 453.3596 194.6226)" font-family="'Arial'" font-size="4">Hunt</text>
+<text id="TX_Lamar_Name" transform="matrix(1 0 0 1 471.9729 169.3145)" font-family="'Arial'" font-size="4">Lamar</text>
+<text id="TX_Delta_Name" transform="matrix(1 0 0 1 468.677 180.3906)" font-family="'Arial'" font-size="4">Delta</text>
+<text id="TX_Hopkins_Name" transform="matrix(1 0 0 1 471.8831 191.9106)" font-family="'Arial'" font-size="4">Hopkins</text>
+<text id="TX_Red River_Name" transform="matrix(1 0 0 1 491.092 169.3145)" font-family="'Arial'" font-size="4">Red River</text>
+<text id="TX_Bowie_Name" transform="matrix(1 0 0 1 521.2815 176.4033)" font-family="'Arial'" font-size="4">Bowie</text>
+<text id="TX_Cass_Name" transform="matrix(1 0 0 1 526.1086 192.9448)" font-family="'Arial'" font-size="4">Cass</text>
+<text id="TX_Marion_Name" transform="matrix(1 0 0 1 524.552 207.9219)" font-family="'Arial'" font-size="4">Marion</text>
+<text id="TX_Harrison_Name" transform="matrix(1 0 0 1 523.1077 220.646)" font-family="'Arial'" font-size="4">Harrison</text>
+<text id="TX_Smith_Name" transform="matrix(1 0 0 1 491.0403 232.5684)" font-family="'Arial'" font-size="4">Smith</text>
+<text id="TX_Henderson_Name" transform="matrix(1 0 0 1 461.0715 241.0186)" font-family="'Arial'" font-size="4">Henderson</text>
+<text id="TX_Anderson_Name" transform="matrix(1 0 0 1 469.094 260.4204)" font-family="'Arial'" font-size="4">Anderson</text>
+<text id="TX_Cherokee_Name" transform="matrix(1 0 0 1 489.1428 256.3882)" font-family="'Arial'" font-size="4">Cherokee</text>
+<text id="TX_Rusk_Name" transform="matrix(1 0 0 1 510.7043 243.7119)" font-family="'Arial'" font-size="4">Rusk</text>
+<text id="TX_Panola_Name" transform="matrix(1 0 0 1 528.1526 239.228)" font-family="'Arial'" font-size="4">Panola</text>
+<text id="TX_Shelby_Name" transform="matrix(1 0 0 1 536.7502 258.6094)" font-family="'Arial'" font-size="4">Shelby</text>
+<text id="TX_Sabine_Name" transform="matrix(1 0 0 1 551.0305 279.5913)" font-family="'Arial'" font-size="4">Sabine</text>
+<text id="TX_Angelina_Name" transform="matrix(1 0 0 1 516.5735 285.9492)" font-family="'Arial'" font-size="4">Angelina</text>
+<text id="TX_Tyler_Name" transform="matrix(1 0 0 1 532.1125 310.2134)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">T</tspan><tspan x="2.2" y="0" font-family="'Arial'" font-size="4">yler</tspan></text>
+<text id="TX_Polk_Name" transform="matrix(1 0 0 1 511.7307 310.2134)" font-family="'Arial'" font-size="4">Polk</text>
+<text id="TX_Walker_Name" transform="matrix(1 0 0 1 478.968 314.0649)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">W</tspan><tspan x="3.6" y="0" font-family="'Arial'" font-size="4">alker</tspan></text>
+<text id="TX_Jacinto_Name" transform="matrix(1 0 0 1 500.0032 320.6304)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">San</tspan><tspan x="-2.8" y="4" font-family="'Arial'" font-size="4">Jacinto</tspan></text>
+<text id="TX_Liberty_Name" transform="matrix(1 0 0 1 511.845 341.418)" font-family="'Arial'" font-size="4">Liberty</text>
+<text id="TX_Hardin_Name" transform="matrix(1 0 0 1 530.5549 331.9448)" font-family="'Arial'" font-size="4">Hardin</text>
+<text id="TX_Orange_Name" transform="matrix(1 0 0 1 551.7874 341.3984)" font-family="'Arial'" font-size="4">Orange</text>
+<text id="TX_Jefferson_Name" transform="matrix(1 0 0 1 542.4065 353.6133)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">Je</tspan><tspan x="4.2" y="0" font-family="'Arial'" font-size="4">f</tspan><tspan x="5.3" y="0" font-family="'Arial'" font-size="4">ferson</tspan></text>
+<text id="TX_Chambers_Name" transform="matrix(1 0 0 1 520.2581 359.5439)" font-family="'Arial'" font-size="4">Chambers</text>
+<text id="TX_Galveston_Name" transform="matrix(1 0 0 1 506.2561 382.7441)" font-family="'Arial'" font-size="4">Galveston</text>
+<text id="TX_Brazoria_Name" transform="matrix(1 0 0 1 485.9377 393.0557)" font-family="'Arial'" font-size="4">Brazoria</text>
+<text id="TX_Harris_Name" transform="matrix(1 0 0 1 488.052 359.7412)" font-family="'Arial'" font-size="4">Harris</text>
+<text id="TX_Austin_Name" transform="matrix(1 0 0 1 450.8547 359.7412)" font-family="'Arial'" font-size="4">Austin</text>
+<text id="TX_Washington_Name" transform="matrix(1 0 0 1 439.5891 342.3252)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">W</tspan><tspan x="3.6" y="0" font-family="'Arial'" font-size="4">ashington</tspan></text>
+<text id="TX_Trinity_Name" transform="matrix(1 0 0 1 497.3196 296.1519)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">T</tspan><tspan x="2.3" y="0" font-family="'Arial'" font-size="4">rinity</tspan></text>
+<text id="TX_Houston_Name" transform="matrix(1 0 0 1 483.053 284.2437)" font-family="'Arial'" font-size="4">Houston</text>
+<text id="TX_Jasper_Name" transform="matrix(1 0 0 1 544.594 303.1055)" font-family="'Arial'" font-size="4">Jasper</text>
+<text id="TX_Newton_Name" transform="matrix(1 0 0 1 556.885 295.144)" font-family="'Arial'" font-size="4">Newton</text>
+<text id="TX_Nacogdo-ches_Name" transform="matrix(1 0 0 1 513.3127 266.561)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">Nacogdo-</tspan><tspan x="4.4" y="4" font-family="'Arial'" font-size="4">ches</tspan></text>
+<text id="TX_Augustine_Name" transform="matrix(1 0 0 1 539.4875 272.9419)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">San</tspan><tspan x="-2.8" y="4" font-family="'Arial'" font-size="4">Augus-</tspan><tspan x="0.3" y="8" font-family="'Arial'" font-size="4">tine</tspan></text>
+<text id="TX_Gregg_Name" transform="matrix(1 0 0 1 507.8684 225.3921)" font-family="'Arial'" font-size="3">Gregg</text>
+<text id="TX_Morris_Name" transform="matrix(1.311342e-007 -1 1 1.311342e-007 515.5208 197.4321)" font-family="'Arial'" font-size="4">Morris</text>
+<text id="TX_Titus_Name" transform="matrix(1.311342e-007 -1 1 1.311342e-007 505.1985 191.5181)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">T</tspan><tspan x="2.3" y="0" font-family="'Arial'" font-size="4">itus</tspan></text>
+<text id="TX_Franklin_Name" transform="matrix(1.311342e-007 -1 1 1.311342e-007 495.5315 195.3716)" font-family="'Arial'" font-size="4">Franklin</text>
+<text id="TX_Foard_Name" transform="matrix(1 0 0 1 297.6897 156.3647)" font-family="'Arial'" font-size="4">Foard</text>
+<text id="TX_Castro_Name" transform="matrix(1 0 0 1 192.2893 126.5977)" font-family="'Arial'" font-size="4">Castro</text>
+<text id="TX_Swisher_Name" transform="matrix(1 0 0 1 214.2083 126.5977)" font-family="'Arial'" font-size="4">Swisher</text>
+<text id="TX_Briscoe_Name" transform="matrix(1 0 0 1 236.0461 126.5977)" font-family="'Arial'" font-size="4">Briscoe</text>
+<text id="TX_Hall_Name" transform="matrix(1 0 0 1 260.7512 126.5977)" font-family="'Arial'" font-size="4">Hall</text>
+<text id="TX_Childress_Name" transform="matrix(1 0 0 1 277.573 126.5977)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">Child-</tspan><tspan x="1.4" y="4" font-family="'Arial'" font-size="4">ress</tspan></text>
+<text id="TX_Randall_Name" transform="matrix(1 0 0 1 207.9675 103.8501)" font-family="'Arial'" font-size="4">Randall</text>
+<text id="TX_Armstrong_Name" transform="matrix(1 0 0 1 227.2371 103.8501)" font-family="'Arial'" font-size="4">Armstrong</text>
+<text id="TX_Donley_Name" transform="matrix(1 0 0 1 252.5623 103.8501)" font-family="'Arial'" font-size="4">Donley</text>
+<text id="TX_Collingsworth_Name" transform="matrix(1 0 0 1 273.3284 103.8501)"><tspan x="0" y="0" font-family="'Arial'" font-size="4">Collings-</tspan><tspan x="2.9" y="4.8" font-family="'Arial'" font-size="4">worth</tspan></text>
+<text id="TX_Potter_Name" transform="matrix(1 0 0 1 209.1785 82.6909)" font-family="'Arial'" font-size="4">Potter</text>
+<text id="TX_Carson_Name" transform="matrix(1 0 0 1 230.6663 82.6909)" font-family="'Arial'" font-size="4">Carson</text>
+<text id="TX_Gray_Name" transform="matrix(1 0 0 1 254.2971 82.6909)" font-family="'Arial'" font-size="4">Gray</text>
+<text id="TX_Wheeler_Name" transform="matrix(1 0 0 1 274.2761 82.6909)" font-family="'Arial'" font-size="4">Wheeler</text>
+<text id="TX_Sherman_Name" transform="matrix(1 0 0 1 207.4651 39.7988)" font-family="'Arial'" font-size="4">Sherman</text>
+<text id="TX_Moore_Name" transform="matrix(1 0 0 1 209.3699 60.0996)" font-family="'Arial'" font-size="4">Moore</text>
+<text id="TX_Hansford_Name" transform="matrix(1 0 0 1 229.7693 39.7988)" font-family="'Arial'" font-size="4">Hansford</text>
+<text id="TX_Hutchinson_Name" transform="matrix(1 0 0 1 227.343 60.0996)" font-family="'Arial'" font-size="4">Hutchinson</text>
+<text id="TX_Roberts_Name" transform="matrix(1 0 0 1 251.3489 60.0996)" font-family="'Arial'" font-size="4">Roberts</text>
+<text id="TX_Hemphill_Name" transform="matrix(1 0 0 1 273.2278 60.0996)" font-family="'Arial'" font-size="4">Hemphill</text>
+<text id="TX_Ochiltree_Name" transform="matrix(1 0 0 1 251.3489 39.7988)" font-family="'Arial'" font-size="4">Ochiltree</text>
+<text id="TX_Lipscomb_Name" transform="matrix(1 0 0 1 272.4006 39.7988)" font-family="'Arial'" font-size="4">Lipscomb</text>
+</g>
 <g id="Legend">
 <text id="Ref_WithPresence_text" transform="matrix(1 0 0 1 47.1904 616.7529)" font-family="'ArialMT'" font-size="13">City or County with COPsync Presence</text>
 <rect id="Ref_WithPresence_box" x="29.441" y="608.285" fill="#D0D0D0" stroke="#FF0000" stroke-width="0.9697" width="10" height="10" />
