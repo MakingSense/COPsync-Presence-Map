@@ -29,7 +29,15 @@ namespace COPsyncPresenceMap.WPF.ViewModels
 
         public string SpreadsheetPath
         {
-            get { return Settings.Default.SpreadsheetPath; }
+            get
+            {
+                var path = Settings.Default.SpreadsheetPath;
+                if (!string.IsNullOrEmpty(path) && !File.Exists(path))
+                {
+                    path = Settings.Default.SpreadsheetPath = null;
+                }
+                return path;
+            }
             private set
             {
                 Settings.Default.SpreadsheetPath = value;
