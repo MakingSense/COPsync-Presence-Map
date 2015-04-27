@@ -698,12 +698,6 @@
             L652.712,841.865 M681.146,839.167h0.773l1.254,5.261l0.392,1.979l0.528,3.725l0.794,6.285l-0.211-0.041l-0.126-0.016
             l-0.367-0.513l-0.405-3.403l0.049-1.555l-0.211-1.854l-0.443-2.855l-0.882-4.111l-0.527-1.604L681.146,839.167" />
     </g>
-<g id="Legend">
-<text id="Ref_WithPresence_text" transform="matrix(1 0 0 1 47.1904 616.7529)" font-family="'ArialMT'" font-size="13">City or County with COPsync Presence</text>
-<rect id="Ref_WithPresence_box" x="29.441" y="608.285" fill="#D0D0D0" stroke="#FF0000" stroke-width="0.9697" width="10" height="10" />
-<text id="Ref_WithoutPresence_text" transform="matrix(1 0 0 1 47.1904 646.7529)" font-family="'ArialMT'" font-size="13">City or County without COPsync Presence</text>
-<rect id="Ref_WithoutPresence_box" x="29.441" y="638.285" fill="#D0D0D0" stroke="#FF0000" stroke-width="0.9697" width="10" height="10" />
-</g>
 <g id="Outer_border">
 <polygon fill="none" stroke="#FF0000" stroke-miterlimit="10" points="402.473,499.556 402.283,501.957 402.213,505.077
         402.191,507.177 402.158,512.494 402.158,518.757 405.141,529.813 406.535,529.848 406.112,528.465 406.044,528.274
@@ -799,5 +793,11 @@
         418.963,171.077 418.36,171.268 417.693,171.181 417.11,170.987 404.946,165.673 404.579,165.425 404.333,165.128 404.333,165.109
         404.298,165.017 404.187,164.754 403.595,162.053 	" />
 <polygon fill="none" stroke="#FF0000" stroke-miterlimit="10" points="564.905,346.076 564.905,346.08 564.905,346.08 	" />
+</g>
+<g id="Legend">
+<text id="Ref_WithPresence_text" transform="matrix(1 0 0 1 47.1904 616.7529)" font-family="'ArialMT'" font-size="13">City or County with COPsync Presence</text>
+<rect id="Ref_WithPresence_box" x="29.441" y="608.285" fill="#D0D0D0" stroke="#FF0000" stroke-width="0.9697" width="10" height="10" />
+<text id="Ref_WithoutPresence_text" transform="matrix(1 0 0 1 47.1904 646.7529)" font-family="'ArialMT'" font-size="13">City or County without COPsync Presence</text>
+<rect id="Ref_WithoutPresence_box" x="29.441" y="638.285" fill="#D0D0D0" stroke="#FF0000" stroke-width="0.9697" width="10" height="10" />
 </g>
 </svg>
