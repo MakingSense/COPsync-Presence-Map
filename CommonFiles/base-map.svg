@@ -4,336 +4,336 @@
      id="svg5598" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
      xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="582.391px"
      height="670.684px" viewBox="0 0 582.391 670.684" enable-background="new 0 0 582.391 670.684" xml:space="preserve">
-<g id="layer1" transform="translate(-272.57928,-299.86126)">
-<path id="TX_Bowie" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M801.168,474.928
+<g id="Counties" transform="translate(-272.57928,-299.86126)">
+<path id="TX_Bowie" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M801.168,474.928
             l0.332,0.865l0.32,0.736l0.279,0.373l1.715,1.096l0.615,0.404l2.259,1.233l4.062-2.062l0.211-0.19l0.615-0.074l2.35-0.341
             l4.062,0.812l0.773,0.318l1.009,0.831l0.302,14.261l-0.357-0.794l-0.882-0.455l-3.795-0.606l-1.04,0.233l-1.32,0.458l-0.672,1.198
             l0.12,1.058l0.144,0.458l-0.088,0.145l-15.833-0.091l-1.414-0.276l-0.352-0.283l-0.105-0.485l-4.021-2.994l-0.211-18.976
             L801.168,474.928" />
-<path id="TX_Red_River" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Red_River" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M772.995,459.746l4.891,4.184l7.168,5.735l5.189,2.119l0.211,18.976l-2.636-1.732l-13.308-1.158l-7.59,0.635l-0.086-0.131
             l-0.264-24.901l0.618-0.07l0.33-0.035l1.112-0.726l0.233-0.228l0.229-0.513l0.07-0.509l-0.07-0.438v-0.074l-0.162-0.338
             l-0.014-0.034l0.014-0.052v-0.09l0.021-0.069l0.896-1.358h0.024l0.035-0.016l0.141-0.072l0.299,0.012L772.995,459.746" />
-<path id="TX_Crosby" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M505.721,458.86
+<path id="TX_Crosby" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M505.721,458.86
             l21.782,1.065l-1.077,22.109l-21.727-1.093L505.721,458.86" />
-<path id="TX_Lubbock" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M483.94,457.822
+<path id="TX_Lubbock" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M483.94,457.822
             l21.781,1.038l-1.021,22.082l-21.762-1.061L483.94,457.822" />
-<path id="TX_Hockley" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M461.878,456.323
+<path id="TX_Hockley" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M461.878,456.323
             l22.062,1.499l-1.002,22.061l-21.727-1.391L461.878,456.323" />
-<path id="TX_Cochran" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M443.895,455.054
+<path id="TX_Cochran" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M443.895,455.054
             l17.983,1.27l-0.666,22.168l-19.345-1.395l0.864-9.214L443.895,455.054" />
-<path id="TX_Floyd" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M510.965,434.667
+<path id="TX_Floyd" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M510.965,434.667
             l17.806,0.972l-1.269,24.287l-21.782-1.065l1.379-24.424L510.965,434.667" />
-<path id="TX_Hale" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M485.339,433.058
+<path id="TX_Hale" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M485.339,433.058
             l3.83,0.248l17.932,1.131l-1.379,24.424l-21.781-1.038L485.339,433.058" />
-<path id="TX_Lamb" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M463.628,431.608
+<path id="TX_Lamb" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M463.628,431.608
             l3.704,0.271l18.006,1.179l-1.398,24.765l-22.062-1.499L463.628,431.608" />
-<path id="TX_Bailey" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M463.628,431.608
+<path id="TX_Bailey" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M463.628,431.608
             l-1.75,24.715l-17.983-1.27l1.943-24.183l0.035-0.527L463.628,431.608" />
-<path id="TX_Briscoe" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M512.234,412.604
+<path id="TX_Briscoe" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M512.234,412.604
             l15.691,0.828l6.003,0.318l-1.203,22.079l-3.955-0.19l-17.806-0.971L512.234,412.604" />
-<path id="TX_Swisher" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M490.543,411.242
+<path id="TX_Swisher" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M490.543,411.242
             l15.199,0.97l6.492,0.392l-1.269,22.062l-3.865-0.229l-17.932-1.131L490.543,411.242" />
-<path id="TX_Castro" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M483.521,410.839
+<path id="TX_Castro" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M483.521,410.839
             l7.021,0.403l-1.375,22.062l-3.83-0.248l-18.006-1.179l1.52-21.996L483.521,410.839" />
-<path id="TX_Parmer" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M447.568,408.331
+<path id="TX_Parmer" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M447.568,408.331
             l21.284,1.552l-1.52,21.996l-3.704-0.271l-17.755-1.265L447.568,408.331" />
-<path id="TX_Armstrong" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Armstrong" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M507.311,390.139l21.975,1.288l-1.359,22.005l-15.69-0.828l-6.493-0.392L507.311,390.139" />
-<path id="TX_Randall" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M485.022,388.74
+<path id="TX_Randall" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M485.022,388.74
             l22.289,1.398l-1.568,22.073l-15.199-0.97l-7.021-0.403L485.022,388.74" />
-<path id="TX_Deaf_Smith" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Deaf_Smith" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M447.568,408.331l0.775-10.466l0.881-11.611l8.369,0.583l8.698,0.438l18.729,1.465l-1.5,22.099l-14.669-0.956L447.568,408.331" />
-<path id="TX_Carson" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M508.635,367.949
+<path id="TX_Carson" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M508.635,367.949
             v-0.191l21.868,1.163l-0.021,0.317l-1.197,22.188l-21.975-1.288L508.635,367.949" />
-<path id="TX_Potter" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M486.642,366.592
+<path id="TX_Potter" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M486.642,366.592
             l21.992,1.357l-1.324,22.189l-22.289-1.398L486.642,366.592" />
-<path id="TX_Oldham" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M486.678,366.22
+<path id="TX_Oldham" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M486.678,366.22
             l-0.036,0.373l-1.621,22.147l-18.729-1.465l-8.698-0.438l-8.369-0.583l1.676-22.271L486.678,366.22" />
-<path id="TX_Hutchinson" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Hutchinson" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M509.904,345.852l21.78,1.232l-1.182,21.837l-21.868-1.163L509.904,345.852" />
-<path id="TX_Moore" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M488.072,344.508
+<path id="TX_Moore" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M488.072,344.508
             l21.832,1.344l-1.271,21.906v0.191l-21.992-1.357l0.036-0.373L488.072,344.508" />
-<path id="TX_Hartley" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M452.561,342.037
+<path id="TX_Hartley" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M452.561,342.037
             l35.512,2.471l-1.395,21.711l-35.777-2.236l0.458-5.917L452.561,342.037" />
-<path id="TX_Hansford" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M532.904,324.531
+<path id="TX_Hansford" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M532.904,324.531
             l-1.219,22.433v0.12l-21.78-1.232l1.323-22.557L532.904,324.531" />
-<path id="TX_Sherman" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M494.8,322.257
+<path id="TX_Sherman" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M494.8,322.257
             l16.428,1.038l-1.323,22.557l-21.832-1.344l1.482-22.593L494.8,322.257" />
-<path id="TX_Dallam" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M489.556,321.916
+<path id="TX_Dallam" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M489.556,321.916
             l-1.482,22.593l-35.512-2.471l0.955-13.342l0.614-8.138l1.661-0.987L489.556,321.916" />
-<path id="TX_Hudspeth" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M357.409,540.549
+<path id="TX_Hudspeth" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M357.409,540.549
             l-0.65,7.112l-1.081,13.732l-2.875,33.322l-0.422,2.98l-0.408,1.469l-0.846,8.663l-2.878,1.488l-0.267,0.227l-2.256-3.245
             l-3.355-3.693l-3.282-2.819l-1.676-0.146l-0.654-0.228l-5.294-3.387l-6.321-7.257l-7.428-9.673l-5.722-7.468l-3.721-4.776
             l2.044-1.657l0.091-2.797l-1.252-1.832l2.38-24.694L357.409,540.549" />
-<path id="TX_El_Paso" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M311.536,535.87
+<path id="TX_El_Paso" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M311.536,535.87
             l-2.38,24.694l1.252,1.832l-0.091,2.797l-2.044,1.657l-4.201-1.873l-1.38-0.694l-2.224-1.815l-0.563-0.458l-0.017-0.039
             l-0.16-0.176l-0.056-0.066l-0.349-0.564l-1.15-3.584l-3.549-8.262l-0.841-1.602l-1.47-1.191l-4.534-2.11l-3.316-3.548
             l-0.408-0.548l-0.069-0.23l0.986-4.359l0.105-0.367l0.92-2.17v-0.02h0.015l0.142,0.02l9.284,0.982L311.536,535.87" />
-<path id="TX_Lynn" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M504.7,480.942
+<path id="TX_Lynn" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M504.7,480.942
             l-1.309,21.958l-5.628-0.367l-16.22-0.904l1.394-21.746L504.7,480.942" />
-<path id="TX_Terry" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M461.212,478.492
+<path id="TX_Terry" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M461.212,478.492
             l21.727,1.391l-1.394,21.746l-5.577-0.317l-16.274-1.093L461.212,478.492" />
-<path id="TX_Yoakum" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M461.212,478.492
+<path id="TX_Yoakum" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M461.212,478.492
             l-1.521,21.727l-19.768-1.444l1.942-21.676L461.212,478.492" />
-<path id="TX_Dawson" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M481.544,501.629
+<path id="TX_Dawson" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M481.544,501.629
             l16.22,0.904l-1.217,22.078l-21.785-1.254l1.206-22.047L481.544,501.629" />
-<path id="TX_Gaines" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M439.925,498.773
+<path id="TX_Gaines" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M439.925,498.773
             l19.768,1.444l16.275,1.093l-1.206,22.047l-0.349-0.02l-36.129-2.489L439.925,498.773" />
-<path id="TX_Martin" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M474.413,523.338
+<path id="TX_Martin" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M474.413,523.338
             l0.349,0.02l21.785,1.254l-1.591,22.118l-3.461-0.176l-18.531-1.172L474.413,523.338" />
-<path id="TX_Andrews" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M438.284,520.849
+<path id="TX_Andrews" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M438.284,520.849
             l36.129,2.489l-1.45,22.043l-3.21-0.21l-21.817-1.45l-11.277-0.896L438.284,520.849" />
-<path id="TX_Midland" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M469.753,545.171
+<path id="TX_Midland" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M469.753,545.171
             l3.21,0.21l18.531,1.172l-1.319,21.988l-21.907-1.391L469.753,545.171" />
-<path id="TX_Ector" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M469.753,545.171
+<path id="TX_Ector" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M469.753,545.171
             l-1.484,21.979l-1.323-0.074l-19.22-1.362l-1.358-0.083l1.568-21.91L469.753,545.171" />
-<path id="TX_Crane" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M447.725,565.714
+<path id="TX_Crane" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M447.725,565.714
             l19.22,1.362l-1.163,28.536l-3.779-0.298l-1.359-5.293l-0.388-0.977l-0.122-0.207l-0.552-0.529l-2.079-1.801l-0.564-0.443
             l-5.295-3.035l-0.548,0.021l-4.66,0.72L447.725,565.714" />
-<path id="TX_Presidio" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M398.394,624.721
+<path id="TX_Presidio" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M398.394,624.721
             l-0.352,5.485l-1.238,15.234l-1.853,25.278l-0.956,11.756l-7.358-2.405l-2.4-0.92l-0.267-0.102l-0.176-0.145l-1.57-1.254
             l-3.16-2.501l-15.179-14.388l-0.846-1.888l-4.888-12.28l-0.18-0.518l-0.141-4.973l0.674-3.654l0.333-4.378l-0.67-2.911
             l-7.892-19.151l-2.295-1.466l0.267-0.227l45.787,15.048L398.394,624.721" />
-<path id="TX_Culberson" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Culberson" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M360.413,540.831l35.033,3.142l-7.167,44.795l-37.151,19.061l0.846-8.663l0.408-1.469l0.422-2.98l2.875-33.322l1.081-13.732
             l0.65-7.112L360.413,540.831" />
-<path id="TX_Ward" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M446.367,565.632
+<path id="TX_Ward" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M446.367,565.632
             l1.358,0.083l-1.289,18.058l-3.07,0.198l-1.836-1.835l-1.219-1.081l-1.358-0.815l-2.702-1.127l-2.526,0.13l-1.586-0.035
             l-1.021-0.11l-2.189-0.494l-11.827-3.916l-0.543-0.567l-0.497-0.885l-0.424-2.537l0.105-3.022l0.247-1.732l-0.263-1.067
             l-0.709-1.138l-3.372-0.752l12.113,0.968L446.367,565.632" />
-<path id="TX_Winkler" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M436.658,542.825
+<path id="TX_Winkler" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M436.658,542.825
             l11.277,0.896l-1.568,21.91l-22.607-1.681l1.41-17.599l2.506,0.2l2.205,0.152l3.004,0.23l2.396,0.192l1.045,0.074L436.658,542.825
             " />
-<path id="TX_Loving" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M397.333,544.133
+<path id="TX_Loving" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M397.333,544.133
             l10.94,0.897l16.896,1.323l-1.41,17.599l-12.113-0.968l-0.916-2.011l-2.118-3.074l-0.424-0.086l-0.846,0.176l-0.035,0.103
             l-0.104,0.089l-0.393,0.02l-0.932-0.211l-0.336-0.442l-5.698-8.191L397.333,544.133" />
-<path id="TX_Reeves" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M395.446,543.973
+<path id="TX_Reeves" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M395.446,543.973
             l1.888,0.16l2.51,5.221l5.698,8.191l0.336,0.442l0.932,0.211l0.393-0.02l0.104-0.089l0.035-0.103l0.846-0.176l0.424,0.086
             l2.118,3.074l0.916,2.011l3.372,0.752l0.709,1.137l0.263,1.068l-0.247,1.732l-0.105,3.022l0.424,2.537l0.497,0.885l0.543,0.567
             l11.827,3.916l2.189,0.494l1.021,0.11l1.586,0.035l2.526-0.13l-27.072,28.559l-20.9-18.901L395.446,543.973" />
-<path id="TX_Jeff_Davis" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Jeff_Davis" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M409.179,607.671l5.875,5.562l-16.659,11.489l-4.357-0.356l-45.787-15.048l2.878-1.488l37.151-19.061L409.179,607.671" />
-<path id="TX_Brewster" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M415.054,613.232
+<path id="TX_Brewster" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M415.054,613.232
             l35.671,33.657l10.381,9.652l-2.26,1.449l-5.545,2.511l-7.977,1.918l-1.022,0.617l-0.104,0.072l-5.935,9.672l-3.562,8.258
             l-11.933,17.701l-1.872,0.497h-0.316l-5.154-1.29l-4.343-2.062l-13.98-9.18l-0.402-0.423l-1.767-1.817l-0.937-1.992l0.956-11.756
             l1.853-25.278l1.238-15.234l0.352-5.485L415.054,613.232" />
-<path id="TX_Terrell" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M486.748,637.327
+<path id="TX_Terrell" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M486.748,637.327
             l-1.676,25.711l-0.776-0.229l-0.321-0.103l-4.217-0.971l-2.664-0.423l-4.237,0.298l-0.423,0.228l-2.878-0.561l-8.451-4.734
             l-10.381-9.652l0.814-11.614l9.743,0.618l1.058-15.837l5.983-0.544l3.105-1.746l15.989,1.127l0.634-0.066l2.386,0.494l1.73,1.396
             l0.282,3.189l-0.07,0.443l-4.61,11.103L486.748,637.327" />
-<path id="TX_Pecos" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M446.437,583.771
+<path id="TX_Pecos" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M446.437,583.771
             l4.66-0.72l0.548-0.021l5.295,3.035l0.564,0.443l2.079,1.801l0.552,0.529l0.122,0.207l0.388,0.977l1.359,5.293l5.878,2.667
             l8.505,2.647l2.757,0.862l4.378,3.657l3.67,12.445l0.228,1.3l-15.989-1.127l-3.105,1.746l-5.983,0.544l-1.058,15.837l-9.743-0.618
             l-0.814,11.614l-35.671-33.657l-5.875-5.562l27.072-28.56l2.702,1.127l1.358,0.815l1.219,1.081l1.836,1.835L446.437,583.771" />
-<path id="TX_Upton" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M466.945,567.077
+<path id="TX_Upton" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M466.945,567.077
             l1.323,0.074l21.907,1.391l-1.786,28.838l-22.606-1.767L466.945,567.077" />
-<path id="TX_Reagan" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M490.175,568.542
+<path id="TX_Reagan" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M490.175,568.542
             l21.777,1.305l-0.282,4.766l-0.086,1.394l-1.555,22.667l-21.641-1.293L490.175,568.542" />
-<path id="TX_Glasscock" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Glasscock" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M494.956,546.729l18.339,1.073l-1.343,22.043l-21.777-1.305l1.319-21.988L494.956,546.729" />
-<path id="TX_Howard" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M518.323,525.918
+<path id="TX_Howard" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M518.323,525.918
             l-1.605,22.075l-3.422-0.19l-18.339-1.073l1.591-22.118L518.323,525.918" />
-<path id="TX_Borden" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M503.392,502.9
+<path id="TX_Borden" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M503.392,502.9
             l16.204,0.795l-1.252,22.043l-0.021,0.179l-21.776-1.307l1.217-22.078L503.392,502.9" />
-<path id="TX_Garza" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M526.426,482.035
+<path id="TX_Garza" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M526.426,482.035
             l-1.147,21.625l-5.683,0.035l-16.204-0.795l1.309-21.958L526.426,482.035" />
-<path id="TX_Scurry" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M525.279,503.66
+<path id="TX_Scurry" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M525.279,503.66
             l16.113,1.167l-1.289,22.168l-21.76-1.256l1.252-22.043L525.279,503.66" />
-<path id="TX_Mitchell" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M518.344,525.739
+<path id="TX_Mitchell" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M518.344,525.739
             l21.76,1.256l-1.288,22.237l-6.652-0.408l-15.445-0.831l1.605-22.074L518.344,525.739" />
-<path id="TX_Sterling" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M513.295,547.803
+<path id="TX_Sterling" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M513.295,547.803
             l3.422,0.19l15.445,0.831l-1.167,19.731l-1.496-0.542l-0.551,7.216l-17.278-0.618l0.282-4.766L513.295,547.803" />
-<path id="TX_Irion" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M511.584,576.005
+<path id="TX_Irion" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M511.584,576.005
             l11.877,0.689l12.777,0.85l-0.916,22.078l-11.812-0.387l-13.482-0.563L511.584,576.005" />
-<path id="TX_Crockett" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M462.003,595.315
+<path id="TX_Crockett" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M462.003,595.315
             l3.779,0.298l22.606,1.767l21.641,1.293l13.482,0.563l-0.917,18.992l-1.092,21.072l-34.755-1.974l1.021-1.876l4.61-11.103
             l0.07-0.443l-0.282-3.189l-1.73-1.396l-2.386-0.494l-0.634,0.066l-0.228-1.3l-3.67-12.445l-4.378-3.657l-2.757-0.862l-8.505-2.647
             L462.003,595.315" />
-<path id="TX_Val_Verde" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Val_Verde" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M486.748,637.327l34.755,1.974l11.328,0.545l-1.642,33.452l-0.441,9.246l-0.494,3.778l-0.247,1.217l-1.762,4.164l-0.568,0.829
             l-0.176,0.035l-1.358-0.246l-10.347-9.27l-8.662-10.744l-0.104-0.287l-6.372-7.095l-2.189-0.757l-0.196-0.02l-6.302-0.402
             l-1.002-0.051l-5.896-0.654L486.748,637.327" />
-<path id="TX_Zapata" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M581.634,794.035
+<path id="TX_Zapata" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M581.634,794.035
             l3.865-2.593l1.592,2.366l17.119,0.759l-0.727,24.178l-10.256,10.452l-0.667-2.686l-0.812-3.282v-0.051l-1.36-4.998l-1.093-2.771
             l-2.313-3.266l-2.542-1.481l-2.912-4.537l-0.177-1.993l0.054-0.195l0.213-0.174l0.795-1.166l0.315-4.092l-0.563-3.708
             l-0.458-0.729l-0.039-0.013L581.634,794.035" />
-<path id="TX_Jim_Hogg" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M611.411,790.542
+<path id="TX_Jim_Hogg" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M611.411,790.542
             l11.103,0.053l1.338,0.825l-0.154,3.925l1.339,1.535l3.18,9.067l-0.569,13.597l-24.162-0.799l0.727-24.178L611.411,790.542" />
-<path id="TX_Starr" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M603.484,818.745
+<path id="TX_Starr" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M603.484,818.745
             l24.162,0.8l4.627,0.141l-3.649,7.782l-4.276,8.259l-4.87,9.884l-2.136,0.302l-3.282-1.448l-15.426-6.937l-2.597-1.676
             l-2.647-6.042l-0.091-0.351l-0.07-0.262L603.484,818.745" />
-<path id="TX_Willacy" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M677.722,829.676
+<path id="TX_Willacy" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M677.722,829.676
             l1.394,0.034l2.804,9.456h-0.773L677.722,829.676 M648.615,828.614l23.49,0.95l2.562,9.51l-1.781,2.212l-4.926,3.281
             l-15.248-2.702l0.07-3.705l-2.102-0.673l-4.355-0.771l0.387-2.154l0.601-2.224L648.615,828.614" />
-<path id="TX_Hidalgo" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M632.274,819.685
+<path id="TX_Hidalgo" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M632.274,819.685
             l15.249,0.438l1.094,8.49l-1.305,3.726l-0.601,2.224l-0.387,2.154l4.355,0.771l2.102,0.673l-0.07,3.705l-0.283,14.317l-0.318-0.07
             l-0.898-0.137l-4.112,0.042l-1.375,0.023l-0.176,0.228l-1.504,0.6l-5.667-1.093l-3.331-0.653l-1.043-0.563l-0.653-0.439
             l-4.852-3.304l-2.314-2.767l-1.232-0.587l-0.107-0.034l-5.333-1.817h-0.031l4.87-9.884l4.276-8.259L632.274,819.685" />
-<path id="TX_Brooks" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M623.697,795.344
+<path id="TX_Brooks" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M623.697,795.344
             l13.165,0.458l7.869,0.25l3.211,2.663l-0.421,21.408l-15.249-0.438l-4.627-0.142l0.569-13.597l-3.18-9.067L623.697,795.344" />
-<path id="TX_Kenedy" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M675.725,795.77
+<path id="TX_Kenedy" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M675.725,795.77
             l1.167,0.011l-0.141,0.483l-0.638,2.893l-0.367,2.456l-0.32,2.995l-0.141,2.646v2.772l0.282,4.167l0.214,1.711l0.034,0.176
             l0.549,3.181l0.794,3.6l1.395,5.078l0.07,0.197l0.069,0.19l0.422,1.383l-1.394-0.034l-2.983-11.057v-6.263l0.034-5.317l0.021-2.1
             l0.07-3.12l0.19-2.401l0.216-1.217L675.725,795.77 M647.945,798.715l15.817-3.181l-0.104,0.393l0.016,0.88l0.181,0.317
             l0.277,0.212l3.884,0.74l1.021-0.086l0.478-0.192l0.302-0.216l0.141-0.227l0.686-0.317l1.57-0.566l1.204-0.048l0.075,0.317
             l-1.082,7.058l-1.922,5.771l-1.325,9.829l1.711,2.261l1.114,6.28l0.118,1.625l-23.49-0.95l-1.094-8.49L647.945,798.715" />
-<path id="TX_Kleberg" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M675.725,795.77
+<path id="TX_Kleberg" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M675.725,795.77
             l5.862-15.133l1.168,0.287l-5.864,14.855L675.725,795.77 M650.365,777.392l2.965,1.924l1.569,2.032l0.388,0.016l22.802,0.267
             l-2.273,7.958l-1.359,3.266l-0.142,0.286l-0.373,0.422l-0.315,0.196l-4.023,2.06l-5.843-0.281l-15.818,3.181l-3.211-2.663
             l0.338-18.767L650.365,777.392" />
-<path id="TX_Jim_Wells" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Jim_Wells" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M637.656,755.947l15.778,0.388l3.744,3.143l-6.215,5.419l-0.07,5.436l-0.528,7.062l-5.296-0.105l-0.337,18.767l-7.869-0.25
             L637.656,755.947" />
-<path id="TX_Nueces" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M690.836,767.951
+<path id="TX_Nueces" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M690.836,767.951
             l-8.081,12.975l-1.168-0.287l9.02-13.326L690.836,767.951 M650.365,777.392l0.528-7.062l0.07-5.436l6.215-5.419l-0.494,1.186
             l0.453,1.834l5.935,3.095l1.162,0.543l2.313,0.509l3.211,0.268l0.388-1.309l7.221-0.156l3.105,0.156l-0.812,0.146l-2.948,1.339
             l-0.852,0.618l-0.594,1.198l-0.091,1.555l0.318,0.815l0.774,1.268l0.956,0.831l1.36,0.65l2.238,1.746l-1.413,3.215l-1.325,2.647
             l-22.802-0.267l-0.388-0.016l-1.569-2.032L650.365,777.392" />
-<path id="TX_San_Patricio" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_San_Patricio" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M656.471,750.384l12.375,0.817l12.49,4.655l5.53,8.776l-6.392,0.967l-3.105-0.156l-7.221,0.156l-0.388,1.309l-3.211-0.268
             l-2.312-0.509l-1.163-0.543l-5.935-3.095l-0.453-1.834l0.494-1.186l-3.744-3.143L656.471,750.384" />
-<path id="TX_Calhoun" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M700.649,754.255
+<path id="TX_Calhoun" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M700.649,754.255
             l0.602-2.313l10.077-6.903l0.525-0.242l2.335-1.007l3.475-0.726l0.533,0.92l-4.256,2.096l-0.621,0.281l-0.051,0.051l-3.247,2.001
             l-3.28,2.363l-2.862,2.243l-4.128,3.587l-0.09,0.087l-0.106,0.103L700.649,754.255 M712.035,724.109l11.384,1.975l0.016,1.695
             l-2.753,1.288l-4.38,1.783l-3.562-3.252l-0.407-1.174L712.035,724.109 M698.105,734.382l-0.648-1.272l-1.079-2.737l3.443-2.4
             l6.706-2.294l2.383-1.324l-0.653,0.588l2.351,5.585l0.119,0.137l1.959,0.364l1.238,0.85l5.172,4.659l0.404,0.404l0.373,0.513
             l-0.07,0.337l-8.404,4.214l-0.389,0.161l-3.246,0.915l-1.134-0.366l-0.315-0.304l-2.857-3.074L698.105,734.382" />
-<path id="TX_Refugio" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M686.107,731.927
+<path id="TX_Refugio" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M686.107,731.927
             l11.998,2.455l5.351,4.952l-0.987,4.543l-14.86,2.166l0.07,1.026l1.001,1.342l1.714,1.026l0.974,0.143l0.931,0.031l-0.277,0.759
             l-5.667,4.272l-4.005,1.942l-0.141-0.02l-0.871-0.71l-12.49-4.655l7.568-11.122L686.107,731.927" />
-<path id="TX_Bee" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M658.695,725.751
+<path id="TX_Bee" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M658.695,725.751
             l3.53,6.406l6.372,3.886l7.816,4.037l-7.568,11.122l-12.375-0.817l0.421-0.33l-12.034-24.322l3.775-1.288l4.046-1.395l0.58,0.353
             l0.352,0.615l1.57,0.87l1.398,0.579L658.695,725.751" />
-<path id="TX_Live_Oak" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M644.613,719.481
+<path id="TX_Live_Oak" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M644.613,719.481
             l4.021,4.962l-3.775,1.288l12.034,24.322l-0.421,0.33l-3.036,5.95l-15.778-0.388l-4.433-0.109l0.655-27.848L644.613,719.481" />
-<path id="TX_McMullen" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M613.178,726.154
+<path id="TX_McMullen" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M613.178,726.154
             l20.74,0.281l-0.694,29.402l-21.001-0.541L613.178,726.154" />
-<path id="TX_Duval" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M612.223,755.297
+<path id="TX_Duval" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M612.223,755.297
             l21.001,0.541l4.433,0.108l-0.794,39.854l-13.165-0.458l0.154-3.926l-1.338-0.824l-11.103-0.053L612.223,755.297" />
-<path id="TX_Webb" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M549.566,745.977
+<path id="TX_Webb" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M549.566,745.977
             l4.288,0.141l32.18,0.938l-0.092,8.735l26.281-0.493l-0.812,35.244l-7.201,4.025l-17.119-0.759l-1.592-2.366l-3.865,2.593
             l-0.759-0.066l-0.968-0.605l-0.09-0.032l-1.52-1.479l-0.191-0.211l-0.069-0.09l-0.035-0.035l-0.053-0.193l0.207-0.279l1.254-1.681
             l0.71-1.678l0.265-0.97l0.473-3.775l-1.605-4.469l-0.936-1.643l-0.604-0.441l-1.992-1.447l-1.021-0.178l-0.121,0.07l-0.056,0.216
             l-1.746-0.07l-7.716-7.13l-1.394-1.657l-4.786-9.643l-3.791-7.676l-0.215-0.176L549.566,745.977" />
-<path id="TX_La_Salle" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M613.21,725.696
+<path id="TX_La_Salle" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M613.21,725.696
             l-0.032,0.458l-0.956,29.144l-26.281,0.493l0.092-8.735l0.702-21.889L613.21,725.696" />
-<path id="TX_Dimmit" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M554.805,723.523
+<path id="TX_Dimmit" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M554.805,723.523
             l31.347,1.625l0.583,0.019l-0.702,21.889l-32.18-0.938L554.805,723.523" />
-<path id="TX_Maverick" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M555.887,701.534
+<path id="TX_Maverick" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M555.887,701.534
             l-1.082,21.989l-0.951,22.595l-4.288-0.141l-0.16-0.176l-1.903-2.101l-1.414-1.816l-2.189-6.728l-6.352-17.066l-5.651-12.516
             l-0.653-5.087L555.887,701.534" />
-<path id="TX_Kinney" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M531.191,673.297
+<path id="TX_Kinney" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M531.191,673.297
             l25.823,1.236l-1.128,27.001l-24.645-1.045l-5.099-8.169l1.358,0.246l0.176-0.035l0.568-0.829l1.762-4.164l0.247-1.217
             l0.494-3.779L531.191,673.297" />
-<path id="TX_Edwards" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M558.283,640.925
+<path id="TX_Edwards" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M558.283,640.925
             l15.797,0.649l-0.583,10.896l-3.847-0.142l-5.313-0.634l-2.612,9.582l-0.478,7.285l0.069,6.143l-4.303-0.172l-25.823-1.236
             l1.642-33.452L558.283,640.925" />
-<path id="TX_Real" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M573.497,652.471
+<path id="TX_Real" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M573.497,652.471
             l2.969,0.118l-0.318,6.602l0.881,1.782l2.913,0.165l-0.548,14.098l-18.077-0.529l-0.069-6.143l0.478-7.285l2.612-9.582
             l5.313,0.634L573.497,652.471" />
-<path id="TX_Uvalade" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M557.015,674.533
+<path id="TX_Uvalade" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M557.015,674.533
             l4.303,0.172l18.077,0.529l8.399,0.299l-1.059,26.974l-30.849-0.972L557.015,674.533" />
-<path id="TX_Zavala" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M586.737,702.506
+<path id="TX_Zavala" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M586.737,702.506
             l-0.583,22.643l-31.348-1.625l1.082-21.989L586.737,702.506" />
-<path id="TX_Frio" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M613.691,703.423
+<path id="TX_Frio" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M613.691,703.423
             l-0.48,22.273l-26.474-0.529l-0.583-0.019l0.583-22.643L613.691,703.423" />
-<path id="TX_Goliad" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M679.857,716.234
+<path id="TX_Goliad" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M679.857,716.234
             l3.281-0.016l1.29,0.595l0.636,1.293l0.848,2.189l0.196,11.631l-9.693,8.152l-7.816-4.037l-6.372-3.886l-3.531-6.406l9.198-7.138
             l7.061-5.518h0.278l1.167,0.441l1.957,1.091l0.604,0.534L679.857,716.234" />
-<path id="TX_Victoria" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M694.596,704.362
+<path id="TX_Victoria" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M694.596,704.362
             l1.658,2.06l4.396,1.942l0.3,0.211l3.176,6.282l5.049,9.375l-0.264,0.121l-2.382,1.324l-6.707,2.294l-3.443,2.4l1.079,2.737
             l0.648,1.272l-11.998-2.455l-0.196-11.631l-0.848-2.189l-0.636-1.293l-1.29-0.595l-3.281,0.016L694.596,704.362" />
-<path id="TX_DeWitt" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M683.122,690.096
+<path id="TX_DeWitt" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M683.122,690.096
             l11.473,14.267l-14.739,11.872l-0.896-1.072l-0.604-0.533l-1.957-1.092l-1.167-0.441h-0.278l-7.061,5.518l-7.84-9.876l6.372-5.049
             L683.122,690.096" />
-<path id="TX_Karnes" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M661.432,697.95
+<path id="TX_Karnes" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M661.432,697.95
             l4.993,5.737l-6.372,5.049l7.84,9.876l-9.197,7.138l-2.115-0.284l-1.398-0.579l-1.569-0.87l-0.353-0.615l-0.58-0.353l-4.046,1.395
             l-4.021-4.962l-4.008-4.887L661.432,697.95" />
-<path id="TX_Wilson" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M656.629,690.06
+<path id="TX_Wilson" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M656.629,690.06
             l4.803,7.89l-20.826,16.645l-9.305-11.897l12.497-16.204l0.267,2.598l0.155,0.634l0.373,0.673l1.269-0.705L656.629,690.06" />
-<path id="TX_Atascosa" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M613.937,695.375
+<path id="TX_Atascosa" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M613.937,695.375
             l17.364,7.322l9.305,11.897l4.008,4.887l-10.734,8.509l0.039-1.555l-20.74-0.281l0.032-0.458l0.48-22.273L613.937,695.375" />
-<path id="TX_Medina" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M614.503,673.227
+<path id="TX_Medina" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M614.503,673.227
             l-0.566,22.148l-0.246,8.048l-26.954-0.917l1.058-26.974l18.813,0.829l0.301,0.465l0.034,0.244l-0.141,0.548l-0.384,0.58
             l0.018,1.01l0.261,0.6l0.177,0.153l0.16,0.022l1.978-0.462L614.503,673.227" />
-<path id="TX_Bandera" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M579.942,661.137
+<path id="TX_Bandera" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M579.942,661.137
             l13.539,0.634l5.081,0.65l2.312,1.197l8.896,4.872l5.983,3.284l-1.25,1.453l-5.492,6.296l-1.978,0.462l-0.16-0.022l-0.177-0.153
             l-0.261-0.6l-0.018-1.01l0.384-0.58l0.141-0.548l-0.034-0.244l-0.301-0.465l-18.813-0.829l-8.399-0.299L579.942,661.137" />
-<path id="TX_Kerr" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M593.777,642.495
+<path id="TX_Kerr" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M593.777,642.495
             l-0.211,7.676l16.645,0.356l-0.439,17.962l-8.896-4.872l-2.312-1.197l-5.081-0.65l-13.539-0.634l-2.913-0.165l-0.881-1.782
             l0.318-6.602l-2.969-0.118l0.583-10.896L593.777,642.495" />
-<path id="TX_Gillespie" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Gillespie" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M594.079,631.746l14.771,0.562l16.206,0.407l-0.336,18.197l-14.51-0.385l-16.645-0.356L594.079,631.746" />
-<path id="TX_Blanco" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M635.559,633.689
+<path id="TX_Blanco" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M635.559,633.689
             l9.688,3.247l-2.154,3.477l-5.808,15.919l-5.224,4.923l-7.342-10.343l0.336-18.197L635.559,633.689" />
-<path id="TX_Kendall" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M610.209,650.527
+<path id="TX_Kendall" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M610.209,650.527
             l14.51,0.385l7.342,10.343l-10.434,9.427l-5.875,1.093l-5.983-3.284L610.209,650.527" />
-<path id="TX_Bexar" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M621.628,670.681
+<path id="TX_Bexar" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M621.628,670.681
             l4.007-0.494l0.356,0.019l5.592,0.725l2.702,2.17l1.871,5.562l0.438,1.395l1.254,0.971l2.139,0.686l4.183,2.808l0.07,1.5
             l-0.443,0.474L631.3,702.697l-17.364-7.321l0.566-22.149l1.25-1.453L621.628,670.681" />
-<path id="TX_Guadalupe" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Guadalupe" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M655.589,665.793l10.431,10.68l-9.391,13.588l-10.77-0.369l-1.268,0.705l-0.373-0.673l-0.155-0.634l-0.267-2.598l0.443-0.474
             l-0.07-1.5l-4.183-2.809l-2.139-0.685l-1.254-0.971l-0.438-1.395l13.87-7.645L655.589,665.793" />
-<path id="TX_Comal" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M637.284,656.331
+<path id="TX_Comal" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M637.284,656.331
             l11.475,9.813l1.269,4.872l-13.871,7.645l-1.871-5.562l-2.702-2.17l-5.592-0.725l-0.356-0.019l-4.007,0.494l10.434-9.428
             L637.284,656.331" />
-<path id="TX_Hays" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M643.092,640.412
+<path id="TX_Hays" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M643.092,640.412
             l19.875,17.138l-2.42,2.169l-5.751,4.75l-0.283,1.338l0.406,0.076l0.671-0.089l-5.562,5.223l-1.268-4.872l-11.475-9.813
             L643.092,640.412" />
-<path id="TX_Caldwell" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M662.967,657.549
+<path id="TX_Caldwell" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M662.967,657.549
             l2.628-2.225l14.458,14.49l-0.092,0.089l-13.941,6.569l-10.431-10.68l-0.671,0.09l-0.406-0.076l0.283-1.338l5.751-4.75
             L662.967,657.549" />
-<path id="TX_Gonzales" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M679.962,669.903
+<path id="TX_Gonzales" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M679.962,669.903
             l7.575,7.997l-2.704,2.35l0.035,3.685l-1.746,6.161l-16.698,13.592l-4.993-5.737l-4.803-7.89l9.391-13.588L679.962,669.903" />
-<path id="TX_Lavaca" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M687.537,677.9
+<path id="TX_Lavaca" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M687.537,677.9
             l11.82-0.104l0.372,0.104l0.813,0.494l2.382,2.224l10.147,12.23l-4.34,3.584l-12.479,9.989l-13.131-16.326l1.746-6.161
             l-0.035-3.684L687.537,677.9" />
-<path id="TX_Jackson" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M708.734,696.433
+<path id="TX_Jackson" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M708.734,696.433
             l0.795,0.81l14.579,14.389l-0.688,14.453l-11.384-1.975l-2.862,0.122l-5.049-9.375l-3.176-6.282l-0.3-0.211l-4.396-1.942
             L708.734,696.433" />
-<path id="TX_Matagorda" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Matagorda" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M724.108,711.63l15.245-9.21l4.025-4.171l1.041,0.991l0.268,0.266l1.816,6.047l1.128,4.383l0.372,1.253l0.104,0.16l8.738,6.885
             l0.158,0.086l2.684,0.248l-0.847,0.564l-1.854,1.182l-0.828,0.494l-10.009,5.828l-3.176,1.604l-5.188,2.259l-3.443,1.591
             l-6.355,3.247l-2.237,1.503l-0.162,0.103l-3.018,2.115l-1.325,0.99l-0.368,0.583l-0.105-0.368l0.264-0.428l7.182-5.399
             l1.097-9.267l-0.211-0.227l-0.299-0.11l-0.903,0.126l-2.024,0.479l-0.869,0.281l-0.724,0.576l-0.848,1.486l-0.016-1.694
             L724.108,711.63" />
-<path id="TX_Wharton" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M733.901,679.522
+<path id="TX_Wharton" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M733.901,679.522
             l3.58,8.686l2.525,4.696l3.159,3.513l1.375,0.177l-1.162,1.656l-4.025,4.171l-15.245,9.21l-14.579-14.389l1.586-0.896
             l11.333-7.115l0.724-2.103l2.115-4.285l4.803-4.941L733.901,679.522" />
-<path id="TX_Colorado" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M712.845,661.327
+<path id="TX_Colorado" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M712.845,661.327
             l1.486,2.733l1.795,1.63l0.443,0.399l2.771,1.927l0.439,0.211l0.779,0.156l8.437,8.334l1.093,1.183l-4.803,4.941l-2.115,4.285
             l-0.724,2.103l-11.333,7.115l-1.587,0.896l-0.794-0.81l4.34-3.584l-10.147-12.23l-2.382-2.224l-0.813-0.494l-0.372-0.104
             L712.845,661.327" />
-<path id="TX_Bastrop" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M679.681,638.732
+<path id="TX_Bastrop" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M679.681,638.732
             l5.822,3.352l5.104,4.03l2.385,10.515l-12.938,13.186l-14.458-14.49l1.925-1.765l5.119-5.206l5.521-10.491L679.681,638.732" />
-<path id="TX_Fayette" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M703.101,651.209
+<path id="TX_Fayette" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M703.101,651.209
             l1.132,0.991l1.445-0.297l1.464-0.517l0.655-0.333l1.676,1.111l0.638,1.853l0.404,1.98l0.091,1.125l2.238,4.206l-13.486,16.469
             l-11.82,0.104l-7.575-7.997l0.092-0.089l12.938-13.186L703.101,651.209" />
-<path id="TX_Lee" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M687.516,636.086
+<path id="TX_Lee" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M687.516,636.086
             l8.385-4.941l5.032,6.391l3.984,4.61l4.943,2.256l-6.761,6.809l-10.11,5.42l-2.385-10.515l-5.104-4.03l-5.822-3.352
             L687.516,636.086" />
 
-<path id="TX_Austin" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Austin" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M710.606,657.122l1.569-1.007l12.829-1.529l0.794,0.159l2.014,0.876l2.153,0.765l1.022,0.069l0.462-0.548l4.923,17.263
             l-2.472,6.352l-3.812-1.621l-1.093-1.183l-8.437-8.334l-0.779-0.156l-0.439-0.211l-2.771-1.927l-0.443-0.399l-1.797-1.63
             l-1.484-2.733L710.606,657.122" />
-<path id="TX_Washington" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Washington" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M724.759,640.271l0.479,0.634l0.491,0.354l0.312,0.104l2.372-0.81l0.743-0.901l0.297-0.227l0.583,0.069l1.219,1.284l-0.192,1.998
             l2.663,5.33l-2.274,7.8l-0.462,0.548l-1.022-0.069l-2.153-0.765l-2.014-0.876l-0.794-0.16l-12.829,1.53l-1.569,1.007l-0.091-1.125
             l-0.403-1.98l-0.639-1.853l-1.676-1.111l-0.655,0.333l-1.464,0.517l-1.444,0.297l-1.133-0.991l6.761-6.809l6.439-1.586
             l1.273-0.356l6.601-2.399l0.387,0.058L724.759,640.271" />
-<path id="TX_Waller" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M733.725,648.108
+<path id="TX_Waller" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M733.725,648.108
             l12.616-1.042l0.07,7.835l-2.344-0.58l-2.366-1.323l-0.884-0.834l-1.289-0.956l0.603,1.946l5.314,16.965l-9.073,3.051
             l-4.922-17.262L733.725,648.108" />
-<path id="TX_Fort_Bend" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Fort_Bend" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M736.373,673.171l9.073-3.051l17.7,10.412l-1.642,7.111l-5.702,5.702l-1.5,0.774l-3.879-0.054l-1.697-0.603l-1.992,0.851
             l-2.193,2.278l-1.375-0.177l-3.159-3.513l-2.525-4.696l-3.579-8.686L736.373,673.171" />
-<path id="TX_Brazoria" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M763.147,680.532
+<path id="TX_Brazoria" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M763.147,680.532
             l9.145,1.163l-0.687,4.555l5.064,8.49l2.855,4.831l-3.192,5.757l0.478,0.373l-0.267,0.544l-11.082,9.692l-5.772,2.628
             l-2.684-0.248l-0.158-0.086l-8.738-6.885l-0.104-0.16l-0.372-1.253l-1.128-4.383l-1.816-6.048l-0.268-0.265l-1.041-0.991
             l1.162-1.656l2.193-2.278l1.992-0.852l1.697,0.604l3.879,0.054l1.5-0.774l5.702-5.702L763.147,680.532" />
-<path id="TX_Galveston" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Galveston" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M809.515,681.253l-1.311,0.604l-3.914,1.8l-0.303,0.142l-0.193,0.104l-3.527,1.641l-0.548,0.261l-1.585,0.849l-0.288,0.177
             l-0.898,0.567l-0.528,0.316l-0.156,0.122l-0.514,0.391l-0.372,0.264l-0.176,0.211l-0.126,0.105l-0.316,0.337l-0.104,0.157
             l-0.386,0.583l-0.181,0.267l-0.211,0.509l-0.09,0.199l-1.34,0.385l-0.761,0.039l-0.155-0.141l-0.035-0.592l0.705-0.896
@@ -341,368 +341,368 @@
             l2.028,2.294l7.24,7.748l3.51,1.042l-2.398,2.104l-0.757,0.583l-4.188,2.874l-5.263,3.619l-0.316,0.207l-0.562,0.445l-1.587,1.214
             l-0.28,0.232l-0.162,0.125l-0.634,0.599l-0.474,0.443l-0.373,0.513l-0.478-0.373l3.193-5.757l-2.856-4.831l-5.064-8.49
             l0.687-4.555l2.118,2.119l4.394-2.263L781.027,681.66" />
-<path id="TX_Montgomery" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Montgomery" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M745.179,627.65l10.077,6.108l4.68-0.021l2.844-0.016l2.93,0.19l8.472,7.981l3.088,8.945l-4.396,4.165l-2.857,2.704l-1.29,0.144
             l-0.771-0.165l-0.466-1.005l-1.266-1.185l-3.18-1.708l-5.523-2.929l-2.065,1.797l-3.09,1.465l-2.895,0.583l-0.955,0.087
             l-2.102,0.104l-0.07-7.835L745.179,627.65" />
-<path id="TX_Harris" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M746.412,654.901
+<path id="TX_Harris" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M746.412,654.901
             l2.102-0.104l0.955-0.087l2.895-0.583l3.09-1.465l2.065-1.797l5.523,2.929l3.18,1.708l1.266,1.185l0.466,1.005l0.771,0.165
             l1.29-0.144l2.857-2.704l4.396-4.165l5.244,14.21l2.239,10.495l-3.724,6.112l-2.226-0.108l-4.394,2.263l-2.118-2.119l-9.145-1.163
             l-17.7-10.412l-5.314-16.965l-0.603-1.946l1.29,0.956l0.883,0.834l2.367,1.323L746.412,654.901" />
-<path id="TX_Chambers" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M806.091,664.469
+<path id="TX_Chambers" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M806.091,664.469
             l3.704,0.031l0.48,15.75l-0.037,0.666l-0.725,0.335l-6.83,0.248l-9.194-1.465l1.109-2.08l0.636-3.496L795.25,674l-0.142-0.99
             l-1.304-2.573l-0.478-0.533l-0.246-0.089l-2.245,1.026l-1.037,0.548l-5.049,4.158l-2.239-10.495L806.091,664.469" />
-<path id="TX_Hardin" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M801.078,632.401
+<path id="TX_Hardin" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M801.078,632.401
             l20.613-0.318l-1.097,2.68l-0.383,1.167l-0.479,1.959l0.123,0.704l0.794,1.804l0.141,0.047l0.442,0.462l-0.798,4.922l-0.453,0.64
             l0.158,4.079l-0.284-0.285l-3.231-1.077l-0.611,0.086l-2.847,0.921l-0.108,0.14l-0.034,0.564l0.107,0.799l-0.123,0.316
             l-0.583,0.841l-0.315,0.178l-4.414,0.94l-0.69-0.13l-1.216-0.635l-6.619,0.142l-6.216-18.969L801.078,632.401" />
-<path id="TX_Liberty" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M787.877,634.268
+<path id="TX_Liberty" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M787.877,634.268
             l5.078,0.109l6.216,18.969l6.619-0.142l0.301,11.264l-23.579,0.583l-5.244-14.21l-3.088-8.945L787.877,634.268" />
-<path id="TX_Jefferson" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Jefferson" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M805.79,653.206l1.216,0.635l0.69,0.13l4.413-0.94l0.316-0.178l0.583-0.841l0.123-0.316l-0.108-0.799l0.035-0.564l0.108-0.14
             l2.847-0.921l0.611-0.086l3.231,1.077l0.284,0.285l0.105,0.614l0.917,3.177l0.119,0.137l6.077,3.956l3.65,0.939l0.562,0.246
             l0.674,1.038l0.162,0.408l0.084,0.497l-0.074,1.146l0.392,11.26l-4.076,0.652l-1.081-0.02l-2.007-0.02l-2.418,0.567l-3.319,1.325
             l-9.672,4.443l0.037-0.666l-0.48-15.75l-3.704-0.031L805.79,653.206" />
-<path id="TX_Orange" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M837.485,645.938
+<path id="TX_Orange" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M837.485,645.938
             l-0.031,9.755l-5.031,7.013l0.074-1.146l-0.086-0.497l-0.16-0.408l-0.676-1.038l-0.562-0.246l-3.65-0.939l-6.077-3.956
             l-0.119-0.137l-0.917-3.177l-0.105-0.614l-0.158-4.079l9.423-0.251L837.485,645.938" />
-<path id="TX_Travis" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M645.245,636.935
+<path id="TX_Travis" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M645.245,636.935
             l3.514-9.92l4.04-0.121l1.713,1.214l2.068,2.984l0.771,3.708l1.609,1.359l1.379,0.457l1.001-0.035l2.95-1.035l4.06-1.959h0.882
             l2.77,0.877l6.159,3.398l-5.521,10.491l-5.119,5.206l-1.925,1.765l-2.628,2.225l-19.875-17.138L645.245,636.935" />
-<path id="TX_Kent" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M548.277,483.097
+<path id="TX_Kent" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M548.277,483.097
             l-1.111,22.026l-5.773-0.297l-16.114-1.167l1.148-21.625L548.277,483.097" />
-<path id="TX_Kimble" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M586.63,620.838
+<path id="TX_Kimble" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M586.63,620.838
             l-0.408,10.644l7.856,0.266l-0.303,10.75l-19.696-0.921l-15.797-0.649l0.937-21.165L586.63,620.838" />
-<path id="TX_Sutton" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M559.219,619.76
+<path id="TX_Sutton" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M559.219,619.76
             l-0.937,21.165l-25.451-1.08l-11.328-0.545l1.092-21.072L559.219,619.76" />
-<path id="TX_Schleicher" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Schleicher" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M535.323,599.622l24.761,1.077l-0.865,19.062l-36.624-1.532l0.917-18.992L535.323,599.622" />
-<path id="TX_Menard" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M560.084,600.699
+<path id="TX_Menard" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M560.084,600.699
             l22.098,0.934l4.836,7.593l-0.388,11.612l-27.411-1.077L560.084,600.699" />
-<path id="TX_Mason" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M587.018,609.225
+<path id="TX_Mason" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M587.018,609.225
             l16.98,0.58l5.485,1.168l-0.636,21.334l-14.771-0.562l-7.856-0.266l0.408-10.645L587.018,609.225" />
-<path id="TX_Llano" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M609.485,610.973
+<path id="TX_Llano" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M609.485,610.973
             l22.455,0.634l2.874,4.521l0.193,13.183l0.552,4.378l-10.503-0.975l-16.206-0.407L609.485,610.973" />
-<path id="TX_Burnet" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M655.182,606.401
+<path id="TX_Burnet" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M655.182,606.401
             l3.461,6.563l-9.883,14.05l-3.514,9.92l-9.688-3.247l-0.552-4.378l-0.193-13.184l-2.874-4.521l0.404-5.451L655.182,606.401" />
-<path id="TX_Williamson" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Williamson" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M658.642,612.965l7.501,1.665l1.286,0.315l13.312,6.156l6.773,14.983l-7.835,2.646l-1.521-0.87L672,634.463l-2.77-0.877h-0.881
             l-4.06,1.959l-2.95,1.035l-1.001,0.035l-1.379-0.457l-1.609-1.359l-0.771-3.708l-2.068-2.984l-1.713-1.214l-4.04,0.121
             L658.642,612.965" />
-<path id="TX_Burleson" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M710.852,622.513
+<path id="TX_Burleson" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M710.852,622.513
             l2.326,1.781l-0.246,0.32l-1.234,2.326v0.141l4.025,0.959l3.705,1.729l4.68,6.672l0.65,3.83l-0.196-0.156l-0.387-0.058
             l-6.601,2.399l-1.273,0.356l-6.44,1.586l-4.942-2.256l-3.984-4.61l-5.032-6.391L710.852,622.513" />
-<path id="TX_San_Jacinto" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_San_Jacinto" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M766.941,615.981l5.544,1.734l2.981,3.105l11.017,10.559l1.395,2.89l-13.697,7.628l-8.472-7.981L766.941,615.981" />
-<path id="TX_Walker" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M762.251,605.997
+<path id="TX_Walker" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M762.251,605.997
             l4.689,9.983l-1.232,17.935l-2.93-0.19l-2.844,0.016l-4.68,0.021l-10.077-6.108l-1.428-11.791l10.604-3.389L762.251,605.997" />
-<path id="TX_Grimes" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M730.514,617.923
+<path id="TX_Grimes" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M730.514,617.923
             l13.237-2.062l1.428,11.791l1.163,19.416l-12.616,1.042l-2.663-5.33l3.052-4.54l-1.552-1.077l-0.319-0.563l-0.495-0.912
             l-2.027-6.802l0.369-5.226L730.514,617.923" />
-<path id="TX_Brazos" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M730.514,617.923
+<path id="TX_Brazos" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M730.514,617.923
             l-0.425,5.736l-0.369,5.226l2.027,6.802l0.495,0.912l0.319,0.563l1.552,1.077l-3.052,4.54l0.192-1.998l-1.219-1.284l-0.583-0.069
             l-0.297,0.227l-0.743,0.901l-2.372,0.81l-0.312-0.104l-0.492-0.354l-0.478-0.634l-0.65-3.83l-4.68-6.672l-3.705-1.729
             l-4.025-0.959v-0.141l1.234-2.326l0.246-0.32l4.805-2.432l1.183-2.063l0.86-1.998l0.974-1.849l1.167-1.821l0.545-0.708
             l0.708-0.615l1.287-0.886l1.768-1.167l0.917-0.439L730.514,617.923" />
-<path id="TX_Madison" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M727.391,610.317
+<path id="TX_Madison" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M727.391,610.317
             l2.999-1.042l3.901-2.591l4.554-2.332l9.145-0.125l6.367,8.243l-10.604,3.389l-13.237,2.062L727.391,610.317" />
-<path id="TX_Leon" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M748.991,583.508
+<path id="TX_Leon" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M748.991,583.508
             l0.441,0.74l0.794,1.781l1.922,5.502l-0.966,2.459l-0.179-0.035l-0.369,0.211l-0.972,1.093l-2.17,6.861l0.052,0.657l0.442,1.449
             l-9.145,0.125l-4.554,2.332l-3.901,2.591l-2.999,1.042l-3.322-19.396l3.568-2.827l19.311-10.354L748.991,583.508" />
-<path id="TX_Robertson" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Robertson" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M712.07,597.751l11.997-6.829l3.322,19.396l-0.917,0.439l-1.768,1.167l-1.287,0.886l-0.708,0.615l-0.545,0.708l-1.167,1.821
             l-0.974,1.849l-0.86,1.998l-1.183,2.063l-4.805,2.431l-2.326-1.78l-2.083-5.24l-3.725-4.766l-2.526-7.376l-0.513-1.642
             L712.07,597.751" />
-<path id="TX_Milam" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M702.006,603.488
+<path id="TX_Milam" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M702.006,603.488
             l0.513,1.642l2.526,7.376l3.725,4.766l2.083,5.24l-14.95,8.631l-8.386,4.94l-6.773-14.982l2.54-6.888l8.245-4.776L702.006,603.488
             " />
-<path id="TX_Bell" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M676.696,592.367
+<path id="TX_Bell" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M676.696,592.367
             l6.019,2.122l8.812,14.948l-8.245,4.776l-2.54,6.888l-13.312-6.156l-1.286-0.315l-7.501-1.665l-3.461-6.563l0.232-1.729
             L676.696,592.367" />
-<path id="TX_Coryell" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M668.894,578.706
+<path id="TX_Coryell" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M668.894,578.706
             l7.803,13.661l-21.283,12.305l-11.334-20.196l17.971-10.181L668.894,578.706" />
-<path id="TX_Lampasas" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M640.109,586.789
+<path id="TX_Lampasas" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M640.109,586.789
             l3.971-2.313l11.334,20.196l-0.232,1.729l-22.837-0.246l-5.03-10.293L640.109,586.789" />
-<path id="TX_Mills" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M632.166,573.058
+<path id="TX_Mills" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M632.166,573.058
             l7.941,13.731l-12.794,9.073l-0.108-0.603l-1.642-3.583l-5.667-4.975l-1.375,1.307l-8.344-3.142l-1.116-1.465l0.16-0.898
             l2.225-1.398l7.062-4.727l0.97-3.865l3.932-0.529L632.166,573.058" />
-<path id="TX_San_Saba" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M609.222,582.504
+<path id="TX_San_Saba" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M609.222,582.504
             l-0.16,0.898l1.116,1.465l8.344,3.142l1.375-1.307l5.667,4.975l1.642,3.583l0.108,0.603l5.03,10.293l-0.404,5.451l-22.455-0.634
             l-5.485-1.168l0.933-26.262L609.222,582.504" />
-<path id="TX_McCulloch" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_McCulloch" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M600.115,583.066l4.816,0.476l-0.933,26.262l-16.98-0.58l-4.836-7.593l0.83-20.435l2.79,0.544l3.9,0.604l8.295,0.208
             L600.115,583.066" />
-<path id="TX_Concho" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M578.037,576.712
+<path id="TX_Concho" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M578.037,576.712
             l4.975,4.486l-0.83,20.435l-22.098-0.934l1.253-24.851L578.037,576.712" />
-<path id="TX_Tom_Green" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Tom_Green" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M530.995,568.557l25.243,1.355l5.099,5.937l-1.253,24.851l-24.761-1.077l0.916-22.079l-12.777-0.849l-11.877-0.689l0.086-1.394
             l17.278,0.618l0.551-7.216L530.995,568.557" />
-<path id="TX_Coke" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M532.163,548.824
+<path id="TX_Coke" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M532.163,548.824
             l6.652,0.408l18.34,1.001l-0.917,19.679l-25.243-1.355L532.163,548.824" />
-<path id="TX_Runnels" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M560.703,550.38
+<path id="TX_Runnels" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M560.703,550.38
             l18.657,0.81l-1.323,25.521l-16.699-0.862l-5.099-5.937l0.917-19.679L560.703,550.38" />
-<path id="TX_Coleman" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M582.889,551.364
+<path id="TX_Coleman" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M582.889,551.364
             l18.568,0.765l-1.342,30.938l-2.119-0.515l-8.295-0.208l-3.9-0.604l-2.79-0.544l-4.975-4.487l1.322-25.521L582.889,551.364" />
-<path id="TX_Brown" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M604.754,552.231
+<path id="TX_Brown" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M604.754,552.231
             l8.283,0.337l10.372,19.415l-3.932,0.529l-0.97,3.865l-7.062,4.727l-2.225,1.398l-4.29,1.039l-4.816-0.476l1.342-30.938
             L604.754,552.231" />
-<path id="TX_Comanche" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M629.2,543.744
+<path id="TX_Comanche" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M629.2,543.744
             l9.128,16.445l3.301-1.883l1.762,3.209l2.122,3.882l-13.346,7.66l-8.757-1.074l-10.372-19.415L629.2,543.744" />
-<path id="TX_Hamilton" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M643.391,561.516
+<path id="TX_Hamilton" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M643.391,561.516
             l8.791-4.892l9.868,17.671l-17.971,10.182l-3.971,2.313l-7.941-13.731l13.346-7.66L643.391,561.516" />
-<path id="TX_Bosque" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M669.005,547.54
+<path id="TX_Bosque" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M669.005,547.54
             l5.894,1.62l-0.478,3.125l-0.302,2.628l0.231,2.139l6.777,12.215l0.513,0.791l1.426,0.885l-14.173,7.765l-6.844-4.412
             l-9.869-17.67l6.054-3.387L669.005,547.54" />
-<path id="TX_Falls" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M703.383,582.446
+<path id="TX_Falls" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M703.383,582.446
             l8.688,15.305l-10.064,5.737l-10.479,5.949l-8.812-14.948L703.383,582.446" />
-<path id="TX_McLennan" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M697.842,572.971
+<path id="TX_McLennan" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M697.842,572.971
             l5.541,9.476l-20.668,12.042l-6.019-2.122l-7.803-13.661l14.173-7.765l10.361-5.824L697.842,572.971" />
-<path id="TX_Hill" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M674.899,549.16
+<path id="TX_Hill" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M674.899,549.16
             l16.657-4.429l8.019,9.778l7.447,13.183l-9.181,5.279l-4.413-7.854l-10.361,5.824l-1.426-0.885l-0.513-0.791l-6.777-12.215
             l-0.231-2.139l0.302-2.628L674.899,549.16" />
-<path id="TX_Limestone" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Limestone" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M707.022,567.691l9.513,1.007l11.103,19.396l-3.568,2.827l-11.997,6.829l-8.688-15.305l-5.541-9.476L707.022,567.691" />
-<path id="TX_Freestone" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Freestone" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M735.559,558.129l-0.385,2.36l3.791,7.041l2.736,2.758l1.449,0.532l3.423,4.037l0.372,2.883l-19.311,10.354l-11.103-19.396
             l18.938-10.908L735.559,558.129" />
-<path id="TX_Navarro" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M699.574,554.51
+<path id="TX_Navarro" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M699.574,554.51
             l21.917-12.745l4.011,1.852l2.331,2.122l1.515,1.816l3.619,4.379l1.978,2.944l0.527,2.912l-18.938,10.908l-9.513-1.007
             L699.574,554.51" />
-<path id="TX_Somervell" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Somervell" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M654.953,545.776l14.138-4.06l-0.086,5.823l-10.771,5.697L654.953,545.776" />
-<path id="TX_Ellis" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M691.699,530.344
+<path id="TX_Ellis" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M691.699,530.344
             l2.067,0.076l21.569,0.355l3.262,9.457l2.895,1.532l-21.917,12.745l-8.019-9.778L691.699,530.344" />
-<path id="TX_Johnson" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M669.218,529.729
+<path id="TX_Johnson" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M669.218,529.729
             l2.818,0.056l19.663,0.56l-0.143,14.388l-16.657,4.429l-5.894-1.62l0.086-5.823L669.218,529.729" />
-<path id="TX_Hood" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M650.154,529.181
+<path id="TX_Hood" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M650.154,529.181
             l19.063,0.548l-0.126,11.988l-14.138,4.06l-4.926-14.19L650.154,529.181" />
-<path id="TX_Erath" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M650.027,531.587
+<path id="TX_Erath" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M650.027,531.587
             l4.927,14.19l3.281,7.46l-6.054,3.387l-8.791,4.892l-1.762-3.209l-3.301,1.883l-9.128-16.445l3.565-12.654L650.027,531.587" />
-<path id="TX_Eastland" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M606.436,530.223
+<path id="TX_Eastland" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M606.436,530.223
             l22.043,0.652l4.286,0.214l-3.565,12.654l-16.162,8.824l-8.283-0.337l0.901-22.031L606.436,530.223" />
-<path id="TX_Callahan" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M584.547,529.464
+<path id="TX_Callahan" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M584.547,529.464
             l21.109,0.735l-0.901,22.031l-3.297-0.102l-18.568-0.765l0.918-21.936L584.547,529.464" />
-<path id="TX_Taylor" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M583.807,529.429
+<path id="TX_Taylor" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M583.807,529.429
             l-0.918,21.936l-3.529-0.175l-18.656-0.81l1.198-22.257L583.807,529.429" />
-<path id="TX_Nolan" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M561.902,528.123
+<path id="TX_Nolan" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M561.902,528.123
             l-1.198,22.257l-3.547-0.146l-18.34-1.001l1.288-22.237L561.902,528.123" />
-<path id="TX_Fisher" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M547.165,505.124
+<path id="TX_Fisher" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M547.165,505.124
             l15.797,0.883l-1.062,22.116l-21.798-1.127l1.289-22.168L547.165,505.124" />
-<path id="TX_Jones" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M562.963,506.006
+<path id="TX_Jones" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M562.963,506.006
             l6.546,0.267l15.884,0.794l-0.847,22.397l-0.74-0.035l-21.905-1.307L562.963,506.006" />
-<path id="TX_Shackelford" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Shackelford" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M585.393,507.066l5.948,0.216l15.818,0.544l-0.725,22.396l-0.779-0.023l-21.109-0.735L585.393,507.066" />
-<path id="TX_Stephens" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M613.284,508.038
+<path id="TX_Stephens" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M613.284,508.038
             l15.828,0.58l-0.633,22.258l-22.043-0.652l0.725-22.396L613.284,508.038" />
-<path id="TX_Palo_Pinto" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Palo_Pinto" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M635.468,506.08l15.621,0.6l-0.935,22.502l-0.126,2.405l-17.263-0.497l-4.286-0.214l0.633-22.258L635.468,506.08" />
-<path id="TX_Parker" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M651.088,506.679
+<path id="TX_Parker" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M651.088,506.679
             l5.667,0.229l15.919,0.634l-0.64,22.244l-2.818-0.056l-19.064-0.548L651.088,506.679" />
-<path id="TX_Tarrant" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M672.675,507.541
+<path id="TX_Tarrant" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M672.675,507.541
             l6.14,0.303l15.444,0.473l-0.492,22.104l-2.067-0.076l-19.663-0.56L672.675,507.541" />
-<path id="TX_Dallas" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M694.259,508.316
+<path id="TX_Dallas" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M694.259,508.316
             l7.908-0.067l13.84,0.369l-0.143,8.545l-0.528,13.613l-21.569-0.355L694.259,508.316" />
-<path id="TX_Rockwall" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M725.275,508.688
+<path id="TX_Rockwall" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M725.275,508.688
             l-0.023,7.092l-9.387,1.383l0.143-8.545L725.275,508.688" />
-<path id="TX_Kaufman" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M725.251,515.78
+<path id="TX_Kaufman" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M725.251,515.78
             l9.324,0.182l0.016,24.372l-15.993-0.102l-3.262-9.457l0.528-13.613L725.251,515.78" />
-<path id="TX_Rains" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M743.608,508.813
+<path id="TX_Rains" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M743.608,508.813
             l8.331,0.952l1.304,12.164l-12.651-5.897L743.608,508.813" />
-<path id="TX_Van_Zandt" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Van_Zandt" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M740.591,516.031l12.651,5.897l1.731,1.679l0.074,10.495l5.221,5.562l0.956,0.729l-26.635-0.059l-0.016-24.373L740.591,516.031" />
-<path id="TX_Henderson" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Henderson" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M734.591,540.334l26.635,0.059l-0.391,11.122l1.355,2.574l-26.632,4.041l-0.088-0.338l-0.527-2.912l-1.978-2.944l-3.619-4.379
             l-1.515-1.816l-2.331-2.122l-4.011-1.852l-2.895-1.532L734.591,540.334" />
-<path id="TX_Anderson" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M762.191,554.088
+<path id="TX_Anderson" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M762.191,554.088
             l-0.756,6.868l0.689,3.646l1.59,5.722l2.995,2.733l0.583,0.125l0.977,1.183l0.599,1.254l0.613,1.957l0.127,0.497l-0.6,0.848
             l-9.43,1.468l-6.812,1.198l-3.776,1.922l-2.046-5.769l-0.371-2.883l-3.423-4.037l-1.449-0.532l-2.736-2.758l-3.791-7.041
             l0.385-2.36L762.191,554.088" />
-<path id="TX_Houston" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M748.991,583.508
+<path id="TX_Houston" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M748.991,583.508
             l3.776-1.922l6.812-1.198l9.43-1.468l2.753,1.061l4.271,4.374l4.657,2.877l1.979,1.962l-20.417,16.803l-7.896,6.475l-6.367-8.243
             l-0.442-1.449l-0.052-0.657l2.17-6.861l0.972-1.093l0.369-0.211l0.179,0.035l0.966-2.459l-1.922-5.502l-0.794-1.781
             L748.991,583.508" />
-<path id="TX_Trinity" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M787.771,601.278
+<path id="TX_Trinity" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M787.771,601.278
             l-15.286,16.437l-5.544-1.734l-4.689-9.983l20.417-16.803L787.771,601.278" />
-<path id="TX_Polk" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M799.965,605.535
+<path id="TX_Polk" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M799.965,605.535
             l-4.13,2.452l5.243,24.414l-8.123,1.977l-5.078-0.109l-1.395-2.89l-11.017-10.559l-2.981-3.105l15.286-16.437l4.902,2.052
             l3.764,0.792L799.965,605.535" />
-<path id="TX_Newton" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M841.391,598.793
+<path id="TX_Newton" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M841.391,598.793
             l2.01-0.527l0.162,16.009l-0.78,3.387l-6.193,11.667l-0.495,1.766v0.02l0.126,0.133l1.22,1.47l0.614,3.147l-0.019,0.262
             l-0.175,0.439l-1.666,1.398l-0.046,0.047l1.336,7.93l-8.078,0.278l0.654-21.441l0.104-14.159l-2.191-10.59L841.391,598.793" />
-<path id="TX_Jasper" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M822.469,601.336
+<path id="TX_Jasper" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M822.469,601.336
             l5.505-1.31l2.192,10.59l-0.104,14.159l-0.653,21.441l-9.423,0.251l0.452-0.64l0.799-4.922l-0.443-0.462l-0.14-0.047l-0.795-1.804
             l-0.122-0.704l0.478-1.959l0.383-1.167l1.098-2.679l-0.654-1.062l-0.453-1.485l0.116-0.388l0.977-1.875l-0.214-2.024l-3.085-6.124
             l-0.391-0.333l-0.978-0.142l-0.264-0.055l-0.103-0.121l-2.911-8.494l0.298-1.691l-0.158-0.404l-0.513-0.533l-2.014-0.776
             l-2.56,0.072l-4.305,0.121l14.122-3.584L822.469,601.336" />
-<path id="TX_Tyler" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M804.484,606.77
+<path id="TX_Tyler" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M804.484,606.77
             l4.306-0.121l2.56-0.072l2.014,0.776l0.513,0.533l0.158,0.403l-0.298,1.692l2.911,8.494l0.103,0.121l0.264,0.055l0.978,0.141
             l0.391,0.333l3.085,6.124l0.214,2.025l-0.977,1.875l-0.116,0.388l0.453,1.485l0.653,1.061l-20.613,0.318l-5.243-24.414l4.13-2.452
             L804.484,606.77" />
-<path id="TX_Angelina" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M786.554,582.079
+<path id="TX_Angelina" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M786.554,582.079
             l1.832,2.027l7.979,2.048l1.926-0.315l1.692,0.708l2.278,1.194l0.548,0.588l7.162,8.683l8.637,6.175l-14.122,3.584l-4.521-1.235
             l-3.527-1.413l-3.764-0.792l-4.902-2.052l-5.104-12.084l-1.979-1.962L786.554,582.079" />
-<path id="TX_Sabine" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M830.764,578.296
+<path id="TX_Sabine" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M830.764,578.296
             l4.643,4.877l3.955,5.735l1.289,5.616l0.295,1.656l0.446,2.611l-13.418,1.233l-5.505,1.309l-0.369-1.184l-0.158-7.041l0.035-5.701
             l1.834-1.975l0.721-0.92l-0.173-5.204L830.764,578.296" />
-<path id="TX_San_Augustine" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_San_Augustine" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M824.358,579.311l0.174,5.204l-0.722,0.92l-1.834,1.975l-0.035,5.701l0.158,7.041l0.369,1.185l-3.861,1.852l-8.637-6.175
             l0.232-6.036l0.315-11.527l-3.001-3.352l-1.021-0.709l13.255,1.414L824.358,579.311" />
-<path id="TX_Shelby" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M801.416,559.256
+<path id="TX_Shelby" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M801.416,559.256
             l21.176-0.686l6.02,6.726l2.152,13l-6.405,1.016l-4.604-2.51l-13.255-1.414l-2.456-9.618L801.416,559.256" />
-<path id="TX_Nacogdoches" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Nacogdoches" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M783.308,566l20.734-0.23l2.456,9.618l1.021,0.709l3.001,3.352l-0.315,11.527l-0.232,6.036l-7.162-8.683l-0.548-0.588
             l-2.278-1.194l-1.692-0.708l-1.926,0.315l-7.979-2.048l-1.832-2.027l-2.335-2.299l-0.207-0.332l-1.058-2.874l-0.781-2.915
             l-0.461-4.523L783.308,566" />
-<path id="TX_Cherokee" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M760.835,551.515
+<path id="TX_Cherokee" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M760.835,551.515
             l20.248-0.29l2.225,14.774l-1.596,3.137l0.461,4.523l0.781,2.915l1.058,2.874l0.207,0.332l2.335,2.299l-5.864,5.152l-4.657-2.877
             l-4.271-4.374l-2.753-1.062l0.6-0.847l-0.127-0.497l-0.613-1.957l-0.599-1.254l-0.977-1.183l-0.583-0.125l-2.995-2.733
             l-1.59-5.722l-0.689-3.646l0.756-6.868L760.835,551.515" />
-<path id="TX_Panola" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M821.003,537.726
+<path id="TX_Panola" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M821.003,537.726
             l0.215,9.936l1.374,10.91l-21.176,0.686l-3.777,0.09l-0.144-5.4l0.825-6.249l0.937-2.334l1.357-2.396l1.278-3.09l0.03-1.923
             l1.217,1.077l4.606,1.978l0.354,0.066L821.003,537.726" />
-<path id="TX_Rusk" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M798.199,537.983
+<path id="TX_Rusk" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M798.199,537.983
             l3.725-0.03l-0.03,1.922l-1.278,3.091l-1.357,2.396l-0.938,2.334l-0.824,6.249l0.144,5.4l3.777-0.09l2.626,6.513l-20.734,0.23
             l-2.225-14.774l-0.161-11.716l7.503-0.162l7.043-0.07L798.199,537.983" />
-<path id="TX_Gregg" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M780.76,530.999
+<path id="TX_Gregg" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M780.76,530.999
             l0.69-0.071l6.392-2.737l2.521-3.508l0.317-0.142l1.993,0.228l0.125,0.246l0.156,10.1l0.057,1.517l2.526,1.217l2.236,0.295
             l0.425-0.158l-2.731,1.293l-7.043,0.07l-7.503,0.162L780.76,530.999" />
-<path id="TX_Smith" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M754.974,523.608
+<path id="TX_Smith" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M754.974,523.608
             l3.833,3.435l1.214,0.532l12.193,3.056l0.306-0.035l0.812-0.396l0.386-0.787l7.041,1.586l0.162,8.511l0.161,11.716l-20.248,0.29
             l0.391-11.122l-0.956-0.729l-5.221-5.562L754.974,523.608" />
-<path id="TX_Wood" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M773.564,506.945
+<path id="TX_Wood" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M773.564,506.945
             l0.05,5.627l0.104,16.84l-0.386,0.787l-0.812,0.396l-0.306,0.035l-12.193-3.056l-1.214-0.532l-3.833-3.435l-1.731-1.679
             l-1.304-12.164l15.037-0.191L773.564,506.945" />
-<path id="TX_Harrison" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M792.693,517.902
+<path id="TX_Harrison" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M792.693,517.902
             l8.329,4.903l5.192-0.047l1.396-0.708l5.031-0.65l2.977-0.248l2.156,0.264l2.896,1.077l0.333,15.232l-12.901,3.349l-0.354-0.066
             l-4.606-1.978l-1.217-1.077l-3.725,0.03l-0.425,0.158l-2.236-0.295l-2.526-1.217l-0.057-1.517l-0.156-10.1L792.693,517.902" />
-<path id="TX_Upshur" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M773.613,512.572
+<path id="TX_Upshur" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M773.613,512.572
             l18.249-0.319l0.618,1.287l0.212,4.362l0.105,7.111l-0.125-0.246l-1.993-0.228l-0.317,0.142l-2.521,3.508l-6.392,2.737
             l-0.69,0.071l-7.041-1.586L773.613,512.572" />
-<path id="TX_Camp" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M773.564,506.945
+<path id="TX_Camp" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M773.564,506.945
             l1.094-1.081l3.598-1.962l0.937-0.181l0.762-0.01l2.484,0.038l0.567,0.191l2.24,2.774l2.366,1.619l4.251,3.918l-18.249,0.319
             L773.564,506.945" />
-<path id="TX_Marion" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M794.67,513.493
+<path id="TX_Marion" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M794.67,513.493
             l25.824-0.531l0.176,9.531l-2.896-1.077l-2.156-0.264l-2.977,0.248l-5.031,0.65l-1.396,0.708l-5.192,0.047l-8.329-4.903
             l-0.212-4.362L794.67,513.493" />
-<path id="TX_Cass" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M794.476,493.754
+<path id="TX_Cass" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M794.476,493.754
             l0.105,0.484l0.352,0.283l1.414,0.277l15.833,0.09l0.088-0.145l-0.144-0.458l-0.12-1.058l0.672-1.198l1.32-0.458l1.04-0.232
             l3.795,0.605l0.882,0.455l0.358,0.794l0.264,12.763l0.158,7.007l-25.824,0.531L794.476,493.754" />
-<path id="TX_Morris" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M787.818,489.025
+<path id="TX_Morris" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M787.818,489.025
             l2.637,1.732l4.021,2.994l0.193,19.74l-2.188,0.047l-0.619-1.288l-4.251-3.917L787.818,489.025" />
-<path id="TX_Titus" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M787.818,489.025
+<path id="TX_Titus" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M787.818,489.025
             l-0.206,19.31l-2.366-1.619l-2.24-2.774l-0.567-0.191l-2.484-0.038l-0.762,0.01l-0.937,0.181l-3.598,1.962l-0.146-17.998
             L787.818,489.025" />
-<path id="TX_Franklin" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M774.512,487.867
+<path id="TX_Franklin" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M774.512,487.867
             l0.146,17.998l-1.094,1.081l-6.588,2.628l-0.141-21.006l0.086-0.065L774.512,487.867" />
-<path id="TX_Hopkins" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M743.626,496.654
+<path id="TX_Hopkins" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M743.626,496.654
             l3.461-2.052l1.887-2.205l5.226-2.386l1.009-0.423l2.153-0.07l9.476-0.951l0.141,21.006l-15.037,0.191l-8.33-0.952
             L743.626,496.654" />
-<path id="TX_Delta" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M743.786,484.37
+<path id="TX_Delta" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M743.786,484.37
             l3.266-1.52l0.776-0.211l5.821,0.422l0.814,0.126l4.605,1.444l0.813,0.353l4.253,2.895l2.698,0.493l0.086,0.131l-0.086,0.065
             l-9.477,0.951l-2.152,0.07l-1.01,0.423l-5.225,2.386l-1.887,2.205l-3.461,2.052l0.108-9.652L743.786,484.37" />
-<path id="TX_Hunt" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M743.735,487.003
+<path id="TX_Hunt" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M743.735,487.003
             l-0.108,9.652l-0.019,12.159l-3.018,7.218l-6.016-0.069l-9.324-0.182l0.023-7.092l0.138-18.778L743.735,487.003" />
-<path id="TX_Collin" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M702.8,487.068
+<path id="TX_Collin" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M702.8,487.068
             l18.872,0.51l3.74,2.333l-0.138,18.778l-9.269-0.07l-13.84-0.369L702.8,487.068" />
-<path id="TX_Denton" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M679.787,485.533
+<path id="TX_Denton" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M679.787,485.533
             l18.428,0.937l4.585,0.599l-0.633,21.181l-7.908,0.067l-15.444-0.473L679.787,485.533" />
-<path id="TX_Wise" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M657.351,484.97
+<path id="TX_Wise" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M657.351,484.97
             l18.075,0.332l4.36,0.231l-0.973,22.312l-6.14-0.303l-15.919-0.634L657.351,484.97" />
-<path id="TX_Jack" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M636.283,482.815
+<path id="TX_Jack" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M636.283,482.815
             l18.547,0.423l2.521,1.73l-0.595,21.938l-5.667-0.229l-15.621-0.6l0.761-19.678L636.283,482.815" />
-<path id="TX_Young" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M613.848,485.692
+<path id="TX_Young" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M613.848,485.692
             l22.381,0.709l-0.761,19.678l-6.355,2.538l-15.828-0.58L613.848,485.692" />
-<path id="TX_Throckmorton" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Throckmorton" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M592.101,484.883l21.747,0.81l-0.563,22.346l-6.124-0.211l-15.818-0.544L592.101,484.883" />
-<path id="TX_Haskell" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M570.356,484.122
+<path id="TX_Haskell" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M570.356,484.122
             l21.745,0.762l-0.759,22.399l-5.948-0.216l-15.884-0.794L570.356,484.122" />
-<path id="TX_Stonewall" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Stonewall" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M548.277,483.097l22.079,1.024l-0.847,22.151l-6.546-0.267l-15.797-0.883L548.277,483.097" />
-<path id="TX_Dickens" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M527.503,459.926
+<path id="TX_Dickens" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M527.503,459.926
             l21.781,0.986l-1.007,22.186l-21.852-1.062L527.503,459.926" />
-<path id="TX_Motley" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M528.771,435.639
+<path id="TX_Motley" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M528.771,435.639
             l3.955,0.19l17.775,0.824l-1.217,24.258l-21.781-0.986L528.771,435.639" />
-<path id="TX_Hall" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M550.573,414.598
+<path id="TX_Hall" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M550.573,414.598
             l5.152,0.262l-1.111,22.012l-4.112-0.218l-17.775-0.824l1.203-22.079L550.573,414.598" />
-<path id="TX_Donley" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M551.7,392.5
+<path id="TX_Donley" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M551.7,392.5
             l-1.127,22.099l-16.645-0.848l-6.003-0.318l1.359-22.005L551.7,392.5" />
-<path id="TX_Gray" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M530.482,369.239
+<path id="TX_Gray" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M530.482,369.239
             l22.225,1.112L551.7,392.5l-22.416-1.072L530.482,369.239" />
-<path id="TX_Roberts" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M531.685,347.085
+<path id="TX_Roberts" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M531.685,347.085
             v-0.12l21.832,1.163l0.268,0.016l-1.078,22.208l-22.225-1.112l0.021-0.317L531.685,347.085" />
-<path id="TX_Ochiltree" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Ochiltree" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M538.182,324.796l16.433,0.825l-1.098,22.505l-21.832-1.162l1.219-22.433L538.182,324.796" />
-<path id="TX_Lipscomb" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M554.614,325.621
+<path id="TX_Lipscomb" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M554.614,325.621
             l21.852,0.976l-0.831,22.576l-21.851-1.029l-0.268-0.016L554.614,325.621" />
-<path id="TX_Hemphill" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M575.635,349.172
+<path id="TX_Hemphill" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M575.635,349.172
             l-0.372,8.875l-0.543,13.311l-22.014-1.006l1.078-22.208L575.635,349.172" />
-<path id="TX_Wheeler" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M552.706,370.352
+<path id="TX_Wheeler" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M552.706,370.352
             l22.014,1.006l-0.938,22.168l-22.082-1.026L552.706,370.352" />
-<path id="TX_Collingsworth" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Collingsworth" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M551.7,392.5l22.082,1.026l-0.335,7.729l-0.6,14.419l-17.121-0.815l-5.152-0.262L551.7,392.5" />
-<path id="TX_Childress" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Childress" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M555.726,414.859l17.121,0.815l-0.281,9.39l-0.55,12.673l-17.401-0.866L555.726,414.859" />
-<path id="TX_Cottle" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M550.501,436.653
+<path id="TX_Cottle" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M550.501,436.653
             l4.112,0.218l17.401,0.866l-0.176,4.434l-0.462-0.903l-1.163,0.108l-0.407,0.442l-0.917,19.957l-19.606-0.863L550.501,436.653" />
-<path id="TX_King" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M549.284,460.912
+<path id="TX_King" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M549.284,460.912
             l19.606,0.863l2.175,0.109l-0.71,22.237l-22.079-1.024L549.284,460.912" />
-<path id="TX_Knox" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M592.631,467.918
+<path id="TX_Knox" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M592.631,467.918
             l-0.53,16.966l-21.745-0.762l0.71-22.237l6.704,0.282l5.632,1.093l6.405,1.413l2.119,1.5l0.601,1.093L592.631,467.918" />
-<path id="TX_Foard" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M571.84,442.171
+<path id="TX_Foard" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M571.84,442.171
             l7.554,5.839l10.73,3.462l2.489-0.411l0.475-0.494l0.162-0.494l-0.479,12.747l-0.141,5.098l-0.105-0.652l-0.601-1.093l-2.119-1.5
             l-6.405-1.413l-5.632-1.093l-6.704-0.282l-2.175-0.109l0.917-19.957l0.407-0.442l1.163-0.108L571.84,442.171" />
-<path id="TX_Hardeman" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M578.616,428.081
+<path id="TX_Hardeman" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M578.616,428.081
             l2.153,2.791l1.04,1.235l2.896,2.752l1.271,0.3h0.354l1.604-0.016l1.611-2.032l0.227-0.086l0.458,0.067l1.979,0.231l0.634,0.266
             l1.026,0.599l-0.618,15.884l-0.162,0.494l-0.475,0.494l-2.489,0.411l-10.73-3.462l-7.554-5.839l0.176-4.434l0.55-12.673
             L578.616,428.081" />
-<path id="TX_Archer" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M614.573,463.56
+<path id="TX_Archer" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M614.573,463.56
             l22.092,0.529l-0.383,18.727l-0.055,3.587l-22.381-0.709L614.573,463.56" />
-<path id="TX_Baylor" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M614.573,463.56
+<path id="TX_Baylor" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M614.573,463.56
             l-0.727,22.133l-21.747-0.81l0.53-16.966l0.141-5.098L614.573,463.56" />
-<path id="TX_Wilbarger" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="
+<path id="TX_Wilbarger" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="
             M604.668,437.699l-0.051,1.166l-0.035,1.097l0.72,3.916v0.016l0.021,0.024l0.527,0.156l0.846,0.263l1.557,0.353l0.773-0.035
             l1.677-0.032l3.83,0.303h0.054l0.583,0.293l-0.597,18.342l-21.802-0.739l0.479-12.747l0.618-15.884l1.359,1.29l1.394,0.121
             l0.317-0.137h0.035l0.054-0.091l0.017-0.041l1.781-3.189l1.815,0.985l2.069,1.111l1.957,3.408v0.052" />
-<path id="TX_Wichita" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M629.344,447.391
+<path id="TX_Wichita" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M629.344,447.391
             l0.421,0.032l0.92,0.605l0.952,0.812l1.976,3.177l1.186,0.427l0.016,0.014l0.035-0.034l2.225-1.996l-0.408,13.663l-22.092-0.529
             l0.597-18.342l3.847,2.298l3.83,0.937l2.718,0.103L629.344,447.391" />
-<path id="TX_Clay" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M650.133,454.381
+<path id="TX_Clay" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M650.133,454.381
             l0.726,1.448l0.105,0.105l0.072,0.016l1.764,0.529h0.903l0.049-0.016l1.45-0.354l1.555,0.615l0.016,0.02l-0.372,2.698
             l-1.077,2.331l-0.492,21.464l-18.547-0.423l0.383-18.727l0.408-13.663l1.676-2.119l0.812-0.458l1.591,0.355l6.461,2.027
             L650.133,454.381" />
-<path id="TX_Montague" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M675.939,460.843
+<path id="TX_Montague" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M675.939,460.843
             l-0.513,24.459l-18.075-0.332l-2.521-1.73l0.492-21.464l0.464,0.427l3.684,1.681l0.497,0.047l1.304-0.389l2.083-1.641l2.189-2.274
             l1.43-1.803l4.253,2.841l1.499,1.045L675.939,460.843" />
-<path id="TX_Cooke" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M698.443,459.443
+<path id="TX_Cooke" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M698.443,459.443
             l-0.229,27.025l-18.428-0.937l-4.36-0.231l0.513-24.459l0.827,3.774l0.111,0.263l0.035,0.092v0.019l0.246,0.297l0.368,0.248
             l12.164,5.314l0.583,0.194l0.667,0.087l0.602-0.191l0.422-0.337l0.197-0.262L698.443,459.443" />
-<path id="TX_Fannin" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M744.349,465.131
+<path id="TX_Fannin" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M744.349,465.131
             l-0.562,19.239l-0.051,2.633l-18.323,2.908l-3.74-2.333l0.283-16.729l0.401,0.552l6.231-1.539l0.864-0.231l0.759-0.325
             l0.053-0.062l0.391-0.406l0.053-0.067l0.018-0.035l0.107-0.337l0.121-0.388l0.035-0.142l0.021-0.125l0.26-1.217l0.354-1.239
             l2.119-0.487l4.694-0.393l0.899-0.065l0.569-0.061l2.417,0.479L744.349,465.131" />
-<path id="TX_Grayson" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M698.85,459.218
+<path id="TX_Grayson" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M698.85,459.218
             l2.118,4.354l0.687,0.769l0.422,0.293l3.938,1.207l2.03-0.342l0.035-0.016l4.182-1.889l-0.141,0.812l0.035,0.622l0.034,0.243
             l0.035,0.121l4.288,2.879l0.388,0.265h0.056l2.138-0.405l0.494,0.055l0.548,0.175v0.016l1.818,2.473l-0.283,16.729l-18.872-0.51
             l-4.585-0.599l0.229-27.025L698.85,459.218" />
-<path id="TX_Lamar" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M766.572,463.471
+<path id="TX_Lamar" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M766.572,463.471
             l0.264,24.901l-2.698-0.493l-4.253-2.895l-0.812-0.353l-4.606-1.444l-0.813-0.126l-5.822-0.422l-0.776,0.211l-3.266,1.52
             l0.562-19.239l3.584-1.345l0.016-0.014l3.499-1.822l3.053-1.586l1.356,0.07l0.315,0.126l0.442,1.128l-0.013,0.335l-0.125,0.356
             l0.012,0.258v0.035l0.165,0.282l0.155,0.142l4.133,0.548l1.564,0.126l2.828-0.143h0.02L766.572,463.471" />
-<path id="TX_Arkansas" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M681.336,755.857
+<path id="TX_Arkansas" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M681.336,755.857
             l0.871,0.71l0.141,0.021l4.005-1.943l5.667-4.272l0.277-0.759l-0.931-0.031l-0.974-0.143l-1.714-1.026l-1.001-1.342l-0.07-1.026
             l14.86-2.165l-0.371,2.325l0.527,0.852v0.281l-0.6,1.305l-0.44,0.336l-5.629,4.625l-1.254,0.017l-3.903,5.053l-3.932,5.964
             L681.336,755.857 M700.649,754.255l-1.096,2.538l-8.717,11.157l-0.23-0.64L700.649,754.255" />
-<path id="TX_Cameron" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" d="M652.712,841.865
+<path id="TX_Cameron" fill="#D0D0D0" stroke="#00FF00" stroke-width="0.9697" d="M652.712,841.865
             l15.248,2.702l4.926-3.281l1.781-2.212l0.216,0.108l2.113,2.966l-0.119,4.237l1.584,7.87l3.387,5.636l0.11,0.121l-0.532,1.727
             l-8.344,5.002l-4.062-1.242l-0.639-0.387l-0.629-0.49l-2.618-2.066l-3.844-4.288l-0.162-0.567l-5.226-0.914l-3.477-0.603
             L652.712,841.865 M681.146,839.167h0.773l1.254,5.261l0.392,1.979l0.528,3.725l0.794,6.285l-0.211-0.041l-0.126-0.016
             l-0.367-0.513l-0.405-3.403l0.049-1.555l-0.211-1.854l-0.443-2.855l-0.882-4.111l-0.527-1.604L681.146,839.167" />
     </g>
-<g>
+<g id="Legend">
 <text id="Ref_WithPresence_text" transform="matrix(1 0 0 1 47.1904 616.7529)" font-family="'ArialMT'" font-size="13">City or County with COPsync Presence</text>
-<rect id="Ref_WithPresence_box" x="29.441" y="608.285" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" width="10" height="10" />
+<rect id="Ref_WithPresence_box" x="29.441" y="608.285" fill="#D0D0D0" stroke="#FF0000" stroke-width="0.9697" width="10" height="10" />
 <text id="Ref_WithoutPresence_text" transform="matrix(1 0 0 1 47.1904 646.7529)" font-family="'ArialMT'" font-size="13">City or County without COPsync Presence</text>
-<rect id="Ref_WithoutPresence_box" x="29.441" y="638.285" fill="#D0D0D0" stroke="#FFFFFF" stroke-width="0.9697" width="10" height="10" />
+<rect id="Ref_WithoutPresence_box" x="29.441" y="638.285" fill="#D0D0D0" stroke="#FF0000" stroke-width="0.9697" width="10" height="10" />
 </g>
 <g id="Outer_border">
 <polygon fill="none" stroke="#FF0000" stroke-miterlimit="10" points="402.473,499.556 402.283,501.957 402.213,505.077
