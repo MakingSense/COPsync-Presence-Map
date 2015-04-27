@@ -83,6 +83,15 @@ namespace COPsyncPresenceMap.Graphics
             }
         }
 
+        public void ReduceStrokeCounties()
+        {
+            var list = GetAllCounties();
+            foreach (XmlElement mapElement in list)
+            {
+                mapElement.SetAttribute("stroke-width", "0.35");
+            }
+        }
+
         public void StrokeReferenceBoxes(Color color)
         {
             var htmlColor = ToHtmlColor(color);

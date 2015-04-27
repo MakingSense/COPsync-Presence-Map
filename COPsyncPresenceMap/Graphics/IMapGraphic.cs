@@ -18,6 +18,7 @@ namespace COPsyncPresenceMap.Graphics
         void Stroke(Color color, params string[] ids);
         void Stroke(Color color, IEnumerable<string> ids);
         void StrokeCounties(Color color);
+        void ReduceStrokeCounties();
         void StrokeReferenceBoxes(Color color);
         void StrokeOuterBorder(Color color);
         void SetText(string elementId, string text);

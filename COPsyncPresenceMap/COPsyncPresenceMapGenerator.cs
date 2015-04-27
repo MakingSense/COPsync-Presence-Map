@@ -102,6 +102,7 @@ namespace COPsyncPresenceMap
                 }
                 else
                 {
+                    mapGraphic.ReduceStrokeCounties();
                     mapGraphic.StrokeCounties(preferences.DefaultColor);
                     mapGraphic.Stroke(preferences.PresenceColor, countyIds);
                 }
