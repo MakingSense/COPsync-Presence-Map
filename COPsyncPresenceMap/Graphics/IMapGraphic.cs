@@ -13,8 +13,12 @@ namespace COPsyncPresenceMap.Graphics
         XmlDocument GetSvgXmlDocument();
         void Fill(Color color, params string[] ids);
         void Fill(Color color, IEnumerable<string> ids);
-        void FillByTagName(Color color, string name);
-        void StrokeByTagName(Color color, string name);
+        void FillCounties(Color color);
+        void FillReferenceBoxes(Color color);
+        void StrokeCounties(Color color);
+        void StrokeReferenceBoxes(Color color);
+        void StrokeOuterBorder(Color color);
         void SetText(string elementId, string text);
+        void HideCountyLines();
     }
 }

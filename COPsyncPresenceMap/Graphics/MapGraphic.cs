@@ -30,7 +30,7 @@ namespace COPsyncPresenceMap.Graphics
 
         public void Fill(Color color, IEnumerable<string> ids)
         {
-            var htmlColor = ColorTranslator.ToHtml(color);
+            var htmlColor = ToHtmlColor(color);
             foreach (var id in ids)
             {
                 var mapElement = _svgXmlDocument.GetElementById(id);
@@ -38,20 +38,50 @@ namespace COPsyncPresenceMap.Graphics
             }
         }
 
-        public void FillByTagName(Color color, string name)
+        public void FillCounties(Color color)
         {
-            var htmlColor = ColorTranslator.ToHtml(color);
-            var list = _svgXmlDocument.GetElementsByTagName(name);
-            foreach (XmlElement mapElement in list)
+            var htmlColor = ToHtmlColor(color);
+            var list = GetAllCounties();
+            foreach (var mapElement in list)
             {
                 mapElement.SetAttribute("fill", htmlColor);
             }
         }
 
-        public void StrokeByTagName(Color color, string name)
+        public void FillReferenceBoxes(Color color)
         {
-            var htmlColor = ColorTranslator.ToHtml(color);
-            var list = _svgXmlDocument.GetElementsByTagName(name);
+            var htmlColor = ToHtmlColor(color);
+            var list = GetAllReferenceBoxes();
+            foreach (var mapElement in list)
+            {
+                mapElement.SetAttribute("fill", htmlColor);
+            }
+        }
+
+        public void StrokeCounties(Color color)
+        {
+            var htmlColor = ToHtmlColor(color);
+            var list = GetAllCounties();
+            foreach (XmlElement mapElement in list)
+            {
+                mapElement.SetAttribute("stroke", htmlColor);
+            }
+        }
+
+        public void StrokeReferenceBoxes(Color color)
+        {
+            var htmlColor = ToHtmlColor(color);
+            var list = GetAllReferenceBoxes();
+            foreach (XmlElement mapElement in list)
+            {
+                mapElement.SetAttribute("stroke", htmlColor);
+            }
+        }
+
+        public void StrokeOuterBorder(Color color)
+        {
+            var htmlColor = ToHtmlColor(color);
+            var list = GetOuterBorder();
             foreach (XmlElement mapElement in list)
             {
                 mapElement.SetAttribute("stroke", htmlColor);
@@ -64,5 +94,34 @@ namespace COPsyncPresenceMap.Graphics
             mapElement.InnerText = text;
         }
 
+        public void HideCountyLines()
+        {
+            var list = GetAllCounties();
+            foreach (var mapElement in list)
+            {
+                mapElement.SetAttribute("stroke-width", "0");
+                mapElement.SetAttribute("stroke", ToHtmlColor(Color.Transparent));
+            }
+        }
+
+        private string ToHtmlColor(Color color)
+        {
+            return color.A == 0 ? "TRANSPARENT" : ColorTranslator.ToHtml(color);
+        }
+
+        private IEnumerable<XmlElement> GetAllCounties()
+        {
+            return _svgXmlDocument.GetElementsByTagName("path").OfType<XmlElement>();
+        }
+
+        private IEnumerable<XmlElement> GetAllReferenceBoxes()
+        {
+            return _svgXmlDocument.GetElementsByTagName("rect").OfType<XmlElement>();
+        }
+
+        private IEnumerable<XmlElement> GetOuterBorder()
+        {
+            return _svgXmlDocument.GetElementsByTagName("polygon").OfType<XmlElement>();
+        }
     }
 }

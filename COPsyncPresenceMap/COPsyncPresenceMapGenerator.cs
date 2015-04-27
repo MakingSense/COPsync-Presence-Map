@@ -86,12 +86,13 @@ namespace COPsyncPresenceMap
 
             try
             {
-                mapGraphic.FillByTagName(colors.DefaultColor, "path");
-                mapGraphic.StrokeByTagName(colors.LineColor, "path");
-                mapGraphic.FillByTagName(colors.DefaultColor, "rect");
-                mapGraphic.StrokeByTagName(colors.LineColor, "rect");
+                mapGraphic.FillReferenceBoxes(colors.DefaultColor);
+                mapGraphic.FillCounties(colors.DefaultColor);
+                mapGraphic.StrokeReferenceBoxes(colors.LineColor);
+                mapGraphic.StrokeOuterBorder(colors.LineColor);
                 mapGraphic.Fill(colors.PresenceColor, countyIds);
                 mapGraphic.Fill(colors.PresenceColor, ELEMENTID_REF_PRESENCE_BOX);
+                mapGraphic.StrokeCounties(colors.LineColor);
                 mapGraphic.SetText(ELEMENTID_REF_PRESENCE_TEXT, products.GetWithPresenceText());
                 mapGraphic.SetText(ELEMENTID_REF_NO_PRESENCE_TEXT, products.GetWithoutPresenceText());
             }
