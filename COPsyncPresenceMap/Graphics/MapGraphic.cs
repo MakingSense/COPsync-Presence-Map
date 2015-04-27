@@ -58,6 +58,21 @@ namespace COPsyncPresenceMap.Graphics
             }
         }
 
+        public void Stroke(Color color, params string[] ids)
+        {
+            Stroke(color, ids.AsEnumerable());
+        }
+
+        public void Stroke(Color color, IEnumerable<string> ids)
+        {
+            var htmlColor = ToHtmlColor(color);
+            foreach (var id in ids)
+            {
+                var mapElement = _svgXmlDocument.GetElementById(id);
+                mapElement.SetAttribute("stroke", htmlColor);
+            }
+        }
+
         public void StrokeCounties(Color color)
         {
             var htmlColor = ToHtmlColor(color);
@@ -92,16 +107,6 @@ namespace COPsyncPresenceMap.Graphics
         {
             var mapElement = _svgXmlDocument.GetElementById(id);
             mapElement.InnerText = text;
-        }
-
-        public void HideCountyLines()
-        {
-            var list = GetAllCounties();
-            foreach (var mapElement in list)
-            {
-                mapElement.SetAttribute("stroke-width", "0");
-                mapElement.SetAttribute("stroke", ToHtmlColor(Color.Transparent));
-            }
         }
 
         private string ToHtmlColor(Color color)

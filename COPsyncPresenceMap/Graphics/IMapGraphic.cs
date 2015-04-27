@@ -15,10 +15,11 @@ namespace COPsyncPresenceMap.Graphics
         void Fill(Color color, IEnumerable<string> ids);
         void FillCounties(Color color);
         void FillReferenceBoxes(Color color);
+        void Stroke(Color color, params string[] ids);
+        void Stroke(Color color, IEnumerable<string> ids);
         void StrokeCounties(Color color);
         void StrokeReferenceBoxes(Color color);
         void StrokeOuterBorder(Color color);
         void SetText(string elementId, string text);
-        void HideCountyLines();
     }
 }

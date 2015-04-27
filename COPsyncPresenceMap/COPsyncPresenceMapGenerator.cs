@@ -65,7 +65,7 @@ namespace COPsyncPresenceMap
             }
         }
 
-        public IList<string> FullProcess(string spreadsheetFileName, IEnumerable<IMapGraphicConverter> converters, string outputFolderPath, ColorSet colors, Products products)
+        public IList<string> FullProcess(string spreadsheetFileName, IEnumerable<IMapGraphicConverter> converters, string outputFolderPath, RenderPreferences preferences, Products products)
         {
             var spreadsheet = ParseSpreadsheet(spreadsheetFileName);
 
@@ -86,13 +86,21 @@ namespace COPsyncPresenceMap
 
             try
             {
-                mapGraphic.FillReferenceBoxes(colors.DefaultColor);
-                mapGraphic.FillCounties(colors.DefaultColor);
-                mapGraphic.StrokeReferenceBoxes(colors.LineColor);
-                mapGraphic.StrokeOuterBorder(colors.LineColor);
-                mapGraphic.Fill(colors.PresenceColor, countyIds);
-                mapGraphic.Fill(colors.PresenceColor, ELEMENTID_REF_PRESENCE_BOX);
-                mapGraphic.StrokeCounties(colors.LineColor);
+                mapGraphic.FillReferenceBoxes(preferences.DefaultColor);
+                mapGraphic.FillCounties(preferences.DefaultColor);
+                mapGraphic.StrokeReferenceBoxes(preferences.LineColor);
+                mapGraphic.StrokeOuterBorder(preferences.LineColor);
+                mapGraphic.Fill(preferences.PresenceColor, countyIds);
+                mapGraphic.Fill(preferences.PresenceColor, ELEMENTID_REF_PRESENCE_BOX);
+                if (preferences.ShowCountyLines)
+                {
+                    mapGraphic.StrokeCounties(preferences.LineColor);
+                }
+                else
+                {
+                    mapGraphic.StrokeCounties(preferences.DefaultColor);
+                    mapGraphic.Stroke(preferences.PresenceColor, countyIds);
+                }
                 mapGraphic.SetText(ELEMENTID_REF_PRESENCE_TEXT, products.GetWithPresenceText());
                 mapGraphic.SetText(ELEMENTID_REF_NO_PRESENCE_TEXT, products.GetWithoutPresenceText());
             }

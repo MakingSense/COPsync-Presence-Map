@@ -46,7 +46,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Graphics\ColorSet.cs" />
+    <Compile Include="Graphics\RenderPreferences.cs" />
     <Compile Include="Graphics\Converters\MapCloudConverters.cs" />
     <Compile Include="Graphics\Converters\MapInkscapeConverters.cs" />
     <Compile Include="Graphics\MapGraphic.cs" />

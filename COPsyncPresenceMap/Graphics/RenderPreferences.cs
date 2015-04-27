@@ -7,18 +7,19 @@ using System.Threading.Tasks;
 
 namespace COPsyncPresenceMap.Graphics
 {
-    public struct ColorSet
+    public struct RenderPreferences
     {
         public readonly Color DefaultColor;
         public readonly Color LineColor;
         public readonly Color PresenceColor;
+        public readonly Boolean ShowCountyLines;
 
-
-        public ColorSet(Color defaultColor, Color lineColor, Color presenceColor)
+        public RenderPreferences(Color defaultColor, Color lineColor, Color presenceColor, Boolean showCountyLines = true)
         {
             DefaultColor = defaultColor;
             LineColor = lineColor;
             PresenceColor = presenceColor;
+            ShowCountyLines = showCountyLines;
         }
 
     }

@@ -139,9 +139,9 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             }
         }
 
-        private ColorSet GetColors()
+        private RenderPreferences GetPreferences()
         {
-            return new ColorSet(DefaultFillColor.ToDrawingColor(), LineColor.ToDrawingColor(), SelectedFillColor.ToDrawingColor());
+            return new RenderPreferences(DefaultFillColor.ToDrawingColor(), LineColor.ToDrawingColor(), SelectedFillColor.ToDrawingColor());
         }
 
         private Products GetSelectedProducts()
@@ -171,7 +171,7 @@ namespace COPsyncPresenceMap.WPF.ViewModels
         {
             try
             {
-                var colors = GetColors();
+                var colors = GetPreferences();
                 var selectedProducts = GetSelectedProducts();
                 var resultFileNames = _presenceMapGenerator.FullProcess(SpreadsheetPath, _converters, OutputFolder, colors, selectedProducts);
                 var firstFileName = resultFileNames.FirstOrDefault();
