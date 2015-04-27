@@ -88,7 +88,7 @@ namespace COPsyncPresenceMap.Graphics
             var list = GetAllCounties();
             foreach (XmlElement mapElement in list)
             {
-                mapElement.SetAttribute("stroke-width", "0.35");
+                mapElement.SetAttribute("stroke-width", "0.40");
             }
         }
 
