@@ -14,6 +14,7 @@ using System.Xml;
 using System.Drawing;
 using COPsyncPresenceMap.Graphics;
 using COPsyncPresenceMap.Graphics.Converters;
+using COPsyncPresenceMap.WPF.Properties;
 
 namespace COPsyncPresenceMap.WPF.ViewModels
 {
@@ -26,144 +27,104 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             get { return SpreadsheetPath != null; }
         }
 
-        private string _spreadsheetPath;
         public string SpreadsheetPath
         {
-            get { return _spreadsheetPath; }
+            get { return Settings.Default.SpreadsheetPath; }
             private set
             {
-                if (_spreadsheetPath != value)
-                {
-                    _spreadsheetPath = value;
-                    NotifyOfPropertyChange();
-                    NotifyOfPropertyChange(() => this.ReadyToProcess);
-                }
+                Settings.Default.SpreadsheetPath = value;
+                NotifyOfPropertyChange();
+                NotifyOfPropertyChange(() => this.ReadyToProcess);
             }
         }
 
-        private string _outputFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
         public string OutputFolder
         {
-            get { return _outputFolder; }
+            get { return string.IsNullOrEmpty(Settings.Default.OutputFolder) ? Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) : Settings.Default.OutputFolder; }
             private set
             {
-                if (_outputFolder != value)
-                {
-                    _outputFolder = value;
-                    NotifyOfPropertyChange();
-                }
+                Settings.Default.OutputFolder = value;
+                NotifyOfPropertyChange();
             }
         }
 
-        private MediaColor _selectedFillColor = DrawingColor.MediumSeaGreen.ToMediaColor();
         public MediaColor SelectedFillColor
         {
-            get { return _selectedFillColor; }
+            get { return Settings.Default.SelectedFillColor; }
             set
             {
-                if (_selectedFillColor != value)
-                {
-                    _selectedFillColor = value;
-                    NotifyOfPropertyChange();
-                }
+                Settings.Default.SelectedFillColor = value;
+                NotifyOfPropertyChange();
             }
         }
 
-        private MediaColor _defaultFillColor = DrawingColor.White.ToMediaColor();
         public MediaColor DefaultFillColor
         {
-            get { return _defaultFillColor; }
+            get { return Settings.Default.DefaultFillColor; }
             set
             {
-                if (_defaultFillColor != value)
-                {
-                    _defaultFillColor = value;
-                    NotifyOfPropertyChange();
-                }
+                Settings.Default.DefaultFillColor = value;
+                NotifyOfPropertyChange();
             }
         }
 
-        private MediaColor _lineColor = DrawingColor.Black.ToMediaColor();
         public MediaColor LineColor
         {
-            get { return _lineColor; }
+            get { return Settings.Default.LineColor; }
             set
             {
-                if (_lineColor != value)
-                {
-                    _lineColor = value;
-                    NotifyOfPropertyChange();
-                }
+                Settings.Default.LineColor = value;
+                NotifyOfPropertyChange();
             }
         }
 
-        private bool _includeCOPsyncEnterprise = true;
         public bool IncludeCOPsyncEnterprise
         {
-            get { return _includeCOPsyncEnterprise;}
+            get { return Settings.Default.IncludeCOPsyncEnterprise; }
             set
             {
-                if (_includeCOPsyncEnterprise != value)
-                {
-                    _includeCOPsyncEnterprise = value;
-                    NotifyOfPropertyChange();
-                }
+                Settings.Default.IncludeCOPsyncEnterprise = value;
+                NotifyOfPropertyChange();
             }
         }
 
-        private bool _includeCOPsync911 = true;
         public bool IncludeCOPsync911
         {
-            get { return _includeCOPsync911;}
+            get { return Settings.Default.IncludeCOPsync911; }
             set
             {
-                if (_includeCOPsync911 != value)
-                {
-                    _includeCOPsync911 = value;
-                    NotifyOfPropertyChange();
-                }
+                Settings.Default.IncludeCOPsync911 = value;
+                NotifyOfPropertyChange();
             }
         }
 
-        private bool _includeWarrantsync = true;
         public bool IncludeWarrantsync
         {
-            get { return _includeWarrantsync; }
+            get { return Settings.Default.IncludeWarrantsync; }
             set
             {
-                if (_includeWarrantsync != value)
-                {
-                    _includeWarrantsync = value;
-                    NotifyOfPropertyChange();
-                }
+                Settings.Default.IncludeWarrantsync = value;
+                NotifyOfPropertyChange();
             }
         }
 
-        private bool _showCountyLines = true;
         public bool ShowCountyLines
         {
-            get { return _showCountyLines; }
+            get { return Settings.Default.ShowCountyLines; }
             set
             {
-                if (_showCountyLines != value)
-                {
-                    _showCountyLines = value;
-                    NotifyOfPropertyChange();
-                }
+                Settings.Default.ShowCountyLines = value;
+                NotifyOfPropertyChange();
             }
         }
 
-        private bool _showCountyNames = false;
         public bool ShowCountyNames
         {
-            get { return _showCountyNames; }
+            get { return Settings.Default.ShowCountyNames; }
             set
             {
-                if (_showCountyNames != value)
-                {
-                    _showCountyNames = value;
-                    NotifyOfPropertyChange();
-                }
+                Settings.Default.ShowCountyNames = value;
+                NotifyOfPropertyChange();
             }
         }
 

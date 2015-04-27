@@ -9,6 +9,7 @@ using COPsyncPresenceMap.WPF.NinjectModules;
 using System.Windows;
 using COPsyncPresenceMap.WPF.Helpers;
 using System.IO;
+using COPsyncPresenceMap.WPF.Properties;
 
 namespace COPsyncPresenceMap.WPF
 {
@@ -81,6 +82,12 @@ namespace COPsyncPresenceMap.WPF
         protected override void OnStartup(object sender, StartupEventArgs e)
         {
             DisplayRootViewFor<IShell>();
+        }
+
+        protected override void OnExit(object sender, EventArgs e)
+        {
+            Settings.Default.Save();
+            base.OnExit(sender, e);
         }
 
     }
