@@ -20,7 +20,7 @@ namespace COPsyncPresecenseMapTests
             var document = map.GetSvgXmlDocument();
             var idList = new List<string>();
             ExtractIds(document, idList);
-            var countyIds = idList.Where(x => x.StartsWith("TX_")).OrderBy(x => x).ToArray();
+            var countyIds = idList.Where(x => x.StartsWith("TX_")).OrderBy(x => x).Where(x => !x.EndsWith("_Name")).ToArray();
 
             #region expected
             var expected = new[] {
@@ -278,7 +278,7 @@ namespace COPsyncPresecenseMapTests
                 "TX_Young",
                 "TX_Zapata",
                 "TX_Zavala"
-            };
+            }.ToArray();
             #endregion
 
             CollectionAssert.AreEqual(expected, countyIds);
