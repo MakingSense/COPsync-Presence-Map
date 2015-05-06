@@ -343,6 +343,7 @@
 		<row><td>COPsyncPresenceMap.WPF.Primary_output</td><td>{CED8F01D-3A6E-4C1B-9DE7-E47025EF0110}</td><td>INSTALLDIR</td><td>2</td><td/><td>copsyncpresencemap.wpf.prima</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td>{C8EFC1C5-6EAB-4B67-914C-76DFC28909E3}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td>{3ABC1942-D8A0-4E3C-8ACD-BE6AB127BC97}</td><td>PersonalFolder</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT2</td><td>{029A8503-EED4-4B80-97EB-11B0C09475F2}</td><td>FontsFolder</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
 	<table name="Condition">
@@ -1875,6 +1876,7 @@
 		<row><td>AlwaysInstall</td><td>COPsyncPresenceMap.WPF.Primary_output</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT1</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT2</td></row>
 	</table>
 
 	<table name="File">
@@ -1889,6 +1891,8 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
+		<row><td>arialn.ttf</td><td>ISX_DEFAULTCOMPONENT2</td><td>ARIALN.TTF</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Projects\dataonix\presence-map-new\COPsyncPresenceMapSetup\ARIALN.TTF</td><td>1</td><td/></row>
+		<row><td>arialnb.ttf</td><td>ISX_DEFAULTCOMPONENT2</td><td>ARIALNB.TTF</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Projects\dataonix\presence-map-new\COPsyncPresenceMapSetup\ARIALNB.TTF</td><td>1</td><td/></row>
 		<row><td>copsyncpresencemap.wpf.conte</td><td>COPsyncPresenceMap.WPF.Content_Files</td><td>COPsyncPresenceMap.WPF.Content Files</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;COPsyncPresenceMap.WPF&gt;|ContentFiles</td><td>3</td><td/></row>
 		<row><td>copsyncpresencemap.wpf.prima</td><td>COPsyncPresenceMap.WPF.Primary_output</td><td>COPsyncPresenceMap.WPF.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;COPsyncPresenceMap.WPF&gt;|Built</td><td>3</td><td/></row>
 	</table>
@@ -1901,6 +1905,8 @@
 	<table name="Font">
 		<col key="yes" def="s72">File_</col>
 		<col def="S128">FontTitle</col>
+		<row><td>arialn.ttf</td><td/></row>
+		<row><td>arialnb.ttf</td><td/></row>
 	</table>
 
 	<table name="ISAssistantTag">
@@ -2038,6 +2044,7 @@
 		<row><td>COPsyncPresenceMap.WPF.Primary_output</td><td/><td/><td>_7BF28790_52EF_4F9A_BA25_9CFB54BC28E1_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_89D28DB0_5EB7_4F90_9791_C5A0FB4A4429_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td/><td/><td>_B638B945_208E_4BE2_BEC0_88538395144E_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT2</td><td/><td/><td>_4E6CB4AF_5447_4315_985C_96206DC5D90D_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="ISCustomActionReference">
@@ -3946,7 +3953,7 @@
 		<row><td>RegisterUser</td><td/><td>6000</td><td>RegisterUser</td><td/></row>
 		<row><td>RemoveDuplicateFiles</td><td/><td>3400</td><td>RemoveDuplicateFiles</td><td/></row>
 		<row><td>RemoveEnvironmentStrings</td><td/><td>3300</td><td>RemoveEnvironmentStrings</td><td/></row>
-		<row><td>RemoveExistingProducts</td><td/><td>6601</td><td>RemoveExistingProducts</td><td/></row>
+		<row><td>RemoveExistingProducts</td><td/><td>1500</td><td>RemoveExistingProducts</td><td/></row>
 		<row><td>RemoveFiles</td><td/><td>3500</td><td>RemoveFiles</td><td/></row>
 		<row><td>RemoveFolders</td><td/><td>3600</td><td>RemoveFolders</td><td/></row>
 		<row><td>RemoveIniValues</td><td/><td>3100</td><td>RemoveIniValues</td><td/></row>
@@ -4376,9 +4383,9 @@ RABWAEQALQA1AAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>PROGMSG_IIS_ROLLBACKAPPPOOLS</td><td>##IDS_PROGMSG_IIS_ROLLBACKAPPPOOLS##</td><td/></row>
 		<row><td>PROGMSG_IIS_ROLLBACKVROOTS</td><td>##IDS_PROGMSG_IIS_ROLLBACKVROOTS##</td><td/></row>
 		<row><td>PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS</td><td>##IDS_PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS##</td><td/></row>
-		<row><td>ProductCode</td><td>{5DB6FF6A-F26F-409A-9516-01B18AB37585}</td><td/></row>
+		<row><td>ProductCode</td><td>{7319DA71-57C0-4B99-9910-D967038884CB}</td><td/></row>
 		<row><td>ProductName</td><td>COPsync Presence Map Generator</td><td/></row>
-		<row><td>ProductVersion</td><td>1.1.0.0</td><td/></row>
+		<row><td>ProductVersion</td><td>1.1.1.0</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
 		<row><td>ProgressType1</td><td>Installing</td><td/></row>
 		<row><td>ProgressType2</td><td>installed</td><td/></row>
@@ -4390,10 +4397,10 @@ RABWAEQALQA1AAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>RestartManagerOption</td><td>CloseRestart</td><td/></row>
 		<row><td>SERIALNUMBER</td><td/><td/></row>
 		<row><td>SERIALNUMVALSUCCESSRETVAL</td><td>1</td><td/></row>
-		<row><td>SecureCustomProperties</td><td>USERNAME;COMPANYNAME;ISX_SERIALNUM;SUPPORTDIR;ISACTIONPROP1</td><td/></row>
+		<row><td>SecureCustomProperties</td><td>USERNAME;COMPANYNAME;ISX_SERIALNUM;SUPPORTDIR;ISACTIONPROP1;ISACTIONPROP2</td><td/></row>
 		<row><td>SelectedSetupType</td><td>##IDS__DisplayName_Typical##</td><td/></row>
 		<row><td>SetupType</td><td>Typical</td><td/></row>
-		<row><td>UpgradeCode</td><td>{C091F267-FFC5-4A2D-9382-7C21FA427582}</td><td/></row>
+		<row><td>UpgradeCode</td><td>{11E286E4-A3DE-4D6C-BED4-461532F3595E}</td><td/></row>
 		<row><td>_IsMaintenance</td><td>Change</td><td/></row>
 		<row><td>_IsSetupTypeMin</td><td>Typical</td><td/></row>
 	</table>
@@ -4665,6 +4672,7 @@ RABWAEQALQA1AAEARQB4AHAAcgBlAHMAcwA=
 		<col def="s72">ActionProperty</col>
 		<col def="S72">ISDisplayName</col>
 		<row><td>{6BE2C41F-48AC-4406-B0A2-ABBC33736F33}</td><td>1.0.0.0</td><td>1.0.0.0</td><td>1033</td><td>768</td><td/><td>ISACTIONPROP1</td><td>v1.0</td></row>
+		<row><td>{C091F267-FFC5-4A2D-9382-7C21FA427582}</td><td>1.1.0.0</td><td>1.1.0.0</td><td>1033</td><td>768</td><td/><td>ISACTIONPROP2</td><td>v1.1</td></row>
 	</table>
 
 	<table name="Verb">
