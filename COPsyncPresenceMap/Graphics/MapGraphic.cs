@@ -120,8 +120,12 @@ namespace COPsyncPresenceMap.Graphics
 
         public void ShowCountyNames(bool show = true)
         {
-            var mapElement = _svgXmlDocument.GetElementById("CountyNames");
-            mapElement.SetAttribute("display", show ? "inherit" : "none");
+            var elements = new[] { _svgXmlDocument.GetElementById("CountyNames"), _svgXmlDocument.GetElementById("CountiesNames") }
+                .Where(x => x != null);
+            foreach (var mapElement in elements)
+            {
+                mapElement.SetAttribute("display", show ? "inherit" : "none");
+            }
         }
 
         public void HideCountyNames()
@@ -136,17 +140,32 @@ namespace COPsyncPresenceMap.Graphics
 
         private IEnumerable<XmlElement> GetAllCounties()
         {
-            return _svgXmlDocument.GetElementsByTagName("path").OfType<XmlElement>();
+            //return _svgXmlDocument.GetElementsByTagName("path").OfType<XmlElement>();
+            return GetElementsInGroups(
+                groupIds: new[] { "Counties" },
+                tagNames: new[] { "path", "polygon" });
         }
 
         private IEnumerable<XmlElement> GetAllReferenceBoxes()
         {
-            return _svgXmlDocument.GetElementsByTagName("rect").OfType<XmlElement>();
+            return GetElementsInGroups(
+                groupIds: new[] { "Legend" },
+                tagNames: new[] { "rect" });
         }
 
         private IEnumerable<XmlElement> GetOuterBorder()
         {
-            return _svgXmlDocument.GetElementsByTagName("polygon").OfType<XmlElement>();
+            return GetElementsInGroups(
+                groupIds: new[] { "Outer_border", "Outer_Border" },
+                tagNames: new[] { "polygon", "path" });
+        }
+
+        private IEnumerable<XmlElement> GetElementsInGroups(string[] groupIds, string[] tagNames)
+        {
+            return groupIds.Select(groupId => _svgXmlDocument.GetElementById(groupId))
+                .Where(group => group != null)
+                .SelectMany(group => tagNames.SelectMany(
+                    tagName => group.GetElementsByTagName(tagName).OfType<XmlElement>()));
         }
     }
 }
