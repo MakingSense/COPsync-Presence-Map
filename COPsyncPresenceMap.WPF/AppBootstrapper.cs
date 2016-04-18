@@ -27,12 +27,13 @@ namespace COPsyncPresenceMap.WPF
         {
             try
             {
-                var folder = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-                var filename = "COPsyncPresence.xlsx";
-                var outputFilename = Path.Combine(folder, filename);
-                if (File.Exists(filename) && !File.Exists(outputFilename))
+                var outputFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+                var inputFilename = Path.Combine("COPsyncMaps", "Texas", "Texas.xlsx");
+                var outputFilename = Path.Combine(outputFolder, inputFilename);
+                if (File.Exists(inputFilename) && !File.Exists(outputFilename))
                 {
-                    File.Copy(filename, outputFilename, false);
+                    Directory.CreateDirectory(Path.GetDirectoryName(outputFilename));
+                    File.Copy(inputFilename, outputFilename, false);
                 }
             }
             catch

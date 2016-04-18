@@ -60,9 +60,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\CommonFiles\base-map.svg">
-      <Link>Deployment\base-map.svg</Link>
+    <Content Include="..\CommonFiles\Texas\Texas.svg">
+      <Link>Deployment\Texas\Texas.svg</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
