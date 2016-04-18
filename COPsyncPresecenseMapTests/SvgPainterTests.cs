@@ -10,21 +10,21 @@ namespace COPsyncPresecenseMapTests
     public class MapGraphicTests
     {
         [TestMethod]
-        [DeploymentItem(@"Deployment\base-map.svg")]
+        [DeploymentItem(@"Deployment\Texas\Texas.svg")]
         public void MapGraphic_GetSvgXmlDocument_ShouldNotBeNull()
         {
             var parser = new SvgMapGraphicParser();
-            var map = parser.ParseFromFile(@"base-map.svg");
+            var map = parser.ParseFromFile(@"Texas.svg");
             var document = map.GetSvgXmlDocument();
             Assert.IsNotNull(document);
         }
 
         [TestMethod]
-        [DeploymentItem(@"Deployment\base-map.svg")]
+        [DeploymentItem(@"Deployment\Texas\Texas.svg")]
         public void Fill_ShouldFillTheRightElements()
         {
             var parser = new SvgMapGraphicParser();
-            var map = parser.ParseFromFile(@"base-map.svg");
+            var map = parser.ParseFromFile(@"Texas.svg");
 
             map.Fill(Color.Beige, "TX_Crosby", "TX_Lubbock", "TX_Floyd");
             map.Fill(Color.Gainsboro, "TX_Bailey", "TX_Lubbock", "TX_Briscoe");

@@ -1,17 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COPsyncPresecenseMapTests", "COPsyncPresecenseMapTests\COPsyncPresecenseMapTests.csproj", "{FEB256F0-4FAA-4893-8595-D782389B9452}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COPsyncPresenceMap.WPF", "COPsyncPresenceMap.WPF\COPsyncPresenceMap.WPF.csproj", "{CCE5685D-2A1A-493F-AC76-CF693244C722}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonFiles", "CommonFiles", "{7FF7D4E1-4682-41D9-86A1-9272C7732237}"
-	ProjectSection(SolutionItems) = preProject
-		CommonFiles\base-map.svg = CommonFiles\base-map.svg
-		CommonFiles\COPsyncPresence.xlsx = CommonFiles\COPsyncPresence.xlsx
-	EndProjectSection
 EndProject
 Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "COPsyncPresenceMapSetup", "COPsyncPresenceMapSetup\COPsyncPresenceMapSetup.isproj", "{AD0AF5A1-A903-445B-8E9A-773D31C35011}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -19,6 +15,12 @@ Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "COPsyncPresenceMapSetup", "
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COPsyncPresenceMap", "COPsyncPresenceMap\COPsyncPresenceMap.csproj", "{695C776B-04F9-44D7-9168-B3B5F20F1312}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Texas", "Texas", "{627FF392-295B-4A30-8A06-196486E35323}"
+	ProjectSection(SolutionItems) = preProject
+		CommonFiles\Texas\Texas.svg = CommonFiles\Texas\Texas.svg
+		CommonFiles\Texas\Texas.xlsx = CommonFiles\Texas\Texas.xlsx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -72,5 +74,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{627FF392-295B-4A30-8A06-196486E35323} = {7FF7D4E1-4682-41D9-86A1-9272C7732237}
 	EndGlobalSection
 EndGlobal

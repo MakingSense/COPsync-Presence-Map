@@ -12,11 +12,11 @@ namespace COPsyncPresecenseMapTests
     public class TexasMapSvgDataTests
     {
         [TestMethod]
-        [DeploymentItem(@"Deployment\base-map.svg")]
+        [DeploymentItem(@"Deployment\Texas\Texas.svg")]
         public void CountiesElements()
         {
             var reader = new SvgMapGraphicParser();
-            var map = reader.ParseFromFile(@"base-map.svg");
+            var map = reader.ParseFromFile(@"Texas.svg");
             var document = map.GetSvgXmlDocument();
             var idList = new List<string>();
             ExtractIds(document, idList);
