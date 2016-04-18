@@ -6,7 +6,8 @@ namespace COPsyncPresenceMap
 {
     public interface ICOPsyncPresenceMapGenerator
     {
-        IList<string> FullProcess(string spreadsheetFileName, IEnumerable<IMapGraphicConverter> converters, string outputFolderPath, RenderPreferences colors, Products products);
+        IList<string> FullProcess(ISpreadsheet spreadsheet, IMapGraphic svg, IEnumerable<IMapGraphicConverter> converters, string outputFolderPath, RenderPreferences colors, Products products);
         ISpreadsheet ParseSpreadsheet(string spreadsheetFileName);
+        IMapGraphic ParseSvg(string svgPath);
     }
 }

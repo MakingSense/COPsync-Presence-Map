@@ -20,7 +20,6 @@ namespace COPsyncPresenceMap
         public const string ELEMENTID_REF_PRESENCE_BOX = "Ref_WithPresence_box";
         public const string ELEMENTID_REF_NO_PRESENCE_BOX = "Ref_WithoutPresence_box";
         private const string ID_COLUMN = "ElementId";
-        private const string BASE_MAP_PATH = "COPsyncMaps\\Texas\\Texas.svg"; //TODO: set it in the constructor
 
         public COPsyncPresenceMapGenerator(ISpreadsheetParser spreadsheetParser, IMapGraphicParser svgReaderFactory)
         {
@@ -65,24 +64,23 @@ namespace COPsyncPresenceMap
             }
         }
 
-        public IList<string> FullProcess(string spreadsheetFileName, IEnumerable<IMapGraphicConverter> converters, string outputFolderPath, RenderPreferences preferences, Products products)
+        public IMapGraphic ParseSvg(string svgPath)
         {
-            var spreadsheet = ParseSpreadsheet(spreadsheetFileName);
-
-            var countyIds = spreadsheet
-                .Where(x => x.HasTruthyValue(products))
-                .Select(x => x[ID_COLUMN]);
-
-            IMapGraphic mapGraphic;
-
             try
             {
-                mapGraphic = _svgReaderFactory.ParseFromFile(BASE_MAP_PATH);
+                return _svgReaderFactory.ParseFromFile(svgPath);
             }
             catch
             {
-                throw new ApplicationException("Error opening " + BASE_MAP_PATH + ".\nA valid SVG file is expected.");
+                throw new ApplicationException("Error opening " + svgPath + ".\nA valid SVG file is expected.");
             }
+        }
+
+        public IList<string> FullProcess(ISpreadsheet spreadsheet, IMapGraphic mapGraphic, IEnumerable<IMapGraphicConverter> converters, string outputFolderPath, RenderPreferences preferences, Products products)
+        {
+            var countyIds = spreadsheet
+                .Where(x => x.HasTruthyValue(products))
+                .Select(x => x[ID_COLUMN]);
 
             try
             {

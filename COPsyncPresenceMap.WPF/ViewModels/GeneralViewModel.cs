@@ -24,23 +24,23 @@ namespace COPsyncPresenceMap.WPF.ViewModels
         public readonly ICOPsyncPresenceMapGenerator _presenceMapGenerator;
         public bool ReadyToProcess
         {
-            get { return SpreadsheetPath != null; }
+            get { return DataFolder != null; }
         }
 
-        public string SpreadsheetPath
+        public string DataFolder
         {
             get
             {
-                var path = Settings.Default.SpreadsheetPath;
-                if (!string.IsNullOrEmpty(path) && !File.Exists(path))
+                var path = Settings.Default.DataFolder;
+                if (!string.IsNullOrEmpty(path) && !Directory.Exists(path))
                 {
-                    path = Settings.Default.SpreadsheetPath = null;
+                    path = Settings.Default.DataFolder = null;
                 }
                 return path;
             }
             private set
             {
-                Settings.Default.SpreadsheetPath = value;
+                Settings.Default.DataFolder = value;
                 NotifyOfPropertyChange();
                 NotifyOfPropertyChange(() => this.ReadyToProcess);
             }
@@ -48,7 +48,12 @@ namespace COPsyncPresenceMap.WPF.ViewModels
 
         public string OutputFolder
         {
-            get { return string.IsNullOrEmpty(Settings.Default.OutputFolder) ? Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) : Settings.Default.OutputFolder; }
+            get
+            {
+                return string.IsNullOrEmpty(Settings.Default.OutputFolder)
+                    ? Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)
+                    : Settings.Default.OutputFolder;
+            }
             private set
             {
                 Settings.Default.OutputFolder = value;
@@ -175,7 +180,9 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             {
                 var colors = GetPreferences();
                 var selectedProducts = GetSelectedProducts();
-                var resultFileNames = _presenceMapGenerator.FullProcess(SpreadsheetPath, _converters, OutputFolder, colors, selectedProducts);
+                var xlsx = LoadXlsx(DataFolder);
+                var svg = LoadSvg(DataFolder);
+                var resultFileNames = _presenceMapGenerator.FullProcess(xlsx, svg, _converters, OutputFolder, colors, selectedProducts);
                 var firstFileName = resultFileNames.FirstOrDefault();
                 if (firstFileName != null)
                 {
@@ -204,17 +211,29 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             l_newProcess.Start();
         }
 
-        public void SelectSpreadsheet()
+        public void SelectDataFolder()
         {
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.Filter = "XLSX files|*.xlsx";
-            openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-            if (openFileDialog.ShowDialog() == true)
+            var dialogPath = DataFolder;
+            if (string.IsNullOrEmpty(dialogPath) || !Directory.Exists(dialogPath))
+            {
+                dialogPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), Settings.Default.COPsyncMapsFolderName);
+            }
+            if (string.IsNullOrEmpty(dialogPath) || !Directory.Exists(dialogPath))
+            {
+                dialogPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            }
+
+            var dialog = new WinForms.FolderBrowserDialog();
+            dialog.SelectedPath = dialogPath;
+            if (dialog.ShowDialog() == WinForms.DialogResult.OK)
             {
                 try
                 {
-                    _presenceMapGenerator.ParseSpreadsheet(openFileDialog.FileName);
-                    SpreadsheetPath = openFileDialog.FileName;
+                    // To validate folder content
+                    LoadXlsx(dialog.SelectedPath);
+                    LoadSvg(dialog.SelectedPath);
+
+                    DataFolder = dialog.SelectedPath;
                 }
                 catch (ApplicationException e)
                 {
@@ -225,6 +244,39 @@ namespace COPsyncPresenceMap.WPF.ViewModels
                     MessageBox.Show("Exception message: " + e.Message, "Unexpected Error");
                 }
             }
+        }
+
+        private Spreadsheet.ISpreadsheet LoadXlsx(string dataFolder)
+        {
+            var path = GetSingleFilePath(dataFolder, ".xlsx");
+            return _presenceMapGenerator.ParseSpreadsheet(path);
+        }
+
+        private IMapGraphic LoadSvg(string dataFolder)
+        {
+            var path = GetSingleFilePath(dataFolder, ".svg");
+            return _presenceMapGenerator.ParseSvg(path);
+        }
+
+        private string GetSingleFilePath(string dataFolder, string extension)
+        {
+            if (!Directory.Exists(dataFolder))
+            {
+                throw new ApplicationException("Specified folder (" + dataFolder + ") not found.");
+            }
+            var files = Directory.EnumerateFiles(dataFolder)
+                .Where(x => extension.Equals(Path.GetExtension(x), StringComparison.OrdinalIgnoreCase))
+                .Take(2)
+                .ToArray();
+            if (files.Length == 0)
+            {
+                throw new ApplicationException(extension + " file not found in specified folder (" + dataFolder + ").");
+            }
+            if (files.Length > 1)
+            {
+                throw new ApplicationException("There are more than a " + extension + " file in specified folder (" + dataFolder + ").");
+            }
+            return files[0];
         }
 
         public void SelectOutputFolder()

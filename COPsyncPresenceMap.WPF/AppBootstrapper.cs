@@ -28,7 +28,7 @@ namespace COPsyncPresenceMap.WPF
             try
             {
                 var outputFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-                var inputFilename = Path.Combine("COPsyncMaps", "Texas", "Texas.xlsx");
+                var inputFilename = Path.Combine(Settings.Default.COPsyncMapsFolderName, "Texas", "Texas.xlsx");
                 var outputFilename = Path.Combine(outputFolder, inputFilename);
                 if (File.Exists(inputFilename) && !File.Exists(outputFilename))
                 {
