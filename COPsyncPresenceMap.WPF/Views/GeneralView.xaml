@@ -88,7 +88,7 @@
         </StackPanel>
 
         <StackPanel Grid.Column="0" Grid.Row="2" VerticalAlignment="Bottom" Margin="0,20,0,0">
-            <TextBlock Text="Copyright © 2015 COPsync."></TextBlock>
+            <TextBlock Text="Copyright © 2016 COPsync."></TextBlock>
             <TextBlock Text="All rights reserved."></TextBlock>
         </StackPanel>
     </Grid>
