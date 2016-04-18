@@ -19,21 +19,33 @@ namespace COPsyncPresenceMap.WPF
 
         public AppBootstrapper()
         {
-            PrepareDefaultSpreadsheet();
+            PrepareCOPsyncMapsFolder();
             Initialize();
         }
 
-        private void PrepareDefaultSpreadsheet()
+        /// <summary>
+        /// It creates the folder COPsyncMaps and create a folder for each state.
+        /// If the state folder already exists, it is not overriden.
+        /// </summary>
+        private void PrepareCOPsyncMapsFolder()
         {
             try
             {
-                var outputFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-                var inputFilename = Path.Combine(Settings.Default.COPsyncMapsFolderName, "Texas", "Texas.xlsx");
-                var outputFilename = Path.Combine(outputFolder, inputFilename);
-                if (File.Exists(inputFilename) && !File.Exists(outputFilename))
+                var outputPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
+                    Settings.Default.COPsyncMapsFolderName);
+                var inputDir = new DirectoryInfo("COPsyncMaps");
+
+                foreach (var dir in inputDir.GetDirectories())
                 {
-                    Directory.CreateDirectory(Path.GetDirectoryName(outputFilename));
-                    File.Copy(inputFilename, outputFilename, false);
+                    var targetDirPath = Path.Combine(outputPath, dir.Name);
+                    if (!Directory.Exists(targetDirPath))
+                    {
+                        Directory.CreateDirectory(targetDirPath);
+                        foreach (var file in dir.GetFiles())
+                        {
+                            file.CopyTo(Path.Combine(targetDirPath, file.Name));
+                        }
+                    }
                 }
             }
             catch
