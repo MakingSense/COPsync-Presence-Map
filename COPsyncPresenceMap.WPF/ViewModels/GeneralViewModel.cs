@@ -266,6 +266,7 @@ namespace COPsyncPresenceMap.WPF.ViewModels
             }
             var files = Directory.EnumerateFiles(dataFolder)
                 .Where(x => extension.Equals(Path.GetExtension(x), StringComparison.OrdinalIgnoreCase))
+                .Where(x => IsNotHiddenOrTemporal(x))
                 .Take(2)
                 .ToArray();
             if (files.Length == 0)
@@ -277,6 +278,16 @@ namespace COPsyncPresenceMap.WPF.ViewModels
                 throw new ApplicationException("There are more than a " + extension + " file in specified folder (" + dataFolder + ").");
             }
             return files[0];
+        }
+
+        private bool IsNotHiddenOrTemporal(string filePath)
+        {
+            var file = new FileInfo(filePath);
+            return !file.Name.StartsWith("~")
+                && !file.Name.StartsWith(".")
+                && !file.Attributes.HasFlag(FileAttributes.Directory)
+                && !file.Attributes.HasFlag(FileAttributes.Hidden)
+                && !file.Attributes.HasFlag(FileAttributes.Temporary);
         }
 
         public void SelectOutputFolder()
