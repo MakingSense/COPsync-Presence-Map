@@ -1503,17 +1503,17 @@
 		C381.389,237.756,380.443,238.752,380.332,239.023z"/>
 </g>
 <g id="CountiesNames">
-	<text transform="matrix(1 0 0 1 168.0557 127.9097)"><tspan x="0" y="0" font-family="'Arial'" font-size="8">P</tspan><tspan x="5.336" y="0" font-family="'Arial'" font-size="8">rovidence</tspan></text>
-	<text transform="matrix(1 0 0 1 177.2832 303.4121)"><tspan x="0" y="0" font-family="'Arial'" font-size="8">K</tspan><tspan x="5.336" y="0" font-family="'Arial'" font-size="8">ent</tspan></text>
-	<text transform="matrix(1 -0.0033 0.0033 1 381.2432 273.6606)"><tspan x="0" y="0" font-family="'Arial'" font-size="8">B</tspan><tspan x="5.336" y="0" font-family="'Arial'" font-size="8">ristol</tspan></text>
-	<text transform="matrix(1 0 0 1 374.835 400.0439)"><tspan x="0" y="0" font-family="'Arial'" font-size="8">N</tspan><tspan x="5.777" y="0" font-family="'Arial'" font-size="8">ewport</tspan></text>
-	<text transform="matrix(1 0 0 1 147.2588 446.9219)"><tspan x="0" y="0" font-family="'Arial'" font-size="8">W</tspan><tspan x="7.551" y="0" font-family="'Arial'" font-size="8">ashington</tspan></text>
+	<text transform="matrix(1 0 0 1 168.0557 127.9097)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">P</tspan><tspan x="5.336" y="0" font-family="Arial Narrow" font-size="8">rovidence</tspan></text>
+	<text transform="matrix(1 0 0 1 177.2832 303.4121)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">K</tspan><tspan x="5.336" y="0" font-family="Arial Narrow" font-size="8">ent</tspan></text>
+	<text transform="matrix(1 -0.0033 0.0033 1 381.2432 273.6606)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">B</tspan><tspan x="5.336" y="0" font-family="Arial Narrow" font-size="8">ristol</tspan></text>
+	<text transform="matrix(1 0 0 1 374.835 400.0439)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">N</tspan><tspan x="5.777" y="0" font-family="Arial Narrow" font-size="8">ewport</tspan></text>
+	<text transform="matrix(1 0 0 1 147.2588 446.9219)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">W</tspan><tspan x="7.551" y="0" font-family="Arial Narrow" font-size="8">ashington</tspan></text>
 </g>
 <g id="Legend">
-	<text id="Ref_WithPresence_text" transform="matrix(1 0 0 1 300.3428 616.7529)" font-family="'Arial'" font-size="13">City or County with COPsync Presence</text>
+	<text id="Ref_WithPresence_text" transform="matrix(1 0 0 1 300.3428 616.7529)" font-family="Arial Narrow" font-size="13">City or County with COPsync Presence</text>
 	
 		<rect id="Ref_WithPresence_box" x="282.593" y="608.285" fill="#D0D0D0" stroke="#FF0000" stroke-width="0.9697" width="10" height="10"/>
-	<text id="Ref_WithoutPresence_text" transform="matrix(1 0 0 1 300.3428 646.7529)" font-family="'Arial'" font-size="13">City or County without COPsync Presence</text>
+	<text id="Ref_WithoutPresence_text" transform="matrix(1 0 0 1 300.3428 646.7529)" font-family="Arial Narrow" font-size="13">City or County without COPsync Presence</text>
 	
 		<rect id="Ref_WithoutPresence_box" x="282.593" y="638.285" fill="#D0D0D0" stroke="#FF0000" stroke-width="0.9697" width="10" height="10"/>
 </g>

@@ -1248,28 +1248,28 @@
 		c0,0.68,0.254,1.382-0.201,1.899C134.208,622.879,134.043,622.996,133.958,623.189z"/>
 </g>
 <g id="CountiesNames">
-	<text transform="matrix(1 0 0 1 287.5728 119.7163)"><tspan x="0" y="0" font-family="'Arial'" font-size="8">A</tspan><tspan x="5.336" y="0" font-family="'Arial'" font-size="8">roostoock</tspan></text>
-	<text transform="matrix(1 0 0 1 215.3101 293.6343)"><tspan x="0" y="0" font-family="'Arial'" font-size="8">P</tspan><tspan x="5.336" y="0" font-family="'Arial'" font-size="8">iscataquis</tspan></text>
-	<text transform="matrix(1 0 0 1 124.2485 355.9038)"><tspan x="0" y="0" font-family="'Arial'" font-size="8">S</tspan><tspan x="5.336" y="0" font-family="'Arial'" font-size="8">omerset</tspan></text>
-	<text transform="matrix(1 0 0 1 311.4883 361.2026)"><tspan x="0" y="0" font-family="'Arial'" font-size="8">P</tspan><tspan x="5.336" y="0" font-family="'Arial'" font-size="8">enobscot</tspan></text>
-	<text transform="matrix(1 0 0 1 87.5352 433.873)"><tspan x="0" y="0" font-family="'Arial'" font-size="8">F</tspan><tspan x="4.887" y="0" font-family="'Arial'" font-size="8">ranklin</tspan></text>
-	<text transform="matrix(1 0 0 1 60.439 518.3926)"><tspan x="0" y="0" font-family="'Arial'" font-size="8">O</tspan><tspan x="6.223" y="0" font-family="'Arial'" font-size="8">xford</tspan></text>
-	<text transform="matrix(1 0 0 1 409.6055 432.8564)"><tspan x="0" y="0" font-family="'Arial'" font-size="8">W</tspan><tspan x="7.551" y="0" font-family="'Arial'" font-size="8">ashington</tspan></text>
-	<text transform="matrix(1 0 0 1 333.2559 477.5352)"><tspan x="0" y="0" font-family="'Arial'" font-size="8">H</tspan><tspan x="5.777" y="0" font-family="'Arial'" font-size="8">ancock</tspan></text>
-	<text transform="matrix(1 0 0 1 242.4897 506.3018)"><tspan x="0" y="0" font-family="'Arial'" font-size="8">W</tspan><tspan x="7.551" y="0" font-family="'Arial'" font-size="8">aldo</tspan></text>
-	<text transform="matrix(1 0 0 1 234.1299 556.2891)"><tspan x="0" y="0" font-family="'Arial'" font-size="8">K</tspan><tspan x="5.336" y="0" font-family="'Arial'" font-size="8">nox</tspan></text>
-	<text transform="matrix(1 0 0 1 197.7734 567.5752)"><tspan x="0" y="0" font-family="'Arial'" font-size="8">L</tspan><tspan x="4.449" y="0" font-family="'Arial'" font-size="8">incoln</tspan></text>
-	<text transform="matrix(1 0 0 1 161.8105 520.4658)"><tspan x="0" y="0" font-family="'Arial'" font-size="8">K</tspan><tspan x="5.336" y="0" font-family="'Arial'" font-size="8">ennebec</tspan></text>
-	<text transform="matrix(1 0.0034 -0.0028 1 102.603 566.7441)"><tspan x="0" y="0" font-family="'Arial'" font-size="8">A</tspan><tspan x="5.336" y="0" font-family="'Arial'" font-size="8">ndroscoggin</tspan></text>
-	<text transform="matrix(1 0 0 1 82.5117 611.498)"><tspan x="0" y="0" font-family="'Arial'" font-size="8">C</tspan><tspan x="5.777" y="0" font-family="'Arial'" font-size="8">umberland</tspan></text>
-	<text transform="matrix(1 0 0 1 62.1758 665.9482)"><tspan x="0" y="0" font-family="'Arial'" font-size="8">Y</tspan><tspan x="5.336" y="0" font-family="'Arial'" font-size="8">ork</tspan></text>
-	<text transform="matrix(1 0 0 1 153.1201 596.748)"><tspan x="0" y="0" font-family="'Arial'" font-size="8">S</tspan><tspan x="5.336" y="0" font-family="'Arial'" font-size="8">agadahoc</tspan></text>
+	<text transform="matrix(1 0 0 1 287.5728 119.7163)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">A</tspan><tspan x="5.336" y="0" font-family="Arial Narrow" font-size="8">roostoock</tspan></text>
+	<text transform="matrix(1 0 0 1 215.3101 293.6343)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">P</tspan><tspan x="5.336" y="0" font-family="Arial Narrow" font-size="8">iscataquis</tspan></text>
+	<text transform="matrix(1 0 0 1 124.2485 355.9038)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">S</tspan><tspan x="5.336" y="0" font-family="Arial Narrow" font-size="8">omerset</tspan></text>
+	<text transform="matrix(1 0 0 1 311.4883 361.2026)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">P</tspan><tspan x="5.336" y="0" font-family="Arial Narrow" font-size="8">enobscot</tspan></text>
+	<text transform="matrix(1 0 0 1 87.5352 433.873)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">F</tspan><tspan x="4.887" y="0" font-family="Arial Narrow" font-size="8">ranklin</tspan></text>
+	<text transform="matrix(1 0 0 1 60.439 518.3926)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">O</tspan><tspan x="6.223" y="0" font-family="Arial Narrow" font-size="8">xford</tspan></text>
+	<text transform="matrix(1 0 0 1 409.6055 432.8564)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">W</tspan><tspan x="7.551" y="0" font-family="Arial Narrow" font-size="8">ashington</tspan></text>
+	<text transform="matrix(1 0 0 1 333.2559 477.5352)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">H</tspan><tspan x="5.777" y="0" font-family="Arial Narrow" font-size="8">ancock</tspan></text>
+	<text transform="matrix(1 0 0 1 242.4897 506.3018)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">W</tspan><tspan x="7.551" y="0" font-family="Arial Narrow" font-size="8">aldo</tspan></text>
+	<text transform="matrix(1 0 0 1 234.1299 556.2891)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">K</tspan><tspan x="5.336" y="0" font-family="Arial Narrow" font-size="8">nox</tspan></text>
+	<text transform="matrix(1 0 0 1 197.7734 567.5752)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">L</tspan><tspan x="4.449" y="0" font-family="Arial Narrow" font-size="8">incoln</tspan></text>
+	<text transform="matrix(1 0 0 1 161.8105 520.4658)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">K</tspan><tspan x="5.336" y="0" font-family="Arial Narrow" font-size="8">ennebec</tspan></text>
+	<text transform="matrix(1 0.0034 -0.0028 1 102.603 566.7441)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">A</tspan><tspan x="5.336" y="0" font-family="Arial Narrow" font-size="8">ndroscoggin</tspan></text>
+	<text transform="matrix(1 0 0 1 82.5117 611.498)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">C</tspan><tspan x="5.777" y="0" font-family="Arial Narrow" font-size="8">umberland</tspan></text>
+	<text transform="matrix(1 0 0 1 62.1758 665.9482)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">Y</tspan><tspan x="5.336" y="0" font-family="Arial Narrow" font-size="8">ork</tspan></text>
+	<text transform="matrix(1 0 0 1 153.1201 596.748)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">S</tspan><tspan x="5.336" y="0" font-family="Arial Narrow" font-size="8">agadahoc</tspan></text>
 </g>
 <g id="Legend">
-	<text id="Ref_WithPresence_text" transform="matrix(1 0 0 1 272.5479 647.9629)" font-family="'Arial'" font-size="13">City or County with COPsync Presence</text>
+	<text id="Ref_WithPresence_text" transform="matrix(1 0 0 1 272.5479 647.9629)" font-family="Arial Narrow" font-size="13">City or County with COPsync Presence</text>
 	
 		<rect id="Ref_WithPresence_box" x="254.798" y="639.495" fill="#D0D0D0" stroke="#FF0000" stroke-width="0.9697" width="10" height="10"/>
-	<text id="Ref_WithoutPresence_text" transform="matrix(1 0 0 1 272.5479 677.9629)" font-family="'Arial'" font-size="13">City or County without COPsync Presence</text>
+	<text id="Ref_WithoutPresence_text" transform="matrix(1 0 0 1 272.5479 677.9629)" font-family="Arial Narrow" font-size="13">City or County without COPsync Presence</text>
 	
 		<rect id="Ref_WithoutPresence_box" x="254.798" y="669.495" fill="#D0D0D0" stroke="#FF0000" stroke-width="0.9697" width="10" height="10"/>
 </g>
