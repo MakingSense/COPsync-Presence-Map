@@ -131,6 +131,9 @@
     <Content Include="COPsyncMaps\California\California.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="COPsyncMaps\Colorado\Colorado.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="COPsyncMaps\Florida\Florida.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -143,10 +146,16 @@
     <Content Include="COPsyncMaps\Massachusetts\Massachusetts.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="COPsyncMaps\Michigan\Michigan.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="COPsyncMaps\Mississippi\Mississippi.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="COPsyncMaps\NewHampshire\NewHampshire.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="COPsyncMaps\NewJersey\NewJersey.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="COPsyncMaps\NorthCarolina\NorthCarolina.svg">
@@ -194,6 +203,15 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="COPsyncMaps\Virginie\Virginie.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="COPsyncMaps\Colorado\Colorado.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="COPsyncMaps\Michigan\Michigan.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="COPsyncMaps\NewJersey\NewJersey.xlsx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="packages.config" />
