@@ -4383,9 +4383,9 @@ RABWAEQALQA1AAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>PROGMSG_IIS_ROLLBACKAPPPOOLS</td><td>##IDS_PROGMSG_IIS_ROLLBACKAPPPOOLS##</td><td/></row>
 		<row><td>PROGMSG_IIS_ROLLBACKVROOTS</td><td>##IDS_PROGMSG_IIS_ROLLBACKVROOTS##</td><td/></row>
 		<row><td>PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS</td><td>##IDS_PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS##</td><td/></row>
-		<row><td>ProductCode</td><td>{7319DA71-57C0-4B99-9910-D967038884CB}</td><td/></row>
+		<row><td>ProductCode</td><td>{608B38C3-1BB4-4D48-B010-9F9377DD4766}</td><td/></row>
 		<row><td>ProductName</td><td>COPsync Presence Map Generator</td><td/></row>
-		<row><td>ProductVersion</td><td>1.1.1.0</td><td/></row>
+		<row><td>ProductVersion</td><td>2.0.0.0</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
 		<row><td>ProgressType1</td><td>Installing</td><td/></row>
 		<row><td>ProgressType2</td><td>installed</td><td/></row>
@@ -4397,10 +4397,10 @@ RABWAEQALQA1AAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>RestartManagerOption</td><td>CloseRestart</td><td/></row>
 		<row><td>SERIALNUMBER</td><td/><td/></row>
 		<row><td>SERIALNUMVALSUCCESSRETVAL</td><td>1</td><td/></row>
-		<row><td>SecureCustomProperties</td><td>USERNAME;COMPANYNAME;ISX_SERIALNUM;SUPPORTDIR;ISACTIONPROP1;ISACTIONPROP2</td><td/></row>
+		<row><td>SecureCustomProperties</td><td>USERNAME;COMPANYNAME;ISX_SERIALNUM;SUPPORTDIR;ISACTIONPROP1;ISACTIONPROP2;ISACTIONPROP3</td><td/></row>
 		<row><td>SelectedSetupType</td><td>##IDS__DisplayName_Typical##</td><td/></row>
 		<row><td>SetupType</td><td>Typical</td><td/></row>
-		<row><td>UpgradeCode</td><td>{11E286E4-A3DE-4D6C-BED4-461532F3595E}</td><td/></row>
+		<row><td>UpgradeCode</td><td>{F2B743A9-515D-4C8E-BA88-7295B061258E}</td><td/></row>
 		<row><td>_IsMaintenance</td><td>Change</td><td/></row>
 		<row><td>_IsSetupTypeMin</td><td>Typical</td><td/></row>
 	</table>
@@ -4671,6 +4671,7 @@ RABWAEQALQA1AAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">Remove</col>
 		<col def="s72">ActionProperty</col>
 		<col def="S72">ISDisplayName</col>
+		<row><td>{11E286E4-A3DE-4D6C-BED4-461532F3595E}</td><td>1.1.1.0</td><td>1.1.1.0</td><td>1033</td><td>768</td><td/><td>ISACTIONPROP3</td><td>v1.1.1</td></row>
 		<row><td>{6BE2C41F-48AC-4406-B0A2-ABBC33736F33}</td><td>1.0.0.0</td><td>1.0.0.0</td><td>1033</td><td>768</td><td/><td>ISACTIONPROP1</td><td>v1.0</td></row>
 		<row><td>{C091F267-FFC5-4A2D-9382-7C21FA427582}</td><td>1.1.0.0</td><td>1.1.0.0</td><td>1033</td><td>768</td><td/><td>ISACTIONPROP2</td><td>v1.1</td></row>
 	</table>
