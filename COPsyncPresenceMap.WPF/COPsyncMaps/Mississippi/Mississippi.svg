@@ -839,101 +839,97 @@
 		c0.796-0.998,0.889-1.909,2.62-1.334c2.286,0.759,3.423-1.289,4.314,1.616c0.469,1.525,4.12,1.168,5.161,0.121
 		c1.824-1.266,1.652-1.493,1.652-3.677c1.623,0,2.532-0.615,3.951,0.162c1.059,0.58-0.992-2.479-0.201-3.272
 		c0.182-0.183,0.587-0.255,1.066-0.312l-1.632-40.355l-1.337-33.075l-2.183-53.978l-2.217-54.846l0.245-3.118l3.222-40.873
-		l1.586-20.12l2.546-24.008l4.59-43.293l4.776-45.047l6.036-56.926l4.564-43.043h-0.004l5.031-47.441L472.451,81.695z
-		 M253.082,103.317L253.082,103.317c-0.003,0.01,0.01,0.019,0.062,0.04C253.091,103.336,253.078,103.327,253.082,103.317z
-		 M253.085,103.315c0.081-0.053,0.144-0.092,0.188-0.121C253.226,103.226,253.17,103.26,253.085,103.315z M253.371,103.121
-		c0.028-0.023,0.057-0.05,0.095-0.087C253.429,103.07,253.399,103.098,253.371,103.121z M253.281,103.188
-		c0.02-0.013,0.038-0.027,0.056-0.041C253.319,103.161,253.3,103.176,253.281,103.188z"/>
+		l1.586-20.12l2.546-24.008l4.59-43.293l4.776-45.047l6.036-56.926l4.564-43.043h-0.004l5.031-47.441L472.451,81.695z"/>
 </g>
 <g id="CountyNames">
-	<text transform="matrix(1 0 0 1 122.7368 509.9688)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">A</tspan><tspan x="5.055" y="0" font-family="'Arial'" font-size="7">dams</tspan></text>
-	<text transform="matrix(1 0 0 1 410.2227 85.8301)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">A</tspan><tspan x="5.055" y="0" font-family="'Arial'" font-size="7">lcorn </tspan></text>
-	<text transform="matrix(1 0 0 1 178.8745 550.8174)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">A</tspan><tspan x="5.055" y="0" font-family="'Arial'" font-size="7">mite </tspan></text>
-	<text transform="matrix(1 0 0 1 308.5947 309.7471)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">A</tspan><tspan x="5.056" y="0" font-family="'Arial'" font-size="7">ttala </tspan></text>
-	<text transform="matrix(1 0 0 1 347.2559 83.8008)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">B</tspan><tspan x="5.055" y="0" font-family="'Arial'" font-size="7">enton </tspan></text>
-	<text transform="matrix(1 0 0 1 176.7969 222.4263)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">B</tspan><tspan x="5.055" y="0" font-family="'Arial'" font-size="7">olivar </tspan></text>
-	<text transform="matrix(1 0 0 1 328.6602 203.2017)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">C</tspan><tspan x="5.055" y="0" font-family="'Arial'" font-size="7">alhoun </tspan></text>
-	<text transform="matrix(1 0 0 1 267.1797 270.3564)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">C</tspan><tspan x="5.055" y="0" font-family="'Arial'" font-size="7">arroll </tspan></text>
-	<text transform="matrix(1 0 0 1 365.9443 207.4692)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">C</tspan><tspan x="5.056" y="0" font-family="'Arial'" font-size="7">hickasaw </tspan></text>
-	<text transform="matrix(1 0 0 1 334.0068 277.125)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">C</tspan><tspan x="5.056" y="0" font-family="'Arial'" font-size="7">hoctaw </tspan></text>
-	<text transform="matrix(1 0 0 1 157.1133 454.4453)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">C</tspan><tspan x="5.055" y="0" font-family="'Arial'" font-size="7">laiborne </tspan></text>
-	<text transform="matrix(1 0 0 1 399.8535 439.6094)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">C</tspan><tspan x="5.055" y="0" font-family="'Arial'" font-size="7">larke </tspan></text>
-	<text transform="matrix(1 0 0 1 384.3945 238.8921)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">C</tspan><tspan x="5.055" y="0" font-family="'Arial'" font-size="7">lay</tspan></text>
-	<text transform="matrix(1 0 0 1 191.0488 171.0054)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">C</tspan><tspan x="5.055" y="0" font-family="'Arial'" font-size="7">oahoma </tspan></text>
-	<text transform="matrix(1 0 0 1 213.0708 463.207)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">C</tspan><tspan x="5.055" y="0" font-family="'Arial'" font-size="7">opiah </tspan></text>
-	<text transform="matrix(1 0 0 1 302.8945 493.7461)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">C</tspan><tspan x="5.055" y="0" font-family="'Arial'" font-size="7">ovington </tspan></text>
-	<text transform="matrix(1 0 0 1 261.6807 85.3516)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">D</tspan><tspan x="5.055" y="0" font-family="'Arial'" font-size="7">eSoto </tspan></text>
-	<text transform="matrix(1 0.001 -0.001 1 340.4541 554.0322)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">F</tspan><tspan x="4.276" y="0" font-family="'Arial'" font-size="7">orrest </tspan></text>
-	<text transform="matrix(1 0 0 1 169.8311 510.6855)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">F</tspan><tspan x="4.276" y="0" font-family="'Arial'" font-size="7">ranklin </tspan></text>
-	<text transform="matrix(1 0 0 1 400.7822 587.9824)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">G</tspan><tspan x="5.444" y="0" font-family="'Arial'" font-size="7">eorge </tspan></text>
-	<text transform="matrix(1 0 0 1 402.9492 544.4336)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">G</tspan><tspan x="5.445" y="0" font-family="'Arial'" font-size="7">reene </tspan></text>
-	<text transform="matrix(1 0 0 1 280.0503 226.0933)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">G</tspan><tspan x="5.445" y="0" font-family="'Arial'" font-size="7">renada </tspan></text>
-	<text transform="matrix(1 0 0 1 311.0283 642.5498)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">H</tspan><tspan x="5.056" y="0" font-family="'Arial'" font-size="7">ancock </tspan></text>
-	<text transform="matrix(1 0 0 1 350.7041 628.2529)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">H</tspan><tspan x="5.056" y="0" font-family="'Arial'" font-size="7">arrison</tspan></text>
-	<text transform="matrix(1 0 0 1 214.9116 416.7729)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">H</tspan><tspan x="5.055" y="0" font-family="'Arial'" font-size="7">inds </tspan></text>
-	<text transform="matrix(1 0 0 1 252.3545 304.6602)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">H</tspan><tspan x="5.055" y="0" font-family="'Arial'" font-size="7">olmes </tspan></text>
-	<text transform="matrix(1 -0.0066 0.0058 1 202.3091 303.2119)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">H</tspan><tspan x="5.055" y="0" font-family="'Arial'" font-size="7">umphreys</tspan></text>
-	<text transform="matrix(1 0 0 1 161.7979 367.4336)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">I</tspan><tspan x="1.945" y="0" font-family="'Arial'" font-size="7">ssaquena </tspan></text>
-	<text transform="matrix(1 0 0 1 427.6768 161.8711)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">I</tspan><tspan x="1.944" y="0" font-family="'Arial'" font-size="7">tawamba</tspan></text>
-	<text transform="matrix(1 0 0 1 398.4658 625.4268)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">J</tspan><tspan x="3.894" y="0" font-family="'Arial'" font-size="7">ackson </tspan></text>
-	<text transform="matrix(1 0 0 1 353.5303 440.3145)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">J</tspan><tspan x="3.894" y="0" font-family="'Arial'" font-size="7">asper </tspan></text>
-	<text transform="matrix(1 0 0 1 148.3525 481.8594)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">J</tspan><tspan x="3.893" y="0" font-family="'Arial'" font-size="7">efferson </tspan></text>
-	<text transform="matrix(1 0 0 1 280.9136 504.0293)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">J</tspan><tspan x="3.893" y="0" font-family="'Arial'" font-size="7">efferson</tspan><tspan x="0" y="6.64" font-family="'Arial'" font-size="7">D</tspan><tspan x="5.055" y="6.64" font-family="'Arial'" font-size="7">avis </tspan></text>
-	<text transform="matrix(1 0 0 1 348.6797 493.1328)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">J</tspan><tspan x="3.893" y="0" font-family="'Arial'" font-size="7">ones </tspan></text>
-	<text transform="matrix(1 0 0 1 402.5703 351.2275)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">K</tspan><tspan x="5.055" y="0" font-family="'Arial'" font-size="7">emper </tspan></text>
-	<text transform="matrix(1 0 0 1 310.8555 151.7656)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">L</tspan><tspan x="4.275" y="0" font-family="'Arial'" font-size="7">afayette </tspan></text>
-	<text transform="matrix(1 0 0 1 313.6816 545.165)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">L</tspan><tspan x="4.275" y="0" font-family="'Arial'" font-size="7">amar </tspan></text>
-	<text transform="matrix(1 0 0 1 391.4004 395.0967)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">L</tspan><tspan x="4.275" y="0" font-family="'Arial'" font-size="7">auderdale </tspan></text>
-	<text transform="matrix(1 0.0048 -0.0039 1 246.666 493.918)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">L</tspan><tspan x="4.276" y="0" font-family="'Arial'" font-size="7">awrence </tspan></text>
-	<text transform="matrix(1 0 0 1 312.5439 352.022)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">L</tspan><tspan x="4.276" y="0" font-family="'Arial'" font-size="7">eake </tspan></text>
-	<text transform="matrix(1 0 0 1 402.9385 160.748)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">L</tspan><tspan x="4.276" y="0" font-family="'Arial'" font-size="7">ee </tspan></text>
-	<text transform="matrix(1 0 0 1 233.1489 257.6187)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">L</tspan><tspan x="4.276" y="0" font-family="'Arial'" font-size="7">eflore</tspan></text>
-	<text transform="matrix(1 0 0 1 215.7002 507.665)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">L</tspan><tspan x="4.276" y="0" font-family="'Arial'" font-size="7">incoln </tspan></text>
-	<text transform="matrix(1 0 0 1 417.5029 266.1079)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">L</tspan><tspan x="4.276" y="0" font-family="'Arial'" font-size="7">owndes </tspan></text>
-	<text transform="matrix(1 0 0 1 258.2783 366.6523)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">M</tspan><tspan x="5.831" y="0" font-family="'Arial'" font-size="7">adison</tspan></text>
-	<text transform="matrix(1 0 0 1 278.311 544.4668)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">M</tspan><tspan x="5.831" y="0" font-family="'Arial'" font-size="7">arion </tspan></text>
-	<text transform="matrix(1 0 0 1 308.877 101.1777)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">M</tspan><tspan x="5.831" y="0" font-family="'Arial'" font-size="7">arshall </tspan></text>
-	<text transform="matrix(1 0 0 1 418.8145 209.7017)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">M</tspan><tspan x="5.831" y="0" font-family="'Arial'" font-size="7">onroe </tspan></text>
-	<text transform="matrix(1 0.0025 -0.0018 1 297.376 263.1934)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">M</tspan><tspan x="5.831" y="0" font-family="'Arial'" font-size="7">ontgomery</tspan></text>
-	<text transform="matrix(1 0 0 1 349.916 351.959)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">N</tspan><tspan x="5.055" y="0" font-family="'Arial'" font-size="7">eshoba</tspan></text>
-	<text transform="matrix(1 0 0 1 351.2695 396.5098)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">N</tspan><tspan x="5.055" y="0" font-family="'Arial'" font-size="7">ewton</tspan></text>
-	<text transform="matrix(1 0 0 1 407.3564 308.6113)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">N</tspan><tspan x="5.056" y="0" font-family="'Arial'" font-size="7">oxubee </tspan></text>
-	<text transform="matrix(1 0 0 1 374.0664 268.9727)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">O</tspan><tspan x="5.445" y="0" font-family="'Arial'" font-size="7">ktibbeha </tspan></text>
-	<text transform="matrix(1 0 0 1 265.3545 148.9395)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">P</tspan><tspan x="4.669" y="0" font-family="'Arial'" font-size="7">anola </tspan></text>
-	<text transform="matrix(1 0 0 1 307.8066 592.1045)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">P</tspan><tspan x="4.669" y="0" font-family="'Arial'" font-size="7">earl</tspan><tspan x="0" y="6.64" font-family="'Arial'" font-size="7">R</tspan><tspan x="5.056" y="6.64" font-family="'Arial'" font-size="7">iver </tspan></text>
-	<text transform="matrix(1 0 0 1 368.1953 543.5127)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">P</tspan><tspan x="4.669" y="0" font-family="'Arial'" font-size="7">erry </tspan></text>
-	<text transform="matrix(1 0 0 1 223.853 548.7227)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">P</tspan><tspan x="4.669" y="0" font-family="'Arial'" font-size="7">ike </tspan></text>
-	<text transform="matrix(1 0 0 1 359.4648 166.1792)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">P</tspan><tspan x="4.669" y="0" font-family="'Arial'" font-size="7">ontotoc </tspan></text>
-	<text transform="matrix(1 0 0 1 412.8545 119.1777)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">P</tspan><tspan x="4.669" y="0" font-family="'Arial'" font-size="7">rentiss </tspan></text>
-	<text transform="matrix(1 0 0 1 228.4287 171.6846)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">Q</tspan><tspan x="5.445" y="0" font-family="'Arial'" font-size="7">uitman </tspan></text>
-	<text transform="matrix(1 0 0 1 266.7607 416.8892)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">R</tspan><tspan x="5.055" y="0" font-family="'Arial'" font-size="7">ankin </tspan></text>
-	<text transform="matrix(1 0 0 1 312.834 396.2271)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">S</tspan><tspan x="4.669" y="0" font-family="'Arial'" font-size="7">cott </tspan></text>
-	<text transform="matrix(1 0 0 1 177.4463 336.3872)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">S</tspan><tspan x="4.669" y="0" font-family="'Arial'" font-size="7">harkey</tspan></text>
-	<text transform="matrix(1 0 0 1 266.2026 457.2715)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">S</tspan><tspan x="4.669" y="0" font-family="'Arial'" font-size="7">impson </tspan></text>
-	<text transform="matrix(1 0 0 1 314.8115 443.9893)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">S</tspan><tspan x="4.669" y="0" font-family="'Arial'" font-size="7">mith </tspan></text>
-	<text transform="matrix(1 0 0 1 355.6436 595.5029)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">S</tspan><tspan x="4.669" y="0" font-family="'Arial'" font-size="7">tone </tspan></text>
-	<text transform="matrix(1 0.0044 -0.0036 1 194.791 252.2402)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">S</tspan><tspan x="4.669" y="0" font-family="'Arial'" font-size="7">unflower </tspan></text>
-	<text transform="matrix(1 0 0 1 233.7686 202.4277)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">T</tspan><tspan x="4.276" y="0" font-family="'Arial'" font-size="7">allahatchie</tspan></text>
-	<text transform="matrix(1 0 0 1 272.2354 116.041)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">T</tspan><tspan x="4.276" y="0" font-family="'Arial'" font-size="7">ate </tspan></text>
-	<text transform="matrix(1 0 0 1 374.4434 102.0254)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">T</tspan><tspan x="4.275" y="0" font-family="'Arial'" font-size="7">ippah </tspan></text>
-	<text transform="matrix(1 -0.0017 0.0013 1 439.0615 98.5981)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">T</tspan><tspan x="4.276" y="0" font-family="'Arial'" font-size="7">ishomingo</tspan></text>
-	<text transform="matrix(1 0 0 1 223.7515 120.5195)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">T</tspan><tspan x="4.276" y="0" font-family="'Arial'" font-size="7">unica </tspan></text>
-	<text transform="matrix(1 0 0 1 365.8301 134.6694)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">U</tspan><tspan x="5.055" y="0" font-family="'Arial'" font-size="7">nion </tspan></text>
-	<text transform="matrix(1 0 0 1 248.7656 561.0938)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">W</tspan><tspan x="6.607" y="0" font-family="'Arial'" font-size="7">althall </tspan></text>
-	<text transform="matrix(1 -0.0033 0.0033 1 179.7686 398.0059)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">W</tspan><tspan x="6.607" y="0" font-family="'Arial'" font-size="7">arren </tspan></text>
-	<text transform="matrix(1 -0.0054 0.0044 1 157.4443 283.3892)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">W</tspan><tspan x="6.607" y="0" font-family="'Arial'" font-size="7">ashington</tspan></text>
-	<text transform="matrix(1 0 0 1 395.4062 493.1992)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">W</tspan><tspan x="6.607" y="0" font-family="'Arial'" font-size="7">ayne </tspan></text>
-	<text transform="matrix(1 0 0 1 333.1211 243.7905)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">W</tspan><tspan x="6.607" y="0" font-family="'Arial'" font-size="7">ebster</tspan></text>
-	<text transform="matrix(1 0 0 1 120.71 551.3252)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">W</tspan><tspan x="6.607" y="0" font-family="'Arial'" font-size="7">ilkinson </tspan></text>
-	<text transform="matrix(1 0 0 1 360.0303 312.856)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">W</tspan><tspan x="6.606" y="0" font-family="'Arial'" font-size="7">inston </tspan></text>
-	<text transform="matrix(1 0 0 1 285.479 192.688)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">Y</tspan><tspan x="4.669" y="0" font-family="'Arial'" font-size="7">alobusha </tspan></text>
-	<text transform="matrix(1 0 0 1 215.5732 349.5596)"><tspan x="0" y="0" font-family="'Arial'" font-size="7">Y</tspan><tspan x="4.669" y="0" font-family="'Arial'" font-size="7">azoo </tspan></text>
+	<text transform="matrix(1 0 0 1 122.7368 509.9688)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">A</tspan><tspan x="5.055" y="0" font-family="Arial Narrow" font-size="7">dams</tspan></text>
+	<text transform="matrix(1 0 0 1 410.2227 85.8301)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">A</tspan><tspan x="5.055" y="0" font-family="Arial Narrow" font-size="7">lcorn </tspan></text>
+	<text transform="matrix(1 0 0 1 178.8745 550.8174)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">A</tspan><tspan x="5.055" y="0" font-family="Arial Narrow" font-size="7">mite </tspan></text>
+	<text transform="matrix(1 0 0 1 308.5947 309.7471)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">A</tspan><tspan x="5.056" y="0" font-family="Arial Narrow" font-size="7">ttala </tspan></text>
+	<text transform="matrix(1 0 0 1 347.2559 83.8008)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">B</tspan><tspan x="5.055" y="0" font-family="Arial Narrow" font-size="7">enton </tspan></text>
+	<text transform="matrix(1 0 0 1 176.7969 222.4263)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">B</tspan><tspan x="5.055" y="0" font-family="Arial Narrow" font-size="7">olivar </tspan></text>
+	<text transform="matrix(1 0 0 1 328.6602 203.2017)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">C</tspan><tspan x="5.055" y="0" font-family="Arial Narrow" font-size="7">alhoun </tspan></text>
+	<text transform="matrix(1 0 0 1 267.1797 270.3564)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">C</tspan><tspan x="5.055" y="0" font-family="Arial Narrow" font-size="7">arroll </tspan></text>
+	<text transform="matrix(1 0 0 1 365.9443 207.4692)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">C</tspan><tspan x="5.056" y="0" font-family="Arial Narrow" font-size="7">hickasaw </tspan></text>
+	<text transform="matrix(1 0 0 1 334.0068 277.125)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">C</tspan><tspan x="5.056" y="0" font-family="Arial Narrow" font-size="7">hoctaw </tspan></text>
+	<text transform="matrix(1 0 0 1 157.1133 454.4453)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">C</tspan><tspan x="5.055" y="0" font-family="Arial Narrow" font-size="7">laiborne </tspan></text>
+	<text transform="matrix(1 0 0 1 399.8535 439.6094)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">C</tspan><tspan x="5.055" y="0" font-family="Arial Narrow" font-size="7">larke </tspan></text>
+	<text transform="matrix(1 0 0 1 384.3945 238.8921)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">C</tspan><tspan x="5.055" y="0" font-family="Arial Narrow" font-size="7">lay</tspan></text>
+	<text transform="matrix(1 0 0 1 191.0488 171.0054)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">C</tspan><tspan x="5.055" y="0" font-family="Arial Narrow" font-size="7">oahoma </tspan></text>
+	<text transform="matrix(1 0 0 1 213.0708 463.207)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">C</tspan><tspan x="5.055" y="0" font-family="Arial Narrow" font-size="7">opiah </tspan></text>
+	<text transform="matrix(1 0 0 1 302.8945 493.7461)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">C</tspan><tspan x="5.055" y="0" font-family="Arial Narrow" font-size="7">ovington </tspan></text>
+	<text transform="matrix(1 0 0 1 261.6807 85.3516)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">D</tspan><tspan x="5.055" y="0" font-family="Arial Narrow" font-size="7">eSoto </tspan></text>
+	<text transform="matrix(1 0.001 -0.001 1 340.4541 554.0322)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">F</tspan><tspan x="4.276" y="0" font-family="Arial Narrow" font-size="7">orrest </tspan></text>
+	<text transform="matrix(1 0 0 1 169.8311 510.6855)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">F</tspan><tspan x="4.276" y="0" font-family="Arial Narrow" font-size="7">ranklin </tspan></text>
+	<text transform="matrix(1 0 0 1 400.7822 587.9824)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">G</tspan><tspan x="5.444" y="0" font-family="Arial Narrow" font-size="7">eorge </tspan></text>
+	<text transform="matrix(1 0 0 1 402.9492 544.4336)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">G</tspan><tspan x="5.445" y="0" font-family="Arial Narrow" font-size="7">reene </tspan></text>
+	<text transform="matrix(1 0 0 1 280.0503 226.0933)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">G</tspan><tspan x="5.445" y="0" font-family="Arial Narrow" font-size="7">renada </tspan></text>
+	<text transform="matrix(1 0 0 1 311.0283 642.5498)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">H</tspan><tspan x="5.056" y="0" font-family="Arial Narrow" font-size="7">ancock </tspan></text>
+	<text transform="matrix(1 0 0 1 350.7041 628.2529)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">H</tspan><tspan x="5.056" y="0" font-family="Arial Narrow" font-size="7">arrison</tspan></text>
+	<text transform="matrix(1 0 0 1 214.9116 416.7729)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">H</tspan><tspan x="5.055" y="0" font-family="Arial Narrow" font-size="7">inds </tspan></text>
+	<text transform="matrix(1 0 0 1 252.3545 304.6602)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">H</tspan><tspan x="5.055" y="0" font-family="Arial Narrow" font-size="7">olmes </tspan></text>
+	<text transform="matrix(1 -0.0066 0.0058 1 202.3091 303.2119)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">H</tspan><tspan x="5.055" y="0" font-family="Arial Narrow" font-size="7">umphreys</tspan></text>
+	<text transform="matrix(1 0 0 1 161.7979 367.4336)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">I</tspan><tspan x="1.945" y="0" font-family="Arial Narrow" font-size="7">ssaquena </tspan></text>
+	<text transform="matrix(1 0 0 1 427.6768 161.8711)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">I</tspan><tspan x="1.944" y="0" font-family="Arial Narrow" font-size="7">tawamba</tspan></text>
+	<text transform="matrix(1 0 0 1 398.4658 625.4268)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">J</tspan><tspan x="3.894" y="0" font-family="Arial Narrow" font-size="7">ackson </tspan></text>
+	<text transform="matrix(1 0 0 1 353.5303 440.3145)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">J</tspan><tspan x="3.894" y="0" font-family="Arial Narrow" font-size="7">asper </tspan></text>
+	<text transform="matrix(1 0 0 1 148.3525 481.8594)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">J</tspan><tspan x="3.893" y="0" font-family="Arial Narrow" font-size="7">efferson </tspan></text>
+	<text transform="matrix(1 0 0 1 280.9136 504.0293)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">J</tspan><tspan x="3.893" y="0" font-family="Arial Narrow" font-size="7">efferson</tspan><tspan x="0" y="6.64" font-family="Arial Narrow" font-size="7">D</tspan><tspan x="5.055" y="6.64" font-family="Arial Narrow" font-size="7">avis </tspan></text>
+	<text transform="matrix(1 0 0 1 348.6797 493.1328)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">J</tspan><tspan x="3.893" y="0" font-family="Arial Narrow" font-size="7">ones </tspan></text>
+	<text transform="matrix(1 0 0 1 402.5703 351.2275)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">K</tspan><tspan x="5.055" y="0" font-family="Arial Narrow" font-size="7">emper </tspan></text>
+	<text transform="matrix(1 0 0 1 310.8555 151.7656)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">L</tspan><tspan x="4.275" y="0" font-family="Arial Narrow" font-size="7">afayette </tspan></text>
+	<text transform="matrix(1 0 0 1 313.6816 545.165)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">L</tspan><tspan x="4.275" y="0" font-family="Arial Narrow" font-size="7">amar </tspan></text>
+	<text transform="matrix(1 0 0 1 391.4004 395.0967)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">L</tspan><tspan x="4.275" y="0" font-family="Arial Narrow" font-size="7">auderdale </tspan></text>
+	<text transform="matrix(1 0.0048 -0.0039 1 246.666 493.918)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">L</tspan><tspan x="4.276" y="0" font-family="Arial Narrow" font-size="7">awrence </tspan></text>
+	<text transform="matrix(1 0 0 1 312.5439 352.022)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">L</tspan><tspan x="4.276" y="0" font-family="Arial Narrow" font-size="7">eake </tspan></text>
+	<text transform="matrix(1 0 0 1 402.9385 160.748)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">L</tspan><tspan x="4.276" y="0" font-family="Arial Narrow" font-size="7">ee </tspan></text>
+	<text transform="matrix(1 0 0 1 233.1489 257.6187)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">L</tspan><tspan x="4.276" y="0" font-family="Arial Narrow" font-size="7">eflore</tspan></text>
+	<text transform="matrix(1 0 0 1 215.7002 507.665)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">L</tspan><tspan x="4.276" y="0" font-family="Arial Narrow" font-size="7">incoln </tspan></text>
+	<text transform="matrix(1 0 0 1 417.5029 266.1079)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">L</tspan><tspan x="4.276" y="0" font-family="Arial Narrow" font-size="7">owndes </tspan></text>
+	<text transform="matrix(1 0 0 1 258.2783 366.6523)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">M</tspan><tspan x="5.831" y="0" font-family="Arial Narrow" font-size="7">adison</tspan></text>
+	<text transform="matrix(1 0 0 1 278.311 544.4668)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">M</tspan><tspan x="5.831" y="0" font-family="Arial Narrow" font-size="7">arion </tspan></text>
+	<text transform="matrix(1 0 0 1 308.877 101.1777)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">M</tspan><tspan x="5.831" y="0" font-family="Arial Narrow" font-size="7">arshall </tspan></text>
+	<text transform="matrix(1 0 0 1 418.8145 209.7017)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">M</tspan><tspan x="5.831" y="0" font-family="Arial Narrow" font-size="7">onroe </tspan></text>
+	<text transform="matrix(1 0.0025 -0.0018 1 297.376 263.1934)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">M</tspan><tspan x="5.831" y="0" font-family="Arial Narrow" font-size="7">ontgomery</tspan></text>
+	<text transform="matrix(1 0 0 1 349.916 351.959)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">N</tspan><tspan x="5.055" y="0" font-family="Arial Narrow" font-size="7">eshoba</tspan></text>
+	<text transform="matrix(1 0 0 1 351.2695 396.5098)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">N</tspan><tspan x="5.055" y="0" font-family="Arial Narrow" font-size="7">ewton</tspan></text>
+	<text transform="matrix(1 0 0 1 407.3564 308.6113)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">N</tspan><tspan x="5.056" y="0" font-family="Arial Narrow" font-size="7">oxubee </tspan></text>
+	<text transform="matrix(1 0 0 1 374.0664 268.9727)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">O</tspan><tspan x="5.445" y="0" font-family="Arial Narrow" font-size="7">ktibbeha </tspan></text>
+	<text transform="matrix(1 0 0 1 265.3545 148.9395)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">P</tspan><tspan x="4.669" y="0" font-family="Arial Narrow" font-size="7">anola </tspan></text>
+	<text transform="matrix(1 0 0 1 307.8066 592.1045)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">P</tspan><tspan x="4.669" y="0" font-family="Arial Narrow" font-size="7">earl</tspan><tspan x="0" y="6.64" font-family="Arial Narrow" font-size="7">R</tspan><tspan x="5.056" y="6.64" font-family="Arial Narrow" font-size="7">iver </tspan></text>
+	<text transform="matrix(1 0 0 1 368.1953 543.5127)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">P</tspan><tspan x="4.669" y="0" font-family="Arial Narrow" font-size="7">erry </tspan></text>
+	<text transform="matrix(1 0 0 1 223.853 548.7227)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">P</tspan><tspan x="4.669" y="0" font-family="Arial Narrow" font-size="7">ike </tspan></text>
+	<text transform="matrix(1 0 0 1 359.4648 166.1792)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">P</tspan><tspan x="4.669" y="0" font-family="Arial Narrow" font-size="7">ontotoc </tspan></text>
+	<text transform="matrix(1 0 0 1 412.8545 119.1777)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">P</tspan><tspan x="4.669" y="0" font-family="Arial Narrow" font-size="7">rentiss </tspan></text>
+	<text transform="matrix(1 0 0 1 228.4287 171.6846)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">Q</tspan><tspan x="5.445" y="0" font-family="Arial Narrow" font-size="7">uitman </tspan></text>
+	<text transform="matrix(1 0 0 1 266.7607 416.8892)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">R</tspan><tspan x="5.055" y="0" font-family="Arial Narrow" font-size="7">ankin </tspan></text>
+	<text transform="matrix(1 0 0 1 312.834 396.2271)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">S</tspan><tspan x="4.669" y="0" font-family="Arial Narrow" font-size="7">cott </tspan></text>
+	<text transform="matrix(1 0 0 1 177.4463 336.3872)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">S</tspan><tspan x="4.669" y="0" font-family="Arial Narrow" font-size="7">harkey</tspan></text>
+	<text transform="matrix(1 0 0 1 266.2026 457.2715)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">S</tspan><tspan x="4.669" y="0" font-family="Arial Narrow" font-size="7">impson </tspan></text>
+	<text transform="matrix(1 0 0 1 314.8115 443.9893)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">S</tspan><tspan x="4.669" y="0" font-family="Arial Narrow" font-size="7">mith </tspan></text>
+	<text transform="matrix(1 0 0 1 355.6436 595.5029)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">S</tspan><tspan x="4.669" y="0" font-family="Arial Narrow" font-size="7">tone </tspan></text>
+	<text transform="matrix(1 0.0044 -0.0036 1 194.791 252.2402)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">S</tspan><tspan x="4.669" y="0" font-family="Arial Narrow" font-size="7">unflower </tspan></text>
+	<text transform="matrix(1 0 0 1 233.7686 202.4277)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">T</tspan><tspan x="4.276" y="0" font-family="Arial Narrow" font-size="7">allahatchie</tspan></text>
+	<text transform="matrix(1 0 0 1 272.2354 116.041)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">T</tspan><tspan x="4.276" y="0" font-family="Arial Narrow" font-size="7">ate </tspan></text>
+	<text transform="matrix(1 0 0 1 374.4434 102.0254)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">T</tspan><tspan x="4.275" y="0" font-family="Arial Narrow" font-size="7">ippah </tspan></text>
+	<text transform="matrix(1 -0.0017 0.0013 1 439.0615 98.5981)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">T</tspan><tspan x="4.276" y="0" font-family="Arial Narrow" font-size="7">ishomingo</tspan></text>
+	<text transform="matrix(1 0 0 1 223.7515 120.5195)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">T</tspan><tspan x="4.276" y="0" font-family="Arial Narrow" font-size="7">unica </tspan></text>
+	<text transform="matrix(1 0 0 1 365.8301 134.6694)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">U</tspan><tspan x="5.055" y="0" font-family="Arial Narrow" font-size="7">nion </tspan></text>
+	<text transform="matrix(1 0 0 1 248.7656 561.0938)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">W</tspan><tspan x="6.607" y="0" font-family="Arial Narrow" font-size="7">althall </tspan></text>
+	<text transform="matrix(1 -0.0033 0.0033 1 179.7686 398.0059)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">W</tspan><tspan x="6.607" y="0" font-family="Arial Narrow" font-size="7">arren </tspan></text>
+	<text transform="matrix(1 -0.0054 0.0044 1 157.4443 283.3892)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">W</tspan><tspan x="6.607" y="0" font-family="Arial Narrow" font-size="7">ashington</tspan></text>
+	<text transform="matrix(1 0 0 1 395.4062 493.1992)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">W</tspan><tspan x="6.607" y="0" font-family="Arial Narrow" font-size="7">ayne </tspan></text>
+	<text transform="matrix(1 0 0 1 333.1211 243.7905)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">W</tspan><tspan x="6.607" y="0" font-family="Arial Narrow" font-size="7">ebster</tspan></text>
+	<text transform="matrix(1 0 0 1 120.71 551.3252)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">W</tspan><tspan x="6.607" y="0" font-family="Arial Narrow" font-size="7">ilkinson </tspan></text>
+	<text transform="matrix(1 0 0 1 360.0303 312.856)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">W</tspan><tspan x="6.606" y="0" font-family="Arial Narrow" font-size="7">inston </tspan></text>
+	<text transform="matrix(1 0 0 1 285.479 192.688)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">Y</tspan><tspan x="4.669" y="0" font-family="Arial Narrow" font-size="7">alobusha </tspan></text>
+	<text transform="matrix(1 0 0 1 215.5732 349.5596)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">Y</tspan><tspan x="4.669" y="0" font-family="Arial Narrow" font-size="7">azoo </tspan></text>
 </g>
 <g id="Legend">
-	<text id="Ref_WithPresence_text" transform="matrix(1 0 0 1 52.1904 732.7529)" font-family="'Arial'" font-size="13">City or County with COPsync Presence</text>
+	<text id="Ref_WithPresence_text" transform="matrix(1 0 0 1 52.1904 732.7529)" font-family="Arial Narrow" font-size="13">City or County with COPsync Presence</text>
 	
 		<rect id="Ref_WithPresence_box" x="34.441" y="724.285" fill="#D0D0D0" stroke="#FF0000" stroke-width="0.9697" width="10" height="10"/>
-	<text id="Ref_WithoutPresence_text" transform="matrix(1 0 0 1 52.1904 762.7529)" font-family="'Arial'" font-size="13">City or County without COPsync Presence</text>
+	<text id="Ref_WithoutPresence_text" transform="matrix(1 0 0 1 52.1904 762.7529)" font-family="Arial Narrow" font-size="13">City or County without COPsync Presence</text>
 	
 		<rect id="Ref_WithoutPresence_box" x="34.441" y="754.285" fill="#D0D0D0" stroke="#FF0000" stroke-width="0.9697" width="10" height="10"/>
 </g>
