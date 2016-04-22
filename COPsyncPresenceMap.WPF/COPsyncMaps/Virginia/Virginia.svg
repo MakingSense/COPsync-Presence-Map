@@ -3008,20 +3008,6 @@
 		c0.753-0.347,1.319-0.707,1.991-1.179c0.453-0.318,0.392-0.043,0.725,0.143c1.024,0.57,2.327-1.305,2.703,0.544l-0.142,0.104
 		c-0.334,0.473-0.739,0.813-1.164,1.218c-0.254,0.242-0.917,1.117-1.19,1.191c-0.164,0.289-0.431,0.512-0.607,0.803
 		c-0.065,0.106-0.434,0.675-0.492,0.7C178.04,369.411,177.822,369.909,177.779,369.985L177.779,369.985z"/>
-	
-		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="22.9256" x1="591.761" y1="292.308" x2="594.913" y2="296.402"/>
-	
-		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="22.9256" x1="632.87" y1="113.659" x2="620.78" y2="116.2"/>
-	
-		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="22.9256" x1="632.554" y1="125.469" x2="621.825" y2="123.649"/>
-	
-		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.2835" stroke-miterlimit="22.9256" x1="616.631" y1="104.274" x2="614.645" y2="115.987"/>
-	
-		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="22.9256" x1="606.93" y1="93.94" x2="603.398" y2="119.716"/>
-	
-		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="22.9256" x1="627.07" y1="139.177" x2="591.377" y2="129.101"/>
-	
-		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="22.9256" x1="587.737" y1="131.058" x2="621.271" y2="148.035"/>
 </g>
 <g id="Outer_Border">
 	
@@ -3432,6 +3418,20 @@
 	<text transform="matrix(1 0 0 1 638.7363 290.5664)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="6">J</tspan><tspan x="3" y="0" font-family="Arial Narrow" font-size="6">ames Ci.</tspan></text>
 	<text transform="matrix(1 0 0 1 712.8125 287.334)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="6">N</tspan><tspan x="4.333" y="0" font-family="Arial Narrow" font-size="6">orthampton</tspan></text>
 	<text transform="matrix(1 0 0 1 525.2646 312.6064)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="6">N</tspan><tspan x="4.333" y="0" font-family="Arial Narrow" font-size="6">ottoway</tspan></text>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="22.9256" x1="591.761" y1="292.308" x2="594.913" y2="296.402"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="22.9256" x1="632.87" y1="113.659" x2="620.78" y2="116.2"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="22.9256" x1="632.554" y1="125.469" x2="621.825" y2="123.649"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="0.2835" stroke-miterlimit="22.9256" x1="616.631" y1="104.274" x2="614.645" y2="115.987"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="22.9256" x1="606.93" y1="93.94" x2="603.398" y2="119.716"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="22.9256" x1="627.07" y1="139.177" x2="591.377" y2="129.101"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="22.9256" x1="587.737" y1="131.058" x2="621.271" y2="148.035"/>
 </g>
 <g id="Legend">
 	<text id="Ref_WithPresence_text" transform="matrix(1 0 0 1 47.1904 415.7529)" font-family="Arial Narrow" font-size="13">City or County with COPsync Presence</text>
