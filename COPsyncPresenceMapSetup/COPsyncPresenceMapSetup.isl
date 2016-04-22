@@ -4383,9 +4383,9 @@ RABWAEQALQA1AAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>PROGMSG_IIS_ROLLBACKAPPPOOLS</td><td>##IDS_PROGMSG_IIS_ROLLBACKAPPPOOLS##</td><td/></row>
 		<row><td>PROGMSG_IIS_ROLLBACKVROOTS</td><td>##IDS_PROGMSG_IIS_ROLLBACKVROOTS##</td><td/></row>
 		<row><td>PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS</td><td>##IDS_PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS##</td><td/></row>
-		<row><td>ProductCode</td><td>{C2B02B5C-16E4-4702-9528-809B27F8F9BE}</td><td/></row>
+		<row><td>ProductCode</td><td>{01C5EC8F-03F6-4AC2-81B9-FBF6DC86C850}</td><td/></row>
 		<row><td>ProductName</td><td>COPsync Presence Map Generator</td><td/></row>
-		<row><td>ProductVersion</td><td>2.0.0.2</td><td/></row>
+		<row><td>ProductVersion</td><td>2.0.0.3</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
 		<row><td>ProgressType1</td><td>Installing</td><td/></row>
 		<row><td>ProgressType2</td><td>installed</td><td/></row>
@@ -4397,10 +4397,10 @@ RABWAEQALQA1AAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>RestartManagerOption</td><td>CloseRestart</td><td/></row>
 		<row><td>SERIALNUMBER</td><td/><td/></row>
 		<row><td>SERIALNUMVALSUCCESSRETVAL</td><td>1</td><td/></row>
-		<row><td>SecureCustomProperties</td><td>USERNAME;COMPANYNAME;ISX_SERIALNUM;SUPPORTDIR;ISACTIONPROP1;ISACTIONPROP2;ISACTIONPROP3;ISACTIONPROP4</td><td/></row>
+		<row><td>SecureCustomProperties</td><td>USERNAME;COMPANYNAME;ISX_SERIALNUM;SUPPORTDIR;ISACTIONPROP1;ISACTIONPROP2;ISACTIONPROP3;ISACTIONPROP4;ISACTIONPROP5</td><td/></row>
 		<row><td>SelectedSetupType</td><td>##IDS__DisplayName_Typical##</td><td/></row>
 		<row><td>SetupType</td><td>Typical</td><td/></row>
-		<row><td>UpgradeCode</td><td>{84CA1102-E130-4BE8-A6EC-1935AAFE9937}</td><td/></row>
+		<row><td>UpgradeCode</td><td>{2B662B91-B52A-4682-82BA-DECC51D680BD}</td><td/></row>
 		<row><td>_IsMaintenance</td><td>Change</td><td/></row>
 		<row><td>_IsSetupTypeMin</td><td>Typical</td><td/></row>
 	</table>
@@ -4673,6 +4673,7 @@ RABWAEQALQA1AAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S72">ISDisplayName</col>
 		<row><td>{11E286E4-A3DE-4D6C-BED4-461532F3595E}</td><td>1.1.1.0</td><td>1.1.1.0</td><td>1033</td><td>768</td><td/><td>ISACTIONPROP3</td><td>v1.1.1</td></row>
 		<row><td>{6BE2C41F-48AC-4406-B0A2-ABBC33736F33}</td><td>1.0.0.0</td><td>1.0.0.0</td><td>1033</td><td>768</td><td/><td>ISACTIONPROP1</td><td>v1.0</td></row>
+		<row><td>{84CA1102-E130-4BE8-A6EC-1935AAFE9937}</td><td>2.0.0.2</td><td>2.0.0.2</td><td>1033</td><td>768</td><td/><td>ISACTIONPROP5</td><td>v2.0.0rc2</td></row>
 		<row><td>{C091F267-FFC5-4A2D-9382-7C21FA427582}</td><td>1.1.0.0</td><td>1.1.0.0</td><td>1033</td><td>768</td><td/><td>ISACTIONPROP2</td><td>v1.1</td></row>
 		<row><td>{F2B743A9-515D-4C8E-BA88-7295B061258E}</td><td>2.0.0.0</td><td>2.0.0.0</td><td>1033</td><td>768</td><td/><td>ISACTIONPROP4</td><td>v2.0.0rc1</td></row>
 	</table>
