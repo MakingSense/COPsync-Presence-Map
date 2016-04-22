@@ -813,7 +813,8 @@
 		c-0.061-0.015-0.051-0.006-0.066-0.066c-0.171-0.042-0.131-0.945-0.182-1.153h-8.997l0,0V48.913h-1.478v-9.821l0,0L188.607,39.84
 		L188.607,39.84z"/>
 </g>
-<path id="Outer_Border" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#FF0000" stroke-width="2" stroke-miterlimit="22.9256" d="
+<g id="Outer_Border">
+<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#FF0000" stroke-width="2" stroke-miterlimit="22.9256" d="
 	M649.549,424.243c-0.128-0.548-0.508-0.753-0.888-0.989c-0.586-0.365-1.005-1.315-1.875-0.956c-0.119,0.05-0.238,0.1-0.357,0.148
 	c-0.517,0.214-1.034,0.429-1.55,0.643c-5.406,2.241-2.561-3.346-5.099-4.845c-1.236-0.73-1.649-0.668-2.171-2.241
 	c-0.5-1.506-0.871-3.967-2.5-4.647c-1.807-0.755-4.317,2.995-3.19,4.516c0.388,0.522,2.043,1.718,2.599,1.944
@@ -929,6 +930,7 @@
 	c-0.343-0.344-0.665-0.394-0.74-0.86C157.021,108.786,157.343,108.835,157.686,109.179c0.692,0.695,0.836,1.903,0.861,2.952
 	C158.522,111.082,158.378,109.875,157.686,109.179z M612.671,488.617c-0.029-0.081-0.053-0.155-0.073-0.229
 	C612.618,488.459,612.643,488.535,612.671,488.617z"/>
+</g>
 <g id="CountiesNames">
 	<text transform="matrix(1 0 0 1 349.3315 82.4531)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">A</tspan><tspan x="4.669" y="0" font-family="Arial Narrow" font-size="7">dair </tspan></text>
 	<text transform="matrix(1 0 0 1 162.2197 104.4272)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="7">A</tspan><tspan x="4.669" y="0" font-family="Arial Narrow" font-size="7">ndrew </tspan></text>
