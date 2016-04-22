@@ -872,7 +872,7 @@
 		c-0.139,0.559-0.47,2.048-1.228,2.156c-0.56,0.784-2.282,0.916-3.117,1.691c-1.088,1.01-1.214,1.984-1.493,3.35
 		c-0.473,2.319-3.796,3.399-5.837,4.079C535.712,68.667,535.338,68.894,534.988,69.167L534.988,69.167z"/>
 </g>
-<g id="Outer_Border_1_">
+<g id="Outer_Border">
 	<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#FF0000" stroke-width="2" stroke-miterlimit="22.9256" d="
 		M596.609,110.742c-0.048-0.421-0.302-0.903-0.431-1.292c-0.059-0.178-0.116-0.214-0.185-0.369c-0.115-0.259-0.42-0.662-0.677-0.861
 		c-0.205-0.159-0.315-0.502-0.492-0.677c-0.18-0.177-0.25-0.226-0.8-0.615c-0.093-0.066-0.195-0.057-0.308-0.123
@@ -972,7 +972,7 @@
 		c0.886-1.432,2.057-2.891,3.875-2.891c3.695,0,4.747,5.808,8.488,4.737c0.15-0.043,0.219-0.112,0.308-0.246
 		c0.609-0.918,0.965-1.107,1.415-2.522C596.949,111.791,596.661,111.199,596.609,110.742z"/>
 </g>
-<g id="Counties_Names">
+<g id="CountiesNames">
 	<text transform="matrix(1 0 0 1 382.6147 334.7295)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">A</tspan><tspan x="5.336" y="0" font-family="Arial Narrow" font-size="8">rkansas</tspan></text>
 	<text transform="matrix(1 0 0 1 346.1074 493.1895)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">A</tspan><tspan x="5.336" y="0" font-family="Arial Narrow" font-size="8">shley</tspan></text>
 	<text transform="matrix(1 0 0 1 278.6787 56.0913)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">B</tspan><tspan x="5.336" y="0" font-family="Arial Narrow" font-size="8">axter</tspan></text>

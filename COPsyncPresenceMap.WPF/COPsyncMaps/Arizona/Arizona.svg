@@ -241,7 +241,7 @@
 		c0,2.246-0.826,4.457-0.563,7.004c0.068,0.661-0.063,1.126-0.336,1.498l0,0l117.825,43.343l0,0v-45.375l0,0l-0.194-85.605l0,0
 		l-50.248-0.321v-8.373h-24.78v44.647L121.751,419.469L121.751,419.469z"/>
 </g>
-<g id="Outer_Border_1_">
+<g id="Outer_Border">
 	<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#FF0000" stroke-width="2" stroke-miterlimit="22.9256" d="
 		M563.309,476.706l-0.164-132.232l-0.391-314.588l-76.16-0.057l-58.037-0.043l-145.666-0.108l-121.108-0.09l0.864,81.072
 		c-1.791,2.064-3.548,6.561-5.211,7.884c-3.136,2.495-2.546,8.314-6.118,9.419c-2.693,0.833-4.855-0.132-7.222-1.553
@@ -287,7 +287,7 @@
 		c-1.142,1.253-4.112,4.107-5.233,5.474c-1.251,1.526-0.081,2.942-0.081,4.75c0,2.246-0.826,4.457-0.563,7.004
 		c0.068,0.661-0.063,1.126-0.336,1.498l117.825,43.343l158.015,58.05l23.412,8.602l49.344-0.069l113.373-0.158L563.309,476.706z"/>
 </g>
-<g id="Counties_Names">
+<g id="CountiesNames">
 	<text transform="matrix(1.1 0 0 1 513.1348 148.2793)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">A</tspan><tspan x="5.336" y="0" font-family="Arial Narrow" font-size="8">pache</tspan></text>
 	<text transform="matrix(1.1 0 0 1 492.9736 533.9971)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">C</tspan><tspan x="5.778" y="0" font-family="Arial Narrow" font-size="8">ochise </tspan></text>
 	<text transform="matrix(1.1 0 0 1 318.2256 143.9375)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">C</tspan><tspan x="5.778" y="0" font-family="Arial Narrow" font-size="8">oconino</tspan></text>
