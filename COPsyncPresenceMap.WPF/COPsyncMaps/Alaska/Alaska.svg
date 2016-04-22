@@ -868,7 +868,7 @@
 		c-0.222-0.71-0.307-1.434-0.365-2.188c-0.087-1.141,0.184-1.841-0.962-2.488C152.291,383.8,152.127,383.674,151.995,383.538
 		L151.995,383.538z"/>
 	
-		<path fill-rule="evenodd" clip-rule="evenodd" fill="#D0D0D0" stroke="#666666" stroke-width="0.2835" stroke-miterlimit="22.9256" d="
+		<path id="Ak_Anchorage" fill-rule="evenodd" clip-rule="evenodd" fill="#D0D0D0" stroke="#666666" stroke-width="0.2835" stroke-miterlimit="22.9256" d="
 		M356.452,369.371l1.695-0.316l0.083,0.739l0.658,0.05l0.082,0.806l9.026-0.082l0.02,6.82l-0.365,0.033l0.232,8.191l-3.449,0.1
 		l-0.006,2.743l-3.65,0.049l-0.049-3.107l-0.292-0.474l0,0c0.249,0.028,0.441,0.049,0.548,0.06h0.1c0-0.074-0.033-0.091-0.033-0.166
 		c0-0.087-0.023-0.118-0.033-0.198c-0.011-0.093-0.041-0.115-0.066-0.199c-0.02-0.066-0.012-0.136-0.066-0.199
@@ -977,26 +977,6 @@
 		c0.069-0.491,0.652-1.219,0.796-1.857c1.346-2.311,3.637-4.892,5.903-6.302l8.424-5.24c0.791-0.491,3.526-1.992,3.748-2.885
 		c0.061-0.016,0.051-0.006,0.066-0.066c0.055-0.014,0.12-0.06,0.132-0.1C232.247,486.619,232.5,487.088,232.891,487.475
 		L232.891,487.475z"/>
-	
-		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="3.864" x1="237.092" y1="461.332" x2="260.637" y2="441"/>
-	
-		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="3.864" x1="390.365" y1="416.739" x2="360.444" y2="376.974"/>
-	
-		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="3.864" x1="516.034" y1="410.562" x2="529.931" y2="422.904"/>
-	
-		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="3.864" x1="583.598" y1="440.677" x2="554.642" y2="444.73"/>
-	
-		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="3.864" x1="581.899" y1="542.251" x2="593.156" y2="513.804"/>
-	
-		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="3.864" x1="521.114" y1="485.661" x2="542.399" y2="479.42"/>
-	
-		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="3.864" x1="601.956" y1="476.351" x2="581.281" y2="485.078"/>
-	
-		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="3.864" x1="465.038" y1="422.729" x2="472.405" y2="406.766"/>
-	
-		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="3.864" x1="506.379" y1="452.2" x2="521.115" y2="442.377"/>
-	
-		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="3.864" x1="547.261" y1="516.867" x2="570.643" y2="513.394"/>
 </g>
 <g id="Outer_Border">
 	
@@ -1931,6 +1911,26 @@
 	<text transform="matrix(1 0 0 1 408.6318 360.5215)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">V</tspan><tspan x="5.336" y="0" font-family="Arial Narrow" font-size="8">aldez-</tspan><tspan x="0" y="8" font-family="Arial Narrow" font-size="8">C</tspan><tspan x="5.777" y="8" font-family="Arial Narrow" font-size="8">ordova</tspan></text>
 	<text transform="matrix(1 0 0 1 163.3882 343.8623)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">W</tspan><tspan x="7.551" y="0" font-family="Arial Narrow" font-size="8">ade </tspan><tspan x="0" y="8" font-family="Arial Narrow" font-size="8">H</tspan><tspan x="5.777" y="8" font-family="Arial Narrow" font-size="8">ampton</tspan></text>
 	<text transform="matrix(1 0 0 1 311.9722 235.9209)"><tspan x="0" y="0" font-family="Arial Narrow" font-size="8">Y</tspan><tspan x="5.336" y="0" font-family="Arial Narrow" font-size="8">ukon-Koyukuk</tspan></text>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="3.864" x1="237.092" y1="461.332" x2="260.637" y2="441"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="3.864" x1="390.365" y1="416.739" x2="360.444" y2="376.974"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="3.864" x1="516.034" y1="410.562" x2="529.931" y2="422.904"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="3.864" x1="583.598" y1="440.677" x2="554.642" y2="444.73"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="3.864" x1="581.899" y1="542.251" x2="593.156" y2="513.804"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="3.864" x1="521.114" y1="485.661" x2="542.399" y2="479.42"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="3.864" x1="601.956" y1="476.351" x2="581.281" y2="485.078"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="3.864" x1="465.038" y1="422.729" x2="472.405" y2="406.766"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="3.864" x1="506.379" y1="452.2" x2="521.115" y2="442.377"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000066" stroke-width="0.2835" stroke-miterlimit="3.864" x1="547.261" y1="516.867" x2="570.643" y2="513.394"/>
 </g>
 <g id="Legend">
 	<text id="Ref_WithPresence_text" transform="matrix(1 0 0 1 526.2627 308.1094)" font-family="Arial Narrow" font-size="13">City or County with COPsync Presence</text>
